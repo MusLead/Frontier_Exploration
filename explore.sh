@@ -1,0 +1,1 @@
+ros2 launch tutorial_pkg explore.launch.py 2>&1 | grep -v "Message Filter dropping message:"
