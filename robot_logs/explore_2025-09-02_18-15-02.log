@@ -1,0 +1,750 @@
+[INFO] [launch]: All log files can be found below /home/robot/.ros/log/2025-09-02-18-15-02-376492-robot-pc04-6120
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [async_slam_toolbox_node-1]: process started with pid [6133]
+[INFO] [controller_server-2]: process started with pid [6135]
+[INFO] [smoother_server-3]: process started with pid [6137]
+[INFO] [planner_server-4]: process started with pid [6139]
+[INFO] [behavior_server-5]: process started with pid [6141]
+[INFO] [bt_navigator-6]: process started with pid [6143]
+[INFO] [waypoint_follower-7]: process started with pid [6145]
+[INFO] [velocity_smoother-8]: process started with pid [6147]
+[INFO] [lifecycle_manager-9]: process started with pid [6149]
+[INFO] [explore-10]: process started with pid [6151]
+[INFO] [rviz2-11]: process started with pid [6153]
+[async_slam_toolbox_node-1] [INFO] [1756829702.483003354] [slam]: Node using stack size 40000000
+[behavior_server-5] [INFO] [1756829702.485774027] [behavior_server]: 
+[behavior_server-5] 	behavior_server lifecycle node launched. 
+[behavior_server-5] 	Waiting on external lifecycle transitions to activate
+[behavior_server-5] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[controller_server-2] [INFO] [1756829702.486344233] [controller_server]: 
+[controller_server-2] 	controller_server lifecycle node launched. 
+[controller_server-2] 	Waiting on external lifecycle transitions to activate
+[controller_server-2] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[controller_server-2] [INFO] [1756829702.489295257] [controller_server]: Creating controller server
+[planner_server-4] [INFO] [1756829702.490412225] [planner_server]: 
+[planner_server-4] 	planner_server lifecycle node launched. 
+[planner_server-4] 	Waiting on external lifecycle transitions to activate
+[planner_server-4] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[lifecycle_manager-9] [INFO] [1756829702.491028260] [lifecycle_manager_navigation]: Creating
+[velocity_smoother-8] [INFO] [1756829702.491259620] [velocity_smoother]: 
+[velocity_smoother-8] 	velocity_smoother lifecycle node launched. 
+[velocity_smoother-8] 	Waiting on external lifecycle transitions to activate
+[velocity_smoother-8] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[planner_server-4] [INFO] [1756829702.491635014] [planner_server]: Creating
+[smoother_server-3] [INFO] [1756829702.492022952] [smoother_server]: 
+[smoother_server-3] 	smoother_server lifecycle node launched. 
+[smoother_server-3] 	Waiting on external lifecycle transitions to activate
+[smoother_server-3] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[waypoint_follower-7] [INFO] [1756829702.492261480] [waypoint_follower]: 
+[waypoint_follower-7] 	waypoint_follower lifecycle node launched. 
+[waypoint_follower-7] 	Waiting on external lifecycle transitions to activate
+[waypoint_follower-7] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[waypoint_follower-7] [INFO] [1756829702.492540148] [waypoint_follower]: Creating
+[smoother_server-3] [INFO] [1756829702.492692029] [smoother_server]: Creating smoother server
+[lifecycle_manager-9] [INFO] [1756829702.493087161] [lifecycle_manager_navigation]: [34m[1mCreating and initializing lifecycle service clients[0m[0m
+[bt_navigator-6] [INFO] [1756829702.494280245] [bt_navigator]: 
+[bt_navigator-6] 	bt_navigator lifecycle node launched. 
+[bt_navigator-6] 	Waiting on external lifecycle transitions to activate
+[bt_navigator-6] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[bt_navigator-6] [INFO] [1756829702.494972348] [bt_navigator]: Creating
+[lifecycle_manager-9] [INFO] [1756829702.499848139] [lifecycle_manager_navigation]: [34m[1mStarting managed nodes bringup...[0m[0m
+[lifecycle_manager-9] [INFO] [1756829702.499896873] [lifecycle_manager_navigation]: [34m[1mConfiguring controller_server[0m[0m
+[planner_server-4] [INFO] [1756829702.500768325] [global_costmap.global_costmap]: 
+[planner_server-4] 	global_costmap lifecycle node launched. 
+[planner_server-4] 	Waiting on external lifecycle transitions to activate
+[planner_server-4] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[controller_server-2] [INFO] [1756829702.500844062] [local_costmap.local_costmap]: 
+[controller_server-2] 	local_costmap lifecycle node launched. 
+[controller_server-2] 	Waiting on external lifecycle transitions to activate
+[controller_server-2] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[controller_server-2] [INFO] [1756829702.501174661] [local_costmap.local_costmap]: Creating Costmap
+[planner_server-4] [INFO] [1756829702.500977612] [global_costmap.global_costmap]: Creating Costmap
+[controller_server-2] [INFO] [1756829702.501813119] [controller_server]: Configuring controller interface
+[controller_server-2] [INFO] [1756829702.501868383] [controller_server]: getting goal checker plugins..
+[controller_server-2] [INFO] [1756829702.501920351] [controller_server]: Controller frequency set to 10.0000Hz
+[controller_server-2] [INFO] [1756829702.501946927] [local_costmap.local_costmap]: Configuring
+[explore-10] [INFO] [1756829702.502616254] [explore_node]: Waiting for costmap to become available, topic: map
+[async_slam_toolbox_node-1] [INFO] [1756829702.502954264] [slam]: Using solver plugin solver_plugins::CeresSolver
+[async_slam_toolbox_node-1] [INFO] [1756829702.503106519] [slam]: CeresSolver: Using SCHUR_JACOBI preconditioner.
+[controller_server-2] [INFO] [1756829702.504144265] [local_costmap.local_costmap]: Using plugin "static_layer"
+[controller_server-2] [INFO] [1756829702.505518559] [local_costmap.local_costmap]: Subscribing to the map topic (/map) with transient local durability
+[controller_server-2] [INFO] [1756829702.505935408] [local_costmap.local_costmap]: Initialized plugin "static_layer"
+[controller_server-2] [INFO] [1756829702.505945216] [local_costmap.local_costmap]: Using plugin "obstacle_layer"
+[controller_server-2] [INFO] [1756829702.506027959] [local_costmap.local_costmap]: Subscribed to Topics: scan
+[controller_server-2] [INFO] [1756829702.506809436] [local_costmap.local_costmap]: Initialized plugin "obstacle_layer"
+[controller_server-2] [INFO] [1756829702.506820200] [local_costmap.local_costmap]: Using plugin "inflation_layer"
+[controller_server-2] [INFO] [1756829702.507223507] [local_costmap.local_costmap]: Initialized plugin "inflation_layer"
+[controller_server-2] [INFO] [1756829702.509604609] [controller_server]: Created progress_checker : progress_checker of type nav2_controller::SimpleProgressChecker
+[controller_server-2] [INFO] [1756829702.509797072] [controller_server]: Created goal checker : goal_checker of type nav2_controller::SimpleGoalChecker
+[controller_server-2] [INFO] [1756829702.509854142] [controller_server]: Controller Server has goal_checker  goal checkers available.
+[controller_server-2] [INFO] [1756829702.510058969] [controller_server]: Created controller : FollowPath of type nav2_regulated_pure_pursuit_controller::RegulatedPurePursuitController
+[controller_server-2] [INFO] [1756829702.510728440] [controller_server]: Controller Server has FollowPath  controllers available.
+[lifecycle_manager-9] [INFO] [1756829702.540259408] [lifecycle_manager_navigation]: [34m[1mConfiguring smoother_server[0m[0m
+[smoother_server-3] [INFO] [1756829702.540385798] [smoother_server]: Configuring smoother server
+[smoother_server-3] [INFO] [1756829702.543441242] [smoother_server]: Created smoother : simple_smoother of type nav2_smoother::SimpleSmoother
+[smoother_server-3] [INFO] [1756829702.543579283] [smoother_server]: Smoother Server has simple_smoother  smoothers available.
+[lifecycle_manager-9] [INFO] [1756829702.545181336] [lifecycle_manager_navigation]: [34m[1mConfiguring planner_server[0m[0m
+[planner_server-4] [INFO] [1756829702.545282771] [planner_server]: Configuring
+[planner_server-4] [INFO] [1756829702.545304240] [global_costmap.global_costmap]: Configuring
+[planner_server-4] [INFO] [1756829702.546991057] [global_costmap.global_costmap]: Using plugin "static_layer"
+[planner_server-4] [INFO] [1756829702.548391227] [global_costmap.global_costmap]: Subscribing to the map topic (/map) with transient local durability
+[planner_server-4] [INFO] [1756829702.548824914] [global_costmap.global_costmap]: Initialized plugin "static_layer"
+[planner_server-4] [INFO] [1756829702.548836176] [global_costmap.global_costmap]: Using plugin "obstacle_layer"
+[planner_server-4] [INFO] [1756829702.548967836] [global_costmap.global_costmap]: Subscribed to Topics: scan
+[planner_server-4] [INFO] [1756829702.549934704] [global_costmap.global_costmap]: Initialized plugin "obstacle_layer"
+[planner_server-4] [INFO] [1756829702.549948504] [global_costmap.global_costmap]: Using plugin "inflation_layer"
+[planner_server-4] [INFO] [1756829702.550363230] [global_costmap.global_costmap]: Initialized plugin "inflation_layer"
+[planner_server-4] [INFO] [1756829702.553299277] [planner_server]: Created global planner plugin GridBased of type nav2_navfn_planner/NavfnPlanner
+[planner_server-4] [INFO] [1756829702.553327706] [planner_server]: Configuring plugin GridBased of type NavfnPlanner
+[planner_server-4] [INFO] [1756829702.553505987] [planner_server]: Planner Server has GridBased  planners available.
+[lifecycle_manager-9] [INFO] [1756829702.556327674] [lifecycle_manager_navigation]: [34m[1mConfiguring behavior_server[0m[0m
+[behavior_server-5] [INFO] [1756829702.556448263] [behavior_server]: Configuring
+[behavior_server-5] [INFO] [1756829702.559363601] [behavior_server]: Creating behavior plugin spin of type nav2_behaviors/Spin
+[behavior_server-5] [INFO] [1756829702.559716890] [behavior_server]: Configuring spin
+[behavior_server-5] [INFO] [1756829702.561228479] [behavior_server]: Creating behavior plugin backup of type nav2_behaviors/BackUp
+[behavior_server-5] [INFO] [1756829702.561542643] [behavior_server]: Configuring backup
+[behavior_server-5] [INFO] [1756829702.562630413] [behavior_server]: Creating behavior plugin drive_on_heading of type nav2_behaviors/DriveOnHeading
+[behavior_server-5] [INFO] [1756829702.562942270] [behavior_server]: Configuring drive_on_heading
+[behavior_server-5] [INFO] [1756829702.564061004] [behavior_server]: Creating behavior plugin wait of type nav2_behaviors/Wait
+[behavior_server-5] [INFO] [1756829702.564347845] [behavior_server]: Configuring wait
+[behavior_server-5] [INFO] [1756829702.565476776] [behavior_server]: Creating behavior plugin assisted_teleop of type nav2_behaviors/AssistedTeleop
+[behavior_server-5] [INFO] [1756829702.566209099] [behavior_server]: Configuring assisted_teleop
+[lifecycle_manager-9] [INFO] [1756829702.568135994] [lifecycle_manager_navigation]: [34m[1mConfiguring bt_navigator[0m[0m
+[bt_navigator-6] [INFO] [1756829702.568390246] [bt_navigator]: Configuring
+[lifecycle_manager-9] [INFO] [1756829702.585004160] [lifecycle_manager_navigation]: [34m[1mConfiguring waypoint_follower[0m[0m
+[waypoint_follower-7] [INFO] [1756829702.585127639] [waypoint_follower]: Configuring
+[waypoint_follower-7] [INFO] [1756829702.588251424] [waypoint_follower]: Created waypoint_task_executor : wait_at_waypoint of type nav2_waypoint_follower::WaitAtWaypoint
+[lifecycle_manager-9] [INFO] [1756829702.588468888] [lifecycle_manager_navigation]: [34m[1mConfiguring velocity_smoother[0m[0m
+[velocity_smoother-8] [INFO] [1756829702.588579092] [velocity_smoother]: Configuring velocity smoother
+[lifecycle_manager-9] [INFO] [1756829702.589523235] [lifecycle_manager_navigation]: [34m[1mActivating controller_server[0m[0m
+[controller_server-2] [INFO] [1756829702.589609551] [controller_server]: Activating
+[controller_server-2] [INFO] [1756829702.589640736] [local_costmap.local_costmap]: Activating
+[controller_server-2] [INFO] [1756829702.589653657] [local_costmap.local_costmap]: Checking transform
+[controller_server-2] [INFO] [1756829702.589672793] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[rviz2-11] [INFO] [1756829702.940922054] [rviz2]: Stereo is NOT SUPPORTED
+[rviz2-11] [INFO] [1756829702.940982578] [rviz2]: OpenGl version: 4.6 (GLSL 4.6)
+[rviz2-11] [INFO] [1756829702.977799861] [rviz2]: Stereo is NOT SUPPORTED
+[controller_server-2] [INFO] [1756829703.089729083] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[controller_server-2] [INFO] [1756829703.589731213] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[controller_server-2] [INFO] [1756829704.089763614] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[controller_server-2] [INFO] [1756829704.589743554] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[controller_server-2] [INFO] [1756829705.089761775] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[controller_server-2] [INFO] [1756829705.589764945] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[controller_server-2] [INFO] [1756829706.090026234] [local_costmap.local_costmap]: start
+[controller_server-2] [INFO] [1756829706.292110878] [controller_server]: Activating controller: FollowPath of type regulated_pure_pursuit_controller::RegulatedPurePursuitController
+[controller_server-2] [INFO] [1756829706.292229410] [controller_server]: Creating bond (controller_server) to lifecycle manager.
+[lifecycle_manager-9] [INFO] [1756829706.402090016] [lifecycle_manager_navigation]: Server controller_server connected with bond.
+[lifecycle_manager-9] [INFO] [1756829706.402189877] [lifecycle_manager_navigation]: [34m[1mActivating smoother_server[0m[0m
+[smoother_server-3] [INFO] [1756829706.402767671] [smoother_server]: Activating
+[smoother_server-3] [INFO] [1756829706.402850097] [smoother_server]: Creating bond (smoother_server) to lifecycle manager.
+[lifecycle_manager-9] [INFO] [1756829706.509457570] [lifecycle_manager_navigation]: Server smoother_server connected with bond.
+[lifecycle_manager-9] [INFO] [1756829706.509543446] [lifecycle_manager_navigation]: [34m[1mActivating planner_server[0m[0m
+[planner_server-4] [INFO] [1756829706.510047973] [planner_server]: Activating
+[planner_server-4] [INFO] [1756829706.510127800] [global_costmap.global_costmap]: Activating
+[planner_server-4] [INFO] [1756829706.510151611] [global_costmap.global_costmap]: Checking transform
+[planner_server-4] [INFO] [1756829706.510195761] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[planner_server-4] [INFO] [1756829707.010262057] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[planner_server-4] [INFO] [1756829707.510255712] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[planner_server-4] [INFO] [1756829708.010334983] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[controller_server-2] [WARN] [1756829708.090383700] [local_costmap.local_costmap]: Can't update static costmap layer, no map received
+[planner_server-4] [INFO] [1756829708.510252043] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[planner_server-4] [INFO] [1756829709.010333374] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[planner_server-4] [INFO] [1756829709.510336401] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[planner_server-4] [INFO] [1756829710.010319684] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[controller_server-2] [WARN] [1756829710.090301926] [local_costmap.local_costmap]: Can't update static costmap layer, no map received
+[planner_server-4] [INFO] [1756829710.510325495] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[planner_server-4] [INFO] [1756829711.010326651] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[planner_server-4] [INFO] [1756829711.510327707] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[planner_server-4] [INFO] [1756829712.010330450] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[controller_server-2] [WARN] [1756829712.090373783] [local_costmap.local_costmap]: Can't update static costmap layer, no map received
+[planner_server-4] [INFO] [1756829712.510328156] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[planner_server-4] [INFO] [1756829713.010250084] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[planner_server-4] [INFO] [1756829713.510256411] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[planner_server-4] [INFO] [1756829714.010259253] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[controller_server-2] [WARN] [1756829714.090366644] [local_costmap.local_costmap]: Can't update static costmap layer, no map received
+[planner_server-4] [INFO] [1756829714.510249557] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[async_slam_toolbox_node-1] [WARN] [1756829714.646361286] [slam]: minimum laser range setting (0.0 m) exceeds the capabilities of the used Lidar (0.1 m)
+[planner_server-4] [INFO] [1756829715.010466912] [global_costmap.global_costmap]: start
+[planner_server-4] [WARN] [1756829716.010899940] [nav2_costmap_2d]: Robot is out of bounds of the costmap!
+[planner_server-4] [INFO] [1756829716.012108233] [planner_server]: Activating plugin GridBased of type NavfnPlanner
+[planner_server-4] [INFO] [1756829716.013820354] [planner_server]: Creating bond (planner_server) to lifecycle manager.
+[rviz2-11] [INFO] [1756829716.028986493] [rviz2]: Trying to create a map of size 100 x 100 using 1 swatches
+[controller_server-2] [WARN] [1756829716.090330188] [local_costmap.local_costmap]: Can't update static costmap layer, no map received
+[lifecycle_manager-9] [INFO] [1756829716.120765994] [lifecycle_manager_navigation]: Server planner_server connected with bond.
+[lifecycle_manager-9] [INFO] [1756829716.120854472] [lifecycle_manager_navigation]: [34m[1mActivating behavior_server[0m[0m
+[behavior_server-5] [INFO] [1756829716.121536206] [behavior_server]: Activating
+[behavior_server-5] [INFO] [1756829716.121611207] [behavior_server]: Activating spin
+[behavior_server-5] [INFO] [1756829716.121637209] [behavior_server]: Activating backup
+[behavior_server-5] [INFO] [1756829716.121656891] [behavior_server]: Activating drive_on_heading
+[behavior_server-5] [INFO] [1756829716.121674869] [behavior_server]: Activating wait
+[behavior_server-5] [INFO] [1756829716.121691442] [behavior_server]: Activating assisted_teleop
+[behavior_server-5] [INFO] [1756829716.121716217] [behavior_server]: Creating bond (behavior_server) to lifecycle manager.
+[lifecycle_manager-9] [INFO] [1756829716.229160066] [lifecycle_manager_navigation]: Server behavior_server connected with bond.
+[lifecycle_manager-9] [INFO] [1756829716.229251396] [lifecycle_manager_navigation]: [34m[1mActivating bt_navigator[0m[0m
+[bt_navigator-6] [INFO] [1756829716.229886321] [bt_navigator]: Activating
+[bt_navigator-6] [INFO] [1756829716.265531628] [bt_navigator]: Creating bond (bt_navigator) to lifecycle manager.
+[lifecycle_manager-9] [INFO] [1756829716.367605782] [lifecycle_manager_navigation]: Server bt_navigator connected with bond.
+[lifecycle_manager-9] [INFO] [1756829716.367699445] [lifecycle_manager_navigation]: [34m[1mActivating waypoint_follower[0m[0m
+[waypoint_follower-7] [INFO] [1756829716.368262394] [waypoint_follower]: Activating
+[waypoint_follower-7] [INFO] [1756829716.368347382] [waypoint_follower]: Creating bond (waypoint_follower) to lifecycle manager.
+[lifecycle_manager-9] [INFO] [1756829716.476281563] [lifecycle_manager_navigation]: Server waypoint_follower connected with bond.
+[lifecycle_manager-9] [INFO] [1756829716.476374188] [lifecycle_manager_navigation]: [34m[1mActivating velocity_smoother[0m[0m
+[velocity_smoother-8] [INFO] [1756829716.476962443] [velocity_smoother]: Activating
+[velocity_smoother-8] [INFO] [1756829716.477090695] [velocity_smoother]: Creating bond (velocity_smoother) to lifecycle manager.
+[planner_server-4] [INFO] [1756829716.507988523] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 65 X 64 at 0.040000 m/pix
+[controller_server-2] [INFO] [1756829716.508074446] [local_costmap.local_costmap]: StaticLayer: Resizing static layer to 65 X 64 at 0.040000 m/pix
+[rviz2-11] [INFO] [1756829716.540494029] [rviz2]: Trying to create a map of size 65 x 64 using 1 swatches
+[lifecycle_manager-9] [INFO] [1756829716.585332798] [lifecycle_manager_navigation]: Server velocity_smoother connected with bond.
+[lifecycle_manager-9] [INFO] [1756829716.585417031] [lifecycle_manager_navigation]: [34m[1mManaged nodes are active[0m[0m
+[lifecycle_manager-9] [INFO] [1756829716.585440509] [lifecycle_manager_navigation]: [34m[1mCreating bond timer...[0m[0m
+[rviz2-11] [INFO] [1756829716.697483224] [rviz2]: Trying to create a map of size 100 x 100 using 1 swatches
+[rviz2-11] [INFO] [1756829717.022002809] [rviz2]: Trying to create a map of size 65 x 64 using 1 swatches
+[explore-10] [INFO] [1756829721.913730698] [explore_node]: Waiting to connect to move_base nav2 server
+[explore-10] [INFO] [1756829721.914074015] [explore_node]: Connected to move_base nav2 server
+[explore-10] [INFO] [1756829721.914087015] [explore_node]: Getting initial pose of the robot
+[explore-10] [ERROR] [1756829722.217432371] [explore_node]: Extrapolation Error looking up robot pose: Lookup would require extrapolation into the future.  Requested time 1756829721.914153 but the latest data is at time 1756829716.141371, when looking up transform from frame [base_link] to frame [map]
+[explore-10] 
+[bt_navigator-6] [INFO] [1756829722.222781117] [bt_navigator]: Begin navigating from current location (-0.06, 0.05) to (-0.50, -0.96)
+[controller_server-2] [INFO] [1756829722.243542017] [controller_server]: Received a goal, begin computing control effort.
+[controller_server-2] [WARN] [1756829722.243606109] [controller_server]: No goal checker was specified in parameter 'current_goal_checker'. Server will use only plugin loaded goal_checker . This warning will appear once.
+[controller_server-2] [ERROR] [1756829722.344774792] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1756829722.121843 but the latest data is at time 1756829718.424200, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1756829722.344932437] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1756829722.345246028] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1756829722.447692014] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1756829722.121843 but the latest data is at time 1756829718.424200, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1756829722.447833389] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1756829722.448014062] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1756829722.548992245] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1756829722.349410 but the latest data is at time 1756829718.424200, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1756829722.549092949] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1756829722.549246435] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1756829722.651885211] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1756829722.476969 but the latest data is at time 1756829718.424200, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1756829722.651967790] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1756829722.652087041] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1756829722.753169260] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1756829722.476969 but the latest data is at time 1756829718.424200, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1756829722.753392377] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1756829722.753654116] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1756829722.856583832] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1756829722.569644 but the latest data is at time 1756829718.424200, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1756829722.856729201] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1756829722.857023620] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1756829722.958541664] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1756829722.569644 but the latest data is at time 1756829718.424200, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1756829722.958698721] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1756829722.958999911] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1756829723.063005228] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1756829722.569644 but the latest data is at time 1756829718.424200, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1756829723.063224306] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1756829723.063474699] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1756829723.164435633] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1756829722.569644 but the latest data is at time 1756829718.424200, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1756829723.164534703] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1756829723.164676220] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1756829723.267019781] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1756829722.569644 but the latest data is at time 1756829718.424200, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1756829723.267134275] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1756829723.267335434] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1756829723.368645613] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1756829722.569644 but the latest data is at time 1756829718.424200, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1756829723.368826217] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1756829723.369183337] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [INFO] [1756829723.369251113] [controller_server]: Passing new path to controller.
+[controller_server-2] [ERROR] [1756829723.473075077] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1756829722.569644 but the latest data is at time 1756829718.424200, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1756829723.473219167] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1756829723.473507941] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1756829723.574817457] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1756829722.569644 but the latest data is at time 1756829718.424200, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1756829723.574938592] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1756829723.575227768] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1756829723.677638720] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1756829722.569644 but the latest data is at time 1756829718.424200, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1756829723.677788781] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1756829723.678094601] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1756829723.779685523] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1756829722.569644 but the latest data is at time 1756829718.424200, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1756829723.779822556] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1756829723.780076666] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1756829723.883824990] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1756829722.569644 but the latest data is at time 1756829718.424200, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1756829723.883920492] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1756829723.884075318] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1756829723.985570179] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1756829722.569644 but the latest data is at time 1756829718.424200, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1756829723.985716490] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1756829723.986156224] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1756829724.088664685] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1756829722.569644 but the latest data is at time 1756829718.424200, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1756829724.088815827] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1756829724.089098910] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1756829724.190734717] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1756829722.569644 but the latest data is at time 1756829718.424200, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1756829724.190888410] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1756829724.191213065] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1756829724.294238347] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1756829722.569644 but the latest data is at time 1756829718.424200, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1756829724.294327160] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [ERROR] [1756829724.294371407] [controller_server]: Controller patience exceeded
+[controller_server-2] [WARN] [1756829724.294426828] [controller_server]: [follow_path] [ActionServer] Aborting handle.
+[controller_server-2] [INFO] [1756829724.303596374] [controller_server]: Received a goal, begin computing control effort.
+[controller_server-2] [ERROR] [1756829724.405104399] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1756829722.569644 but the latest data is at time 1756829718.424200, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1756829724.405225628] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1756829724.405383156] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1756829724.506363948] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1756829722.569644 but the latest data is at time 1756829718.424200, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1756829724.506475614] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1756829724.506671437] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1756829724.609416269] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1756829724.364085 but the latest data is at time 1756829718.424200, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1756829724.609539940] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1756829724.609753172] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1756829724.711018409] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1756829724.364085 but the latest data is at time 1756829718.424200, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1756829724.711189429] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1756829724.711501103] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1756829724.814579851] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1756829724.364085 but the latest data is at time 1756829718.424200, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1756829724.814703128] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1756829724.814918249] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1756829724.916039026] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1756829724.364085 but the latest data is at time 1756829718.424200, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1756829724.916186166] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1756829724.916451773] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1756829725.020500744] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1756829724.364085 but the latest data is at time 1756829718.424200, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1756829725.020636428] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1756829725.020884044] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1756829725.122278224] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1756829724.364085 but the latest data is at time 1756829718.424200, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1756829725.122408302] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1756829725.122667985] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1756829725.225147548] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1756829724.364085 but the latest data is at time 1756829718.424200, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1756829725.225268062] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1756829725.225496929] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1756829725.326547884] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1756829724.364085 but the latest data is at time 1756829718.424200, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1756829725.326698581] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1756829725.326892750] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1756829725.429682555] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1756829724.364085 but the latest data is at time 1756829718.424200, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1756829725.429825451] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1756829725.430076051] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [INFO] [1756829725.430120729] [controller_server]: Passing new path to controller.
+[controller_server-2] [ERROR] [1756829725.531421206] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1756829725.220548 but the latest data is at time 1756829718.424200, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1756829725.531545276] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1756829725.531725329] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1756829725.635237817] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1756829725.417413 but the latest data is at time 1756829718.424200, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1756829725.635362796] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1756829725.635586374] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1756829725.736935771] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1756829725.467514 but the latest data is at time 1756829718.424200, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1756829725.737079345] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1756829725.737363254] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1756829725.841398650] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1756829725.519633 but the latest data is at time 1756829718.424200, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1756829725.841526786] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1756829725.841751309] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1756829725.942960911] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1756829725.767425 but the latest data is at time 1756829718.424200, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1756829725.943093948] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1756829725.943275904] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1756829726.047491600] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1756829725.867773 but the latest data is at time 1756829718.424200, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1756829726.047655564] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1756829726.047965421] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1756829726.149508639] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1756829725.972550 but the latest data is at time 1756829718.424200, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1756829726.149668629] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1756829726.150065574] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1756829726.253864661] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1756829726.067413 but the latest data is at time 1756829718.424200, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1756829726.254028375] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1756829726.254366743] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1756829726.356010101] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1756829726.117378 but the latest data is at time 1756829718.424200, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1756829726.356166535] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [ERROR] [1756829726.356243668] [controller_server]: Controller patience exceeded
+[controller_server-2] [WARN] [1756829726.356361869] [controller_server]: [follow_path] [ActionServer] Aborting handle.
+[controller_server-2] [INFO] [1756829726.363524540] [controller_server]: Received a goal, begin computing control effort.
+[controller_server-2] [ERROR] [1756829726.464827752] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1756829726.247178 but the latest data is at time 1756829718.424200, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1756829726.464962794] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1756829726.465155367] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1756829726.566285586] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1756829726.336935 but the latest data is at time 1756829718.424200, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1756829726.566397095] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1756829726.566568680] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1756829726.669900050] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1756829726.336935 but the latest data is at time 1756829718.424200, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1756829726.670030785] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1756829726.670215626] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1756829726.771369295] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1756829726.336935 but the latest data is at time 1756829718.424200, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1756829726.771488860] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1756829726.771709722] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1756829726.874830465] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1756829726.678045 but the latest data is at time 1756829718.424200, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1756829726.874946819] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1756829726.875181398] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1756829726.976484554] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1756829726.817600 but the latest data is at time 1756829718.424200, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1756829726.976629407] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1756829726.977053676] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1756829727.080360870] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1756829726.867415 but the latest data is at time 1756829718.424200, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1756829727.080502647] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1756829727.080694775] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1756829727.181977013] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1756829726.988792 but the latest data is at time 1756829718.424200, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1756829727.182101834] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1756829727.182304276] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1756829727.285390875] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1756829727.103014 but the latest data is at time 1756829718.424200, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1756829727.285515642] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1756829727.285701487] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1756829727.386842027] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1756829727.167510 but the latest data is at time 1756829718.424200, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1756829727.386972911] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1756829727.387172140] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1756829727.490285011] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1756829727.269914 but the latest data is at time 1756829718.424200, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1756829727.490330638] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1756829727.490418145] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [INFO] [1756829727.490432565] [controller_server]: Passing new path to controller.
+[controller_server-2] [ERROR] [1756829727.591472172] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1756829727.407157 but the latest data is at time 1756829718.424200, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1756829727.591505032] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1756829727.591549972] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1756829727.692759449] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1756829727.517410 but the latest data is at time 1756829718.424200, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1756829727.692869110] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1756829727.693021357] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1756829727.796073462] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1756829727.654425 but the latest data is at time 1756829718.424200, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1756829727.796199149] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1756829727.796389901] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1756829727.897912940] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1756829727.654425 but the latest data is at time 1756829718.424200, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1756829727.898162589] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1756829727.898535001] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1756829728.001957820] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1756829727.767389 but the latest data is at time 1756829718.424200, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1756829728.002131214] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1756829728.002477628] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1756829728.104183464] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1756829727.867465 but the latest data is at time 1756829718.424200, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1756829728.104368930] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1756829728.104872530] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1756829728.208427714] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1756829727.867465 but the latest data is at time 1756829718.424200, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1756829728.208529983] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1756829728.208731046] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1756829728.310192112] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1756829727.867465 but the latest data is at time 1756829718.424200, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1756829728.310339082] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1756829728.310620455] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1756829728.414329905] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1756829728.117409 but the latest data is at time 1756829718.424200, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1756829728.414475352] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [ERROR] [1756829728.414548566] [controller_server]: Controller patience exceeded
+[controller_server-2] [WARN] [1756829728.414666227] [controller_server]: [follow_path] [ActionServer] Aborting handle.
+[controller_server-2] [INFO] [1756829728.423506662] [controller_server]: Received a goal, begin computing control effort.
+[controller_server-2] [ERROR] [1756829728.525215549] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1756829728.290120 but the latest data is at time 1756829718.424200, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1756829728.525415035] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1756829728.525688183] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1756829728.628970057] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1756829728.377795 but the latest data is at time 1756829718.424200, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1756829728.629089619] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1756829728.629293088] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1756829728.730597021] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1756829728.517422 but the latest data is at time 1756829718.424200, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1756829728.730802090] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1756829728.731028179] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1756829728.834221832] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1756829728.678835 but the latest data is at time 1756829718.424200, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1756829728.834345235] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1756829728.834507287] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[explore-10] [ERROR] [1756829728.884313746] [explore_node]: Extrapolation Error looking up robot pose: Lookup would require extrapolation into the future.  Requested time 1756829728.580350 but the latest data is at time 1756829719.767394, when looking up transform from frame [base_link] to frame [map]
+[explore-10] 
+[controller_server-2] [ERROR] [1756829728.935651091] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1756829728.678835 but the latest data is at time 1756829718.424200, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1756829728.935775906] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1756829728.935959475] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1756829729.039116148] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1756829728.780636 but the latest data is at time 1756829718.424200, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1756829729.039159302] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1756829729.039217003] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1756829729.140382490] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1756829728.917663 but the latest data is at time 1756829718.424200, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1756829729.140495751] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1756829729.140709307] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1756829729.243731715] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1756829729.067400 but the latest data is at time 1756829718.424200, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1756829729.243856249] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1756829729.244132348] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[planner_server-4] [ERROR] [1756829729.313906106] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1756829718.424200 but the earliest data is at time 1756829719.088304, when looking up transform from frame [base_link] to frame [map]
+[planner_server-4] 
+[controller_server-2] [ERROR] [1756829729.345293905] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1756829729.067400 but the latest data is at time 1756829718.424200, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1756829729.345409538] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1756829729.345577590] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1756829729.450246045] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1756829729.067400 but the latest data is at time 1756829718.424200, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1756829729.450374206] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1756829729.450560637] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1756829729.551875398] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1756829729.067400 but the latest data is at time 1756829718.424200, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1756829729.551999209] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1756829729.552237892] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1756829729.656711877] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1756829729.067400 but the latest data is at time 1756829718.424200, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1756829729.656871500] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1756829729.657174148] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[planner_server-4] [ERROR] [1756829729.736591360] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1756829718.424200 but the earliest data is at time 1756829719.088304, when looking up transform from frame [base_link] to frame [map]
+[planner_server-4] 
+[planner_server-4] [WARN] [1756829729.736658777] [planner_server]: [compute_path_to_pose] [ActionServer] Aborting handle.
+[planner_server-4] [INFO] [1756829729.753420625] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[controller_server-2] [ERROR] [1756829729.758506022] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1756829729.067400 but the latest data is at time 1756829718.424200, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1756829729.758634020] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1756829729.758792485] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [INFO] [1756829729.758815845] [controller_server]: Passing new path to controller.
+[controller_server-2] [ERROR] [1756829729.758915366] [controller_server]: Invalid path, Path is empty.
+[controller_server-2] [WARN] [1756829729.758947431] [controller_server]: [follow_path] [ActionServer] Aborting handle.
+[controller_server-2] [INFO] [1756829729.793410238] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[controller_server-2] [INFO] [1756829729.795664463] [controller_server]: Received a goal, begin computing control effort.
+[controller_server-2] [ERROR] [1756829729.795759110] [controller_server]: Invalid path, Path is empty.
+[controller_server-2] [WARN] [1756829729.795806095] [controller_server]: [follow_path] [ActionServer] Aborting handle.
+[bt_navigator-6] [ERROR] [1756829729.833702206] [bt_navigator_navigate_to_pose_rclcpp_node]: Failed to get result for compute_path_to_pose in node halt!
+[controller_server-2] [INFO] [1756829729.834112686] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[planner_server-4] [INFO] [1756829729.835731071] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[bt_navigator-6] [WARN] [1756829729.837486809] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[planner_server-4] [ERROR] [1756829730.314677035] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1756829718.424200 but the earliest data is at time 1756829720.723159, when looking up transform from frame [base_link] to frame [map]
+[planner_server-4] 
+[planner_server-4] [ERROR] [1756829731.314560004] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1756829718.424200 but the earliest data is at time 1756829721.551797, when looking up transform from frame [base_link] to frame [map]
+[planner_server-4] 
+[planner_server-4] [ERROR] [1756829732.314688232] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1756829718.424200 but the earliest data is at time 1756829722.017474, when looking up transform from frame [base_link] to frame [map]
+[planner_server-4] 
+[planner_server-4] [ERROR] [1756829733.314118246] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1756829718.424200 but the earliest data is at time 1756829724.364085, when looking up transform from frame [base_link] to frame [map]
+[planner_server-4] 
+[planner_server-4] [ERROR] [1756829734.313409418] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1756829718.424200 but the earliest data is at time 1756829724.364085, when looking up transform from frame [base_link] to frame [map]
+[planner_server-4] 
+[planner_server-4] [ERROR] [1756829735.313384995] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1756829718.424200 but the earliest data is at time 1756829725.156911, when looking up transform from frame [base_link] to frame [map]
+[planner_server-4] 
+[explore-10] [ERROR] [1756829735.550640285] [explore_node]: Extrapolation Error looking up robot pose: Lookup would require extrapolation into the future.  Requested time 1756829735.246465 but the latest data is at time 1756829728.417450, when looking up transform from frame [base_link] to frame [map]
+[explore-10] 
+[planner_server-4] [ERROR] [1756829736.313700917] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1756829718.424200 but the earliest data is at time 1756829725.156911, when looking up transform from frame [base_link] to frame [map]
+[planner_server-4] 
+[planner_server-4] [ERROR] [1756829737.314120298] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1756829718.424200 but the earliest data is at time 1756829726.988792, when looking up transform from frame [base_link] to frame [map]
+[planner_server-4] 
+[bt_navigator-6] [ERROR] [1756829738.029302064] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1756829718.424200 but the earliest data is at time 1756829719.088304, when looking up transform from frame [base_link] to frame [map]
+[bt_navigator-6] 
+[bt_navigator-6] [WARN] [1756829738.029680600] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[bt_navigator-6] [ERROR] [1756829738.131669297] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1756829718.424200 but the earliest data is at time 1756829719.088304, when looking up transform from frame [base_link] to frame [map]
+[bt_navigator-6] 
+[bt_navigator-6] [WARN] [1756829738.131886776] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[bt_navigator-6] [ERROR] [1756829738.233122292] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1756829718.424200 but the earliest data is at time 1756829719.088304, when looking up transform from frame [base_link] to frame [map]
+[bt_navigator-6] 
+[bt_navigator-6] [WARN] [1756829738.233310793] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[planner_server-4] [ERROR] [1756829738.314454509] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1756829718.424200 but the earliest data is at time 1756829727.817417, when looking up transform from frame [base_link] to frame [map]
+[planner_server-4] 
+[bt_navigator-6] [ERROR] [1756829738.334574651] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1756829718.424200 but the earliest data is at time 1756829719.088304, when looking up transform from frame [base_link] to frame [map]
+[bt_navigator-6] 
+[bt_navigator-6] [WARN] [1756829738.334768528] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[bt_navigator-6] [ERROR] [1756829738.436453538] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1756829718.424200 but the earliest data is at time 1756829719.088304, when looking up transform from frame [base_link] to frame [map]
+[bt_navigator-6] 
+[bt_navigator-6] [WARN] [1756829738.436711781] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[bt_navigator-6] [ERROR] [1756829738.538027553] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1756829718.424200 but the earliest data is at time 1756829719.088304, when looking up transform from frame [base_link] to frame [map]
+[bt_navigator-6] 
+[bt_navigator-6] [WARN] [1756829738.538221824] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[bt_navigator-6] [ERROR] [1756829738.639504004] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1756829718.424200 but the earliest data is at time 1756829719.088304, when looking up transform from frame [base_link] to frame [map]
+[bt_navigator-6] 
+[bt_navigator-6] [WARN] [1756829738.639741042] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[bt_navigator-6] [ERROR] [1756829738.741216972] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1756829718.424200 but the earliest data is at time 1756829719.088304, when looking up transform from frame [base_link] to frame [map]
+[bt_navigator-6] 
+[bt_navigator-6] [WARN] [1756829738.741383394] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[bt_navigator-6] [ERROR] [1756829738.842570793] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1756829718.424200 but the earliest data is at time 1756829719.088304, when looking up transform from frame [base_link] to frame [map]
+[bt_navigator-6] 
+[bt_navigator-6] [WARN] [1756829738.842929912] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[bt_navigator-6] [ERROR] [1756829738.944216053] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1756829718.424200 but the earliest data is at time 1756829719.088304, when looking up transform from frame [base_link] to frame [map]
+[bt_navigator-6] 
+[bt_navigator-6] [WARN] [1756829738.944400742] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[bt_navigator-6] [ERROR] [1756829739.045887302] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1756829718.424200 but the earliest data is at time 1756829719.088304, when looking up transform from frame [base_link] to frame [map]
+[bt_navigator-6] 
+[bt_navigator-6] [WARN] [1756829739.046219506] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[bt_navigator-6] [ERROR] [1756829739.147609192] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1756829718.424200 but the earliest data is at time 1756829719.088304, when looking up transform from frame [base_link] to frame [map]
+[bt_navigator-6] 
+[bt_navigator-6] [WARN] [1756829739.147787661] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[bt_navigator-6] [ERROR] [1756829739.249184255] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1756829718.424200 but the earliest data is at time 1756829719.088304, when looking up transform from frame [base_link] to frame [map]
+[bt_navigator-6] 
+[bt_navigator-6] [WARN] [1756829739.249432392] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[planner_server-4] [ERROR] [1756829739.313842621] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1756829718.424200 but the earliest data is at time 1756829727.817417, when looking up transform from frame [base_link] to frame [map]
+[planner_server-4] 
+[bt_navigator-6] [ERROR] [1756829739.350360072] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1756829718.424200 but the earliest data is at time 1756829719.088304, when looking up transform from frame [base_link] to frame [map]
+[bt_navigator-6] 
+[bt_navigator-6] [WARN] [1756829739.350435986] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[bt_navigator-6] [ERROR] [1756829739.451687088] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1756829718.424200 but the earliest data is at time 1756829719.088304, when looking up transform from frame [base_link] to frame [map]
+[bt_navigator-6] 
+[bt_navigator-6] [WARN] [1756829739.451934472] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[bt_navigator-6] [ERROR] [1756829739.553591710] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1756829718.424200 but the earliest data is at time 1756829719.088304, when looking up transform from frame [base_link] to frame [map]
+[bt_navigator-6] 
+[bt_navigator-6] [WARN] [1756829739.553825979] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[bt_navigator-6] [ERROR] [1756829739.655397412] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1756829718.424200 but the earliest data is at time 1756829719.088304, when looking up transform from frame [base_link] to frame [map]
+[bt_navigator-6] 
+[bt_navigator-6] [WARN] [1756829739.655592417] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[bt_navigator-6] [ERROR] [1756829739.756883538] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1756829718.424200 but the earliest data is at time 1756829719.088304, when looking up transform from frame [base_link] to frame [map]
+[bt_navigator-6] 
+[bt_navigator-6] [WARN] [1756829739.757046265] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[bt_navigator-6] [ERROR] [1756829739.858434821] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1756829718.424200 but the earliest data is at time 1756829719.088304, when looking up transform from frame [base_link] to frame [map]
+[bt_navigator-6] 
+[bt_navigator-6] [WARN] [1756829739.858752946] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[bt_navigator-6] [ERROR] [1756829739.960218984] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1756829718.424200 but the earliest data is at time 1756829720.723159, when looking up transform from frame [base_link] to frame [map]
+[bt_navigator-6] 
+[bt_navigator-6] [WARN] [1756829739.960451783] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[bt_navigator-6] [ERROR] [1756829740.062076650] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1756829718.424200 but the earliest data is at time 1756829720.723159, when looking up transform from frame [base_link] to frame [map]
+[bt_navigator-6] 
+[bt_navigator-6] [WARN] [1756829740.062355517] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[bt_navigator-6] [ERROR] [1756829740.163773264] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1756829718.424200 but the earliest data is at time 1756829720.723159, when looking up transform from frame [base_link] to frame [map]
+[bt_navigator-6] 
+[bt_navigator-6] [WARN] [1756829740.163966077] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[bt_navigator-6] [ERROR] [1756829740.265176638] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1756829718.424200 but the earliest data is at time 1756829720.723159, when looking up transform from frame [base_link] to frame [map]
+[bt_navigator-6] 
+[bt_navigator-6] [WARN] [1756829740.265378020] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[planner_server-4] [ERROR] [1756829740.313973319] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1756829718.424200 but the earliest data is at time 1756829730.099357, when looking up transform from frame [base_link] to frame [map]
+[planner_server-4] 
+[bt_navigator-6] [ERROR] [1756829740.366589158] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1756829718.424200 but the earliest data is at time 1756829720.723159, when looking up transform from frame [base_link] to frame [map]
+[bt_navigator-6] 
+[bt_navigator-6] [WARN] [1756829740.366760601] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[bt_navigator-6] [ERROR] [1756829740.467935895] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1756829718.424200 but the earliest data is at time 1756829720.723159, when looking up transform from frame [base_link] to frame [map]
+[bt_navigator-6] 
+[bt_navigator-6] [WARN] [1756829740.468126088] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[bt_navigator-6] [ERROR] [1756829740.569491552] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1756829718.424200 but the earliest data is at time 1756829720.723159, when looking up transform from frame [base_link] to frame [map]
+[bt_navigator-6] 
+[bt_navigator-6] [WARN] [1756829740.569637033] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[bt_navigator-6] [ERROR] [1756829740.671063512] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1756829718.424200 but the earliest data is at time 1756829720.723159, when looking up transform from frame [base_link] to frame [map]
+[bt_navigator-6] 
+[bt_navigator-6] [WARN] [1756829740.671371766] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[bt_navigator-6] [ERROR] [1756829740.772560177] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1756829718.424200 but the earliest data is at time 1756829720.723159, when looking up transform from frame [base_link] to frame [map]
+[bt_navigator-6] 
+[bt_navigator-6] [WARN] [1756829740.772801556] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[bt_navigator-6] [ERROR] [1756829740.874387865] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1756829718.424200 but the earliest data is at time 1756829720.723159, when looking up transform from frame [base_link] to frame [map]
+[bt_navigator-6] 
+[bt_navigator-6] [WARN] [1756829740.874641968] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[bt_navigator-6] [ERROR] [1756829740.975962992] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1756829718.424200 but the earliest data is at time 1756829721.567406, when looking up transform from frame [base_link] to frame [map]
+[bt_navigator-6] 
+[bt_navigator-6] [WARN] [1756829740.976134369] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[bt_navigator-6] [ERROR] [1756829741.077382631] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1756829718.424200 but the earliest data is at time 1756829721.567406, when looking up transform from frame [base_link] to frame [map]
+[bt_navigator-6] 
+[bt_navigator-6] [WARN] [1756829741.077557376] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[bt_navigator-6] [ERROR] [1756829741.178796143] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1756829718.424200 but the earliest data is at time 1756829721.567406, when looking up transform from frame [base_link] to frame [map]
+[bt_navigator-6] 
+[bt_navigator-6] [WARN] [1756829741.179102844] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[bt_navigator-6] [ERROR] [1756829741.280719296] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1756829718.424200 but the earliest data is at time 1756829721.567406, when looking up transform from frame [base_link] to frame [map]
+[bt_navigator-6] 
+[bt_navigator-6] [WARN] [1756829741.280978668] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[planner_server-4] [ERROR] [1756829741.313711797] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1756829718.424200 but the earliest data is at time 1756829731.123663, when looking up transform from frame [base_link] to frame [map]
+[planner_server-4] 
+[bt_navigator-6] [ERROR] [1756829741.382652793] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1756829718.424200 but the earliest data is at time 1756829721.567406, when looking up transform from frame [base_link] to frame [map]
+[bt_navigator-6] 
+[bt_navigator-6] [WARN] [1756829741.382826625] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[bt_navigator-6] [ERROR] [1756829741.484049782] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1756829718.424200 but the earliest data is at time 1756829721.567406, when looking up transform from frame [base_link] to frame [map]
+[bt_navigator-6] 
+[bt_navigator-6] [WARN] [1756829741.484230278] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[bt_navigator-6] [ERROR] [1756829741.585611623] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1756829718.424200 but the earliest data is at time 1756829721.567406, when looking up transform from frame [base_link] to frame [map]
+[bt_navigator-6] 
+[bt_navigator-6] [WARN] [1756829741.585861063] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[bt_navigator-6] [ERROR] [1756829741.687178945] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1756829718.424200 but the earliest data is at time 1756829721.567406, when looking up transform from frame [base_link] to frame [map]
+[bt_navigator-6] 
+[bt_navigator-6] [WARN] [1756829741.687364321] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[bt_navigator-6] [ERROR] [1756829741.788886312] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1756829718.424200 but the earliest data is at time 1756829721.567406, when looking up transform from frame [base_link] to frame [map]
+[bt_navigator-6] 
+[bt_navigator-6] [WARN] [1756829741.789167475] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[bt_navigator-6] [ERROR] [1756829741.890973262] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1756829718.424200 but the earliest data is at time 1756829721.567406, when looking up transform from frame [base_link] to frame [map]
+[bt_navigator-6] 
+[bt_navigator-6] [WARN] [1756829741.891300531] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[bt_navigator-6] [ERROR] [1756829741.993092730] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1756829718.424200 but the earliest data is at time 1756829721.567406, when looking up transform from frame [base_link] to frame [map]
+[bt_navigator-6] 
+[bt_navigator-6] [WARN] [1756829741.993413230] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[bt_navigator-6] [ERROR] [1756829742.095001745] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1756829718.424200 but the earliest data is at time 1756829721.567406, when looking up transform from frame [base_link] to frame [map]
+[bt_navigator-6] 
+[bt_navigator-6] [WARN] [1756829742.095222984] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[bt_navigator-6] [ERROR] [1756829742.196766214] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1756829718.424200 but the earliest data is at time 1756829721.567406, when looking up transform from frame [base_link] to frame [map]
+[bt_navigator-6] 
+[bt_navigator-6] [WARN] [1756829742.197016932] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[explore-10] [ERROR] [1756829742.216082717] [explore_node]: Extrapolation Error looking up robot pose: Lookup would require extrapolation into the future.  Requested time 1756829741.912476 but the latest data is at time 1756829732.468570, when looking up transform from frame [base_link] to frame [map]
+[explore-10] 
+[bt_navigator-6] [ERROR] [1756829742.298316741] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1756829718.424200 but the earliest data is at time 1756829721.567406, when looking up transform from frame [base_link] to frame [map]
+[bt_navigator-6] 
+[bt_navigator-6] [WARN] [1756829742.298492498] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[planner_server-4] [ERROR] [1756829742.314001847] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1756829718.424200 but the earliest data is at time 1756829732.171138, when looking up transform from frame [base_link] to frame [map]
+[planner_server-4] 
+[bt_navigator-6] [ERROR] [1756829742.399656858] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1756829718.424200 but the earliest data is at time 1756829721.567406, when looking up transform from frame [base_link] to frame [map]
+[bt_navigator-6] 
+[bt_navigator-6] [WARN] [1756829742.399895751] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[bt_navigator-6] [ERROR] [1756829742.501353201] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1756829718.424200 but the earliest data is at time 1756829721.768263, when looking up transform from frame [base_link] to frame [map]
+[bt_navigator-6] 
+[bt_navigator-6] [WARN] [1756829742.501493658] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[bt_navigator-6] [ERROR] [1756829742.602709124] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1756829718.424200 but the earliest data is at time 1756829721.768263, when looking up transform from frame [base_link] to frame [map]
+[bt_navigator-6] 
+[bt_navigator-6] [WARN] [1756829742.602846279] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[bt_navigator-6] [ERROR] [1756829742.704205321] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1756829718.424200 but the earliest data is at time 1756829722.569644, when looking up transform from frame [base_link] to frame [map]
+[bt_navigator-6] 
+[bt_navigator-6] [WARN] [1756829742.704414406] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[bt_navigator-6] [ERROR] [1756829742.805821200] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1756829718.424200 but the earliest data is at time 1756829722.569644, when looking up transform from frame [base_link] to frame [map]
+[bt_navigator-6] 
+[bt_navigator-6] [WARN] [1756829742.806065616] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[bt_navigator-6] [ERROR] [1756829742.907624860] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1756829718.424200 but the earliest data is at time 1756829722.569644, when looking up transform from frame [base_link] to frame [map]
+[bt_navigator-6] 
+[bt_navigator-6] [WARN] [1756829742.907933540] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[bt_navigator-6] [ERROR] [1756829743.009535303] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1756829718.424200 but the earliest data is at time 1756829724.364085, when looking up transform from frame [base_link] to frame [map]
+[bt_navigator-6] 
+[bt_navigator-6] [WARN] [1756829743.009765623] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[bt_navigator-6] [ERROR] [1756829743.111487161] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1756829718.424200 but the earliest data is at time 1756829724.364085, when looking up transform from frame [base_link] to frame [map]
+[bt_navigator-6] 
+[bt_navigator-6] [WARN] [1756829743.111713186] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[bt_navigator-6] [ERROR] [1756829743.213411146] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1756829718.424200 but the earliest data is at time 1756829724.364085, when looking up transform from frame [base_link] to frame [map]
+[bt_navigator-6] 
+[bt_navigator-6] [WARN] [1756829743.213657285] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[planner_server-4] [ERROR] [1756829743.313869309] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1756829718.424200 but the earliest data is at time 1756829733.167402, when looking up transform from frame [base_link] to frame [map]
+[planner_server-4] 
+[bt_navigator-6] [ERROR] [1756829743.315228103] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1756829718.424200 but the earliest data is at time 1756829724.364085, when looking up transform from frame [base_link] to frame [map]
+[bt_navigator-6] 
+[bt_navigator-6] [WARN] [1756829743.315430841] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[bt_navigator-6] [ERROR] [1756829743.416595830] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1756829718.424200 but the earliest data is at time 1756829724.364085, when looking up transform from frame [base_link] to frame [map]
+[bt_navigator-6] 
+[bt_navigator-6] [WARN] [1756829743.416791501] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[bt_navigator-6] [ERROR] [1756829743.518058619] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1756829718.424200 but the earliest data is at time 1756829724.364085, when looking up transform from frame [base_link] to frame [map]
+[bt_navigator-6] 
+[bt_navigator-6] [WARN] [1756829743.518331377] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[bt_navigator-6] [ERROR] [1756829743.619463375] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1756829718.424200 but the earliest data is at time 1756829724.364085, when looking up transform from frame [base_link] to frame [map]
+[bt_navigator-6] 
+[bt_navigator-6] [WARN] [1756829743.619583486] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[bt_navigator-6] [ERROR] [1756829743.720954476] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1756829718.424200 but the earliest data is at time 1756829724.364085, when looking up transform from frame [base_link] to frame [map]
+[bt_navigator-6] 
+[bt_navigator-6] [WARN] [1756829743.721212128] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[bt_navigator-6] [ERROR] [1756829743.822770804] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1756829718.424200 but the earliest data is at time 1756829724.364085, when looking up transform from frame [base_link] to frame [map]
+[bt_navigator-6] 
+[bt_navigator-6] [WARN] [1756829743.822975320] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[bt_navigator-6] [ERROR] [1756829743.924452090] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1756829718.424200 but the earliest data is at time 1756829724.364085, when looking up transform from frame [base_link] to frame [map]
+[bt_navigator-6] 
+[bt_navigator-6] [WARN] [1756829743.924679680] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[bt_navigator-6] [ERROR] [1756829744.026091216] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1756829718.424200 but the earliest data is at time 1756829724.364085, when looking up transform from frame [base_link] to frame [map]
+[bt_navigator-6] 
+[bt_navigator-6] [WARN] [1756829744.026351067] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[bt_navigator-6] [ERROR] [1756829744.127847810] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1756829718.424200 but the earliest data is at time 1756829724.364085, when looking up transform from frame [base_link] to frame [map]
+[bt_navigator-6] 
+[bt_navigator-6] [WARN] [1756829744.128032428] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[bt_navigator-6] [ERROR] [1756829744.229665355] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1756829718.424200 but the earliest data is at time 1756829724.364085, when looking up transform from frame [base_link] to frame [map]
+[bt_navigator-6] 
+[bt_navigator-6] [WARN] [1756829744.229944595] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[planner_server-4] [ERROR] [1756829744.314164713] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1756829718.424200 but the earliest data is at time 1756829734.069319, when looking up transform from frame [base_link] to frame [map]
+[planner_server-4] 
+[bt_navigator-6] [ERROR] [1756829744.331752645] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1756829718.424200 but the earliest data is at time 1756829724.364085, when looking up transform from frame [base_link] to frame [map]
+[bt_navigator-6] 
+[bt_navigator-6] [WARN] [1756829744.331998829] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[bt_navigator-6] [ERROR] [1756829744.433860847] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1756829718.424200 but the earliest data is at time 1756829725.519633, when looking up transform from frame [base_link] to frame [map]
+[bt_navigator-6] 
+[bt_navigator-6] [WARN] [1756829744.434093705] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[bt_navigator-6] [ERROR] [1756829744.535784471] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1756829718.424200 but the earliest data is at time 1756829725.519633, when looking up transform from frame [base_link] to frame [map]
+[bt_navigator-6] 
+[bt_navigator-6] [WARN] [1756829744.535981332] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[bt_navigator-6] [ERROR] [1756829744.637166216] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1756829718.424200 but the earliest data is at time 1756829725.519633, when looking up transform from frame [base_link] to frame [map]
+[bt_navigator-6] 
+[bt_navigator-6] [WARN] [1756829744.637375509] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[bt_navigator-6] [ERROR] [1756829744.739113987] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1756829718.424200 but the earliest data is at time 1756829725.519633, when looking up transform from frame [base_link] to frame [map]
+[bt_navigator-6] 
+[bt_navigator-6] [WARN] [1756829744.739373570] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[bt_navigator-6] [ERROR] [1756829744.841089856] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1756829718.424200 but the earliest data is at time 1756829725.519633, when looking up transform from frame [base_link] to frame [map]
+[bt_navigator-6] 
+[bt_navigator-6] [WARN] [1756829744.841305776] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[bt_navigator-6] [ERROR] [1756829744.942919535] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1756829718.424200 but the earliest data is at time 1756829725.519633, when looking up transform from frame [base_link] to frame [map]
+[bt_navigator-6] 
+[bt_navigator-6] [WARN] [1756829744.943157693] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[bt_navigator-6] [ERROR] [1756829745.044693092] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1756829718.424200 but the earliest data is at time 1756829725.519633, when looking up transform from frame [base_link] to frame [map]
+[bt_navigator-6] 
+[bt_navigator-6] [WARN] [1756829745.044887607] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[bt_navigator-6] [ERROR] [1756829745.146305984] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1756829718.424200 but the earliest data is at time 1756829725.519633, when looking up transform from frame [base_link] to frame [map]
+[bt_navigator-6] 
+[bt_navigator-6] [WARN] [1756829745.146560715] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[bt_navigator-6] [ERROR] [1756829745.248689498] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1756829718.424200 but the earliest data is at time 1756829725.519633, when looking up transform from frame [base_link] to frame [map]
+[bt_navigator-6] 
+[bt_navigator-6] [WARN] [1756829745.248847301] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[planner_server-4] [ERROR] [1756829745.313733479] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1756829718.424200 but the earliest data is at time 1756829734.919209, when looking up transform from frame [base_link] to frame [map]
+[planner_server-4] 
+[bt_navigator-6] [ERROR] [1756829745.350144899] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1756829718.424200 but the earliest data is at time 1756829725.519633, when looking up transform from frame [base_link] to frame [map]
+[bt_navigator-6] 
+[bt_navigator-6] [WARN] [1756829745.350324990] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[bt_navigator-6] [ERROR] [1756829745.451569670] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1756829718.424200 but the earliest data is at time 1756829725.519633, when looking up transform from frame [base_link] to frame [map]
+[bt_navigator-6] 
+[bt_navigator-6] [WARN] [1756829745.451786733] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[bt_navigator-6] [ERROR] [1756829745.553052717] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1756829718.424200 but the earliest data is at time 1756829725.519633, when looking up transform from frame [base_link] to frame [map]
+[bt_navigator-6] 
+[bt_navigator-6] [WARN] [1756829745.553238773] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[bt_navigator-6] [ERROR] [1756829745.654511551] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1756829718.424200 but the earliest data is at time 1756829727.567382, when looking up transform from frame [base_link] to frame [map]
+[bt_navigator-6] 
+[bt_navigator-6] [WARN] [1756829745.654709283] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[bt_navigator-6] [ERROR] [1756829745.755956992] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1756829718.424200 but the earliest data is at time 1756829727.567382, when looking up transform from frame [base_link] to frame [map]
+[bt_navigator-6] 
+[bt_navigator-6] [WARN] [1756829745.756142874] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[bt_navigator-6] [ERROR] [1756829745.857192285] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1756829718.424200 but the earliest data is at time 1756829727.567382, when looking up transform from frame [base_link] to frame [map]
+[bt_navigator-6] 
+[bt_navigator-6] [WARN] [1756829745.857313772] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[bt_navigator-6] [ERROR] [1756829745.958467989] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1756829718.424200 but the earliest data is at time 1756829727.567382, when looking up transform from frame [base_link] to frame [map]
+[bt_navigator-6] 
+[bt_navigator-6] [WARN] [1756829745.958646544] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[bt_navigator-6] [ERROR] [1756829746.059835906] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1756829718.424200 but the earliest data is at time 1756829727.567382, when looking up transform from frame [base_link] to frame [map]
+[bt_navigator-6] 
+[bt_navigator-6] [WARN] [1756829746.060092733] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[bt_navigator-6] [ERROR] [1756829746.162009375] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1756829718.424200 but the earliest data is at time 1756829727.567382, when looking up transform from frame [base_link] to frame [map]
+[bt_navigator-6] 
+[bt_navigator-6] [WARN] [1756829746.162187146] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[bt_navigator-6] [ERROR] [1756829746.263264064] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1756829718.424200 but the earliest data is at time 1756829727.567382, when looking up transform from frame [base_link] to frame [map]
+[bt_navigator-6] 
+[bt_navigator-6] [WARN] [1756829746.263439895] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[planner_server-4] [ERROR] [1756829746.314578938] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1756829718.424200 but the earliest data is at time 1756829736.755867, when looking up transform from frame [base_link] to frame [map]
+[planner_server-4] 
+[bt_navigator-6] [ERROR] [1756829746.364666307] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1756829718.424200 but the earliest data is at time 1756829727.567382, when looking up transform from frame [base_link] to frame [map]
+[bt_navigator-6] 
+[bt_navigator-6] [WARN] [1756829746.364843122] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[bt_navigator-6] [ERROR] [1756829746.466024995] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1756829718.424200 but the earliest data is at time 1756829727.745543, when looking up transform from frame [base_link] to frame [map]
+[bt_navigator-6] 
+[bt_navigator-6] [WARN] [1756829746.466202487] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[bt_navigator-6] [ERROR] [1756829746.567442180] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1756829718.424200 but the earliest data is at time 1756829729.876845, when looking up transform from frame [base_link] to frame [map]
+[bt_navigator-6] 
+[bt_navigator-6] [WARN] [1756829746.567629151] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[bt_navigator-6] [ERROR] [1756829746.668726063] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1756829718.424200 but the earliest data is at time 17568297
