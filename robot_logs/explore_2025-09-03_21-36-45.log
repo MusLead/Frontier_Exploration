@@ -1,0 +1,1483 @@
+[INFO] [launch]: All log files can be found below /home/robot/.ros/log/2025-09-03-21-36-45-563376-robot-pc04-96316
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [async_slam_toolbox_node-1]: process started with pid [96321]
+[INFO] [controller_server-2]: process started with pid [96323]
+[INFO] [smoother_server-3]: process started with pid [96325]
+[INFO] [planner_server-4]: process started with pid [96327]
+[INFO] [behavior_server-5]: process started with pid [96329]
+[INFO] [bt_navigator-6]: process started with pid [96331]
+[INFO] [waypoint_follower-7]: process started with pid [96333]
+[INFO] [velocity_smoother-8]: process started with pid [96335]
+[INFO] [lifecycle_manager-9]: process started with pid [96337]
+[INFO] [explore-10]: process started with pid [96339]
+[INFO] [rviz2-11]: process started with pid [96341]
+[async_slam_toolbox_node-1] [INFO] [1756928205.669839530] [slam]: Node using stack size 40000000
+[planner_server-4] [INFO] [1756928205.673596449] [planner_server]: 
+[planner_server-4] 	planner_server lifecycle node launched. 
+[planner_server-4] 	Waiting on external lifecycle transitions to activate
+[planner_server-4] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[planner_server-4] [INFO] [1756928205.674221717] [planner_server]: Creating
+[waypoint_follower-7] [INFO] [1756928205.674345465] [waypoint_follower]: 
+[waypoint_follower-7] 	waypoint_follower lifecycle node launched. 
+[waypoint_follower-7] 	Waiting on external lifecycle transitions to activate
+[waypoint_follower-7] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[waypoint_follower-7] [INFO] [1756928205.674640615] [waypoint_follower]: Creating
+[bt_navigator-6] [INFO] [1756928205.675101845] [bt_navigator]: 
+[bt_navigator-6] 	bt_navigator lifecycle node launched. 
+[bt_navigator-6] 	Waiting on external lifecycle transitions to activate
+[bt_navigator-6] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[bt_navigator-6] [INFO] [1756928205.675181399] [bt_navigator]: Creating
+[explore-10] [INFO] [1756928205.676979014] [explore_node]: Waiting for costmap to become available, topic: map
+[lifecycle_manager-9] [INFO] [1756928205.677493349] [lifecycle_manager_navigation]: Creating
+[planner_server-4] [INFO] [1756928205.677743889] [global_costmap.global_costmap]: 
+[planner_server-4] 	global_costmap lifecycle node launched. 
+[planner_server-4] 	Waiting on external lifecycle transitions to activate
+[planner_server-4] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[smoother_server-3] [INFO] [1756928205.677928738] [smoother_server]: 
+[smoother_server-3] 	smoother_server lifecycle node launched. 
+[smoother_server-3] 	Waiting on external lifecycle transitions to activate
+[smoother_server-3] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[planner_server-4] [INFO] [1756928205.678013028] [global_costmap.global_costmap]: Creating Costmap
+[controller_server-2] [INFO] [1756928205.678394888] [controller_server]: 
+[controller_server-2] 	controller_server lifecycle node launched. 
+[controller_server-2] 	Waiting on external lifecycle transitions to activate
+[controller_server-2] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[lifecycle_manager-9] [INFO] [1756928205.678786238] [lifecycle_manager_navigation]: [34m[1mCreating and initializing lifecycle service clients[0m[0m
+[smoother_server-3] [INFO] [1756928205.679039001] [smoother_server]: Creating smoother server
+[controller_server-2] [INFO] [1756928205.679989181] [controller_server]: Creating controller server
+[velocity_smoother-8] [INFO] [1756928205.681250644] [velocity_smoother]: 
+[velocity_smoother-8] 	velocity_smoother lifecycle node launched. 
+[velocity_smoother-8] 	Waiting on external lifecycle transitions to activate
+[velocity_smoother-8] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[behavior_server-5] [INFO] [1756928205.682498732] [behavior_server]: 
+[behavior_server-5] 	behavior_server lifecycle node launched. 
+[behavior_server-5] 	Waiting on external lifecycle transitions to activate
+[behavior_server-5] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[lifecycle_manager-9] [INFO] [1756928205.683424930] [lifecycle_manager_navigation]: [34m[1mStarting managed nodes bringup...[0m[0m
+[lifecycle_manager-9] [INFO] [1756928205.683450662] [lifecycle_manager_navigation]: [34m[1mConfiguring controller_server[0m[0m
+[controller_server-2] [INFO] [1756928205.685073128] [local_costmap.local_costmap]: 
+[controller_server-2] 	local_costmap lifecycle node launched. 
+[controller_server-2] 	Waiting on external lifecycle transitions to activate
+[controller_server-2] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[controller_server-2] [INFO] [1756928205.685276881] [local_costmap.local_costmap]: Creating Costmap
+[controller_server-2] [INFO] [1756928205.685750735] [controller_server]: Configuring controller interface
+[controller_server-2] [INFO] [1756928205.685798830] [controller_server]: getting goal checker plugins..
+[controller_server-2] [INFO] [1756928205.685843154] [controller_server]: Controller frequency set to 10.0000Hz
+[controller_server-2] [INFO] [1756928205.685859184] [local_costmap.local_costmap]: Configuring
+[controller_server-2] [INFO] [1756928205.688202196] [local_costmap.local_costmap]: Using plugin "static_layer"
+[async_slam_toolbox_node-1] [INFO] [1756928205.688857461] [slam]: Using solver plugin solver_plugins::CeresSolver
+[async_slam_toolbox_node-1] [INFO] [1756928205.688968948] [slam]: CeresSolver: Using SCHUR_JACOBI preconditioner.
+[controller_server-2] [INFO] [1756928205.690616407] [local_costmap.local_costmap]: Subscribing to the map topic (/map) with transient local durability
+[controller_server-2] [INFO] [1756928205.691392491] [local_costmap.local_costmap]: Initialized plugin "static_layer"
+[controller_server-2] [INFO] [1756928205.691411144] [local_costmap.local_costmap]: Using plugin "obstacle_layer"
+[controller_server-2] [INFO] [1756928205.691675032] [local_costmap.local_costmap]: Subscribed to Topics: scan
+[controller_server-2] [INFO] [1756928205.693234203] [local_costmap.local_costmap]: Initialized plugin "obstacle_layer"
+[controller_server-2] [INFO] [1756928205.693255082] [local_costmap.local_costmap]: Using plugin "inflation_layer"
+[controller_server-2] [INFO] [1756928205.693886667] [local_costmap.local_costmap]: Initialized plugin "inflation_layer"
+[controller_server-2] [INFO] [1756928205.698363866] [controller_server]: Created progress_checker : progress_checker of type nav2_controller::SimpleProgressChecker
+[controller_server-2] [INFO] [1756928205.698726646] [controller_server]: Created goal checker : goal_checker of type nav2_controller::SimpleGoalChecker
+[controller_server-2] [INFO] [1756928205.698886911] [controller_server]: Controller Server has goal_checker  goal checkers available.
+[controller_server-2] [INFO] [1756928205.699262997] [controller_server]: Created controller : FollowPath of type nav2_regulated_pure_pursuit_controller::RegulatedPurePursuitController
+[controller_server-2] [INFO] [1756928205.701036427] [controller_server]: Controller Server has FollowPath  controllers available.
+[lifecycle_manager-9] [INFO] [1756928205.704326464] [lifecycle_manager_navigation]: [34m[1mConfiguring smoother_server[0m[0m
+[smoother_server-3] [INFO] [1756928205.704532393] [smoother_server]: Configuring smoother server
+[smoother_server-3] [INFO] [1756928205.708379725] [smoother_server]: Created smoother : simple_smoother of type nav2_smoother::SimpleSmoother
+[smoother_server-3] [INFO] [1756928205.708554716] [smoother_server]: Smoother Server has simple_smoother  smoothers available.
+[lifecycle_manager-9] [INFO] [1756928205.710643839] [lifecycle_manager_navigation]: [34m[1mConfiguring planner_server[0m[0m
+[planner_server-4] [INFO] [1756928205.710748234] [planner_server]: Configuring
+[planner_server-4] [INFO] [1756928205.710768815] [global_costmap.global_costmap]: Configuring
+[planner_server-4] [INFO] [1756928205.712799977] [global_costmap.global_costmap]: Using plugin "static_layer"
+[planner_server-4] [INFO] [1756928205.714283391] [global_costmap.global_costmap]: Subscribing to the map topic (/map) with transient local durability
+[planner_server-4] [INFO] [1756928205.714843589] [global_costmap.global_costmap]: Initialized plugin "static_layer"
+[planner_server-4] [INFO] [1756928205.714856659] [global_costmap.global_costmap]: Using plugin "obstacle_layer"
+[planner_server-4] [INFO] [1756928205.715013684] [global_costmap.global_costmap]: Subscribed to Topics: scan
+[planner_server-4] [INFO] [1756928205.716056428] [global_costmap.global_costmap]: Initialized plugin "obstacle_layer"
+[planner_server-4] [INFO] [1756928205.716066210] [global_costmap.global_costmap]: Using plugin "inflation_layer"
+[planner_server-4] [INFO] [1756928205.716326070] [global_costmap.global_costmap]: Initialized plugin "inflation_layer"
+[planner_server-4] [INFO] [1756928205.719082337] [planner_server]: Created global planner plugin GridBased of type nav2_navfn_planner/NavfnPlanner
+[planner_server-4] [INFO] [1756928205.719100288] [planner_server]: Configuring plugin GridBased of type NavfnPlanner
+[planner_server-4] [INFO] [1756928205.719240602] [planner_server]: Planner Server has GridBased  planners available.
+[lifecycle_manager-9] [INFO] [1756928205.722245050] [lifecycle_manager_navigation]: [34m[1mConfiguring behavior_server[0m[0m
+[behavior_server-5] [INFO] [1756928205.722454358] [behavior_server]: Configuring
+[behavior_server-5] [INFO] [1756928205.727587636] [behavior_server]: Creating behavior plugin spin of type nav2_behaviors/Spin
+[behavior_server-5] [INFO] [1756928205.728137152] [behavior_server]: Configuring spin
+[behavior_server-5] [INFO] [1756928205.730525830] [behavior_server]: Creating behavior plugin backup of type nav2_behaviors/BackUp
+[behavior_server-5] [INFO] [1756928205.730983356] [behavior_server]: Configuring backup
+[behavior_server-5] [INFO] [1756928205.732628879] [behavior_server]: Creating behavior plugin drive_on_heading of type nav2_behaviors/DriveOnHeading
+[behavior_server-5] [INFO] [1756928205.733141859] [behavior_server]: Configuring drive_on_heading
+[behavior_server-5] [INFO] [1756928205.734577731] [behavior_server]: Creating behavior plugin wait of type nav2_behaviors/Wait
+[behavior_server-5] [INFO] [1756928205.734927869] [behavior_server]: Configuring wait
+[behavior_server-5] [INFO] [1756928205.736266484] [behavior_server]: Creating behavior plugin assisted_teleop of type nav2_behaviors/AssistedTeleop
+[behavior_server-5] [INFO] [1756928205.737069730] [behavior_server]: Configuring assisted_teleop
+[lifecycle_manager-9] [INFO] [1756928205.739799568] [lifecycle_manager_navigation]: [34m[1mConfiguring bt_navigator[0m[0m
+[bt_navigator-6] [INFO] [1756928205.739956449] [bt_navigator]: Configuring
+[lifecycle_manager-9] [INFO] [1756928205.763889138] [lifecycle_manager_navigation]: [34m[1mConfiguring waypoint_follower[0m[0m
+[waypoint_follower-7] [INFO] [1756928205.764027652] [waypoint_follower]: Configuring
+[waypoint_follower-7] [INFO] [1756928205.768006552] [waypoint_follower]: Created waypoint_task_executor : wait_at_waypoint of type nav2_waypoint_follower::WaitAtWaypoint
+[lifecycle_manager-9] [INFO] [1756928205.768281390] [lifecycle_manager_navigation]: [34m[1mConfiguring velocity_smoother[0m[0m
+[velocity_smoother-8] [INFO] [1756928205.768378909] [velocity_smoother]: Configuring velocity smoother
+[lifecycle_manager-9] [INFO] [1756928205.769420250] [lifecycle_manager_navigation]: [34m[1mActivating controller_server[0m[0m
+[controller_server-2] [INFO] [1756928205.769472458] [controller_server]: Activating
+[controller_server-2] [INFO] [1756928205.769494225] [local_costmap.local_costmap]: Activating
+[controller_server-2] [INFO] [1756928205.769501318] [local_costmap.local_costmap]: Checking transform
+[controller_server-2] [INFO] [1756928205.769513785] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[rviz2-11] [INFO] [1756928206.102698889] [rviz2]: Stereo is NOT SUPPORTED
+[rviz2-11] [INFO] [1756928206.102758610] [rviz2]: OpenGl version: 4.6 (GLSL 4.6)
+[rviz2-11] [INFO] [1756928206.128717622] [rviz2]: Stereo is NOT SUPPORTED
+[controller_server-2] [INFO] [1756928206.269601635] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[controller_server-2] [INFO] [1756928206.769532833] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[controller_server-2] [INFO] [1756928207.269670010] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[controller_server-2] [INFO] [1756928207.769596620] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[controller_server-2] [INFO] [1756928208.269607852] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[controller_server-2] [INFO] [1756928208.769591013] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[controller_server-2] [INFO] [1756928209.269590648] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[controller_server-2] [INFO] [1756928209.769778482] [local_costmap.local_costmap]: start
+[controller_server-2] [INFO] [1756928209.971653556] [controller_server]: Activating controller: FollowPath of type regulated_pure_pursuit_controller::RegulatedPurePursuitController
+[controller_server-2] [INFO] [1756928209.971742053] [controller_server]: Creating bond (controller_server) to lifecycle manager.
+[lifecycle_manager-9] [INFO] [1756928210.079959559] [lifecycle_manager_navigation]: Server controller_server connected with bond.
+[lifecycle_manager-9] [INFO] [1756928210.080075970] [lifecycle_manager_navigation]: [34m[1mActivating smoother_server[0m[0m
+[smoother_server-3] [INFO] [1756928210.080671663] [smoother_server]: Activating
+[smoother_server-3] [INFO] [1756928210.080774676] [smoother_server]: Creating bond (smoother_server) to lifecycle manager.
+[lifecycle_manager-9] [INFO] [1756928210.187895922] [lifecycle_manager_navigation]: Server smoother_server connected with bond.
+[lifecycle_manager-9] [INFO] [1756928210.187990247] [lifecycle_manager_navigation]: [34m[1mActivating planner_server[0m[0m
+[planner_server-4] [INFO] [1756928210.188578688] [planner_server]: Activating
+[planner_server-4] [INFO] [1756928210.188672996] [global_costmap.global_costmap]: Activating
+[planner_server-4] [INFO] [1756928210.188697956] [global_costmap.global_costmap]: Checking transform
+[planner_server-4] [INFO] [1756928210.188746933] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[planner_server-4] [INFO] [1756928210.688817234] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[async_slam_toolbox_node-1] [WARN] [1756928210.953461646] [slam]: minimum laser range setting (0.0 m) exceeds the capabilities of the used Lidar (0.1 m)
+[rviz2-11] [ERROR] [1756928211.178937442] [rviz2]: Lookup would require extrapolation into the future.  Requested time 1756928211.146061 but the latest data is at time 1756928211.113969, when looking up transform from frame [laser] to frame [map]
+[rviz2-11] [INFO] [1756928211.179211039] [rviz2]: Trying to create a map of size 100 x 100 using 1 swatches
+[planner_server-4] [INFO] [1756928211.188935108] [global_costmap.global_costmap]: start
+[controller_server-2] [INFO] [1756928211.693129828] [local_costmap.local_costmap]: StaticLayer: Resizing static layer to 86 X 72 at 0.040000 m/pix
+[planner_server-4] [INFO] [1756928211.693228772] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 86 X 72 at 0.040000 m/pix
+[rviz2-11] [INFO] [1756928211.722677992] [rviz2]: Trying to create a map of size 86 x 72 using 1 swatches
+[rviz2-11] [INFO] [1756928212.203033924] [rviz2]: Trying to create a map of size 86 x 72 using 1 swatches
+[planner_server-4] [INFO] [1756928212.240503457] [planner_server]: Activating plugin GridBased of type NavfnPlanner
+[planner_server-4] [INFO] [1756928212.242182715] [planner_server]: Creating bond (planner_server) to lifecycle manager.
+[lifecycle_manager-9] [INFO] [1756928212.349082616] [lifecycle_manager_navigation]: Server planner_server connected with bond.
+[lifecycle_manager-9] [INFO] [1756928212.349203987] [lifecycle_manager_navigation]: [34m[1mActivating behavior_server[0m[0m
+[behavior_server-5] [INFO] [1756928212.349934289] [behavior_server]: Activating
+[behavior_server-5] [INFO] [1756928212.350002613] [behavior_server]: Activating spin
+[behavior_server-5] [INFO] [1756928212.350027072] [behavior_server]: Activating backup
+[behavior_server-5] [INFO] [1756928212.350046822] [behavior_server]: Activating drive_on_heading
+[behavior_server-5] [INFO] [1756928212.350065985] [behavior_server]: Activating wait
+[behavior_server-5] [INFO] [1756928212.350082253] [behavior_server]: Activating assisted_teleop
+[behavior_server-5] [INFO] [1756928212.350106854] [behavior_server]: Creating bond (behavior_server) to lifecycle manager.
+[lifecycle_manager-9] [INFO] [1756928212.457965071] [lifecycle_manager_navigation]: Server behavior_server connected with bond.
+[lifecycle_manager-9] [INFO] [1756928212.458064425] [lifecycle_manager_navigation]: [34m[1mActivating bt_navigator[0m[0m
+[bt_navigator-6] [INFO] [1756928212.458616633] [bt_navigator]: Activating
+[bt_navigator-6] [INFO] [1756928212.494562161] [bt_navigator]: Creating bond (bt_navigator) to lifecycle manager.
+[lifecycle_manager-9] [INFO] [1756928212.596310654] [lifecycle_manager_navigation]: Server bt_navigator connected with bond.
+[lifecycle_manager-9] [INFO] [1756928212.596409494] [lifecycle_manager_navigation]: [34m[1mActivating waypoint_follower[0m[0m
+[waypoint_follower-7] [INFO] [1756928212.597287333] [waypoint_follower]: Activating
+[waypoint_follower-7] [INFO] [1756928212.597372364] [waypoint_follower]: Creating bond (waypoint_follower) to lifecycle manager.
+[lifecycle_manager-9] [INFO] [1756928212.705258224] [lifecycle_manager_navigation]: Server waypoint_follower connected with bond.
+[lifecycle_manager-9] [INFO] [1756928212.705354884] [lifecycle_manager_navigation]: [34m[1mActivating velocity_smoother[0m[0m
+[velocity_smoother-8] [INFO] [1756928212.706008555] [velocity_smoother]: Activating
+[velocity_smoother-8] [INFO] [1756928212.706154233] [velocity_smoother]: Creating bond (velocity_smoother) to lifecycle manager.
+[lifecycle_manager-9] [INFO] [1756928212.814431672] [lifecycle_manager_navigation]: Server velocity_smoother connected with bond.
+[lifecycle_manager-9] [INFO] [1756928212.814524854] [lifecycle_manager_navigation]: [34m[1mManaged nodes are active[0m[0m
+[lifecycle_manager-9] [INFO] [1756928212.814578052] [lifecycle_manager_navigation]: [34m[1mCreating bond timer...[0m[0m
+[explore-10] [INFO] [1756928213.701420870] [explore_node]: Waiting to connect to move_base nav2 server
+[explore-10] [INFO] [1756928213.701668771] [explore_node]: Connected to move_base nav2 server
+[explore-10] [INFO] [1756928213.701677447] [explore_node]: Getting initial pose of the robot
+[explore-10] [INFO] [1756928213.748550141] [explore_node]: [NAV] Remembered last goal (1.92, 1.65, yaw from quat).
+[bt_navigator-6] [INFO] [1756928213.749941312] [bt_navigator]: Begin navigating from current location (0.00, 0.00) to (1.92, 1.65)
+[controller_server-2] [INFO] [1756928213.771495604] [controller_server]: Received a goal, begin computing control effort.
+[controller_server-2] [WARN] [1756928213.771616083] [controller_server]: No goal checker was specified in parameter 'current_goal_checker'. Server will use only plugin loaded goal_checker . This warning will appear once.
+[explore-10] [INFO] [1756928213.801840712] [explore_node]: [AVOID] Ranges m: fl=nan fr=nan rl=0.69 rr=0.62 | T=0.15
+[explore-10] [WARN] [1756928213.802270178] [explore_node]: [AVOID] Pausing Nav2 (reason: backward_through_gap) before publishing /cmd_vel.
+[explore-10] [INFO] [1756928213.802475739] [explore_node]: [AVOID] Backward (-0.12 m/s).
+[explore-10] [INFO] [1756928213.802580031] [explore_node]: Exploration stopped.
+[bt_navigator-6] [ERROR] [1756928213.830634944] [bt_navigator_navigate_to_pose_rclcpp_node]: Failed to get result for follow_path in node halt!
+[bt_navigator-6] [INFO] [1756928213.830785329] [bt_navigator]: [navigate_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+[bt_navigator-6] [INFO] [1756928213.831112169] [bt_navigator]: Goal canceled
+[explore-10] [INFO] [1756928213.831645657] [explore_node]: [AVOID] Area clear again. Re-sending previous Nav2 goal.
+[explore-10] [WARN] [1756928213.832014073] [explore_node]: [AVOID] Pausing Nav2 (reason: backward_through_gap) before publishing /cmd_vel.
+[explore-10] [INFO] [1756928213.832147670] [explore_node]: [AVOID] Backward (-0.12 m/s).
+[bt_navigator-6] [INFO] [1756928213.832536674] [bt_navigator]: Begin navigating from current location (0.00, 0.00) to (1.92, 1.65)
+[bt_navigator-6] [INFO] [1756928213.832657197] [bt_navigator]: [navigate_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+[bt_navigator-6] [INFO] [1756928213.832820738] [bt_navigator]: Goal canceled
+[controller_server-2] [INFO] [1756928213.871779866] [controller_server]: Goal was canceled. Stopping the robot.
+[controller_server-2] [INFO] [1756928213.871855207] [controller_server]: [follow_path] [ActionServer] Client requested to cancel the goal. Cancelling.
+[explore-10] [INFO] [1756928213.898835815] [explore_node]: Exploration resuming.
+[explore-10] [INFO] [1756928213.966572380] [explore_node]: [AVOID] Area clear again. Re-sending previous Nav2 goal.
+[explore-10] [WARN] [1756928213.966871262] [explore_node]: [AVOID] Pausing Nav2 (reason: backward_through_gap) before publishing /cmd_vel.
+[explore-10] [INFO] [1756928213.966986816] [explore_node]: [AVOID] Backward (-0.12 m/s).
+[explore-10] [INFO] [1756928213.967049468] [explore_node]: Exploration stopped.
+[explore-10] [INFO] [1756928213.967304024] [explore_node]: Exploration resuming.
+[bt_navigator-6] [INFO] [1756928213.967402794] [bt_navigator]: Begin navigating from current location (0.00, 0.00) to (1.92, 1.65)
+[bt_navigator-6] [INFO] [1756928213.967501964] [bt_navigator]: [navigate_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+[bt_navigator-6] [INFO] [1756928213.967750089] [bt_navigator]: Goal canceled
+[explore-10] [INFO] [1756928214.025097653] [explore_node]: [AVOID] Area clear again. Re-sending previous Nav2 goal.
+[explore-10] [WARN] [1756928214.025435022] [explore_node]: [AVOID] Pausing Nav2 (reason: backward_through_gap) before publishing /cmd_vel.
+[explore-10] [INFO] [1756928214.025543785] [explore_node]: [AVOID] Backward (-0.12 m/s).
+[explore-10] [INFO] [1756928214.025599547] [explore_node]: Exploration stopped.
+[explore-10] [INFO] [1756928214.025783118] [explore_node]: Exploration resuming.
+[bt_navigator-6] [INFO] [1756928214.025799463] [bt_navigator]: Begin navigating from current location (0.00, 0.00) to (1.92, 1.65)
+[bt_navigator-6] [INFO] [1756928214.025926734] [bt_navigator]: [navigate_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+[bt_navigator-6] [INFO] [1756928214.026100382] [bt_navigator]: Goal canceled
+[explore-10] [INFO] [1756928214.093339462] [explore_node]: Exploration stopped.
+[explore-10] [INFO] [1756928214.094083221] [explore_node]: [AVOID] Area clear again. Re-sending previous Nav2 goal.
+[explore-10] [WARN] [1756928214.094411414] [explore_node]: [AVOID] Pausing Nav2 (reason: backward_through_gap) before publishing /cmd_vel.
+[explore-10] [INFO] [1756928214.094532577] [explore_node]: [AVOID] Backward (-0.12 m/s).
+[bt_navigator-6] [INFO] [1756928214.094773951] [bt_navigator]: Begin navigating from current location (0.00, 0.00) to (1.92, 1.65)
+[bt_navigator-6] [INFO] [1756928214.094920556] [bt_navigator]: [navigate_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+[bt_navigator-6] [INFO] [1756928214.095085692] [bt_navigator]: Goal canceled
+[explore-10] [INFO] [1756928214.130565643] [explore_node]: [AVOID] Area clear again. Re-sending previous Nav2 goal.
+[explore-10] [WARN] [1756928214.130803006] [explore_node]: [AVOID] Pausing Nav2 (reason: backward_through_gap) before publishing /cmd_vel.
+[explore-10] [INFO] [1756928214.130889808] [explore_node]: [AVOID] Backward (-0.12 m/s).
+[explore-10] [INFO] [1756928214.130943492] [explore_node]: Exploration resuming.
+[bt_navigator-6] [INFO] [1756928214.131340880] [bt_navigator]: Begin navigating from current location (0.00, 0.00) to (1.92, 1.65)
+[bt_navigator-6] [INFO] [1756928214.131437662] [bt_navigator]: [navigate_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+[bt_navigator-6] [INFO] [1756928214.131654248] [bt_navigator]: Goal canceled
+[explore-10] [INFO] [1756928214.198459521] [explore_node]: Exploration stopped.
+[explore-10] [INFO] [1756928214.198694614] [explore_node]: Exploration resuming.
+[explore-10] [INFO] [1756928214.226297991] [explore_node]: [AVOID] Area clear again. Re-sending previous Nav2 goal.
+[explore-10] [WARN] [1756928214.226611425] [explore_node]: [AVOID] Pausing Nav2 (reason: backward_through_gap) before publishing /cmd_vel.
+[explore-10] [INFO] [1756928214.226726267] [explore_node]: [AVOID] Backward (-0.12 m/s).
+[explore-10] [INFO] [1756928214.226786840] [explore_node]: Exploration stopped.
+[explore-10] [INFO] [1756928214.227023174] [explore_node]: [AVOID] Area clear again. Re-sending previous Nav2 goal.
+[explore-10] [WARN] [1756928214.227231569] [explore_node]: [AVOID] Pausing Nav2 (reason: backward_through_gap) before publishing /cmd_vel.
+[explore-10] [INFO] [1756928214.227312827] [explore_node]: [AVOID] Backward (-0.12 m/s).
+[bt_navigator-6] [INFO] [1756928214.227225054] [bt_navigator]: Begin navigating from current location (0.00, 0.00) to (1.92, 1.65)
+[bt_navigator-6] [INFO] [1756928214.227379057] [bt_navigator]: [navigate_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+[bt_navigator-6] [WARN] [1756928214.227556438] [bt_navigator]: [navigate_to_pose] [ActionServer] Aborting handle.
+[bt_navigator-6] [INFO] [1756928214.227639939] [bt_navigator]: Goal canceled
+[explore-10] [INFO] [1756928214.292876643] [explore_node]: Exploration resuming.
+[explore-10] [INFO] [1756928214.358627401] [explore_node]: [AVOID] Area clear again. Re-sending previous Nav2 goal.
+[explore-10] [WARN] [1756928214.358884404] [explore_node]: [AVOID] Pausing Nav2 (reason: backward_through_gap) before publishing /cmd_vel.
+[explore-10] [INFO] [1756928214.358972965] [explore_node]: [AVOID] Backward (-0.12 m/s).
+[explore-10] [INFO] [1756928214.359018905] [explore_node]: Exploration stopped.
+[explore-10] [INFO] [1756928214.359205671] [explore_node]: Exploration resuming.
+[bt_navigator-6] [INFO] [1756928214.359430570] [bt_navigator]: Begin navigating from current location (0.00, 0.00) to (1.92, 1.65)
+[bt_navigator-6] [INFO] [1756928214.359535740] [bt_navigator]: [navigate_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+[bt_navigator-6] [INFO] [1756928214.359783866] [bt_navigator]: Goal canceled
+[explore-10] [INFO] [1756928214.392814176] [explore_node]: Exploration stopped.
+[explore-10] [INFO] [1756928214.392925068] [explore_node]: Exploration resuming.
+[explore-10] [INFO] [1756928214.461098700] [explore_node]: [AVOID] Area clear again. Re-sending previous Nav2 goal.
+[explore-10] [WARN] [1756928214.461436040] [explore_node]: [AVOID] Pausing Nav2 (reason: backward_through_gap) before publishing /cmd_vel.
+[explore-10] [INFO] [1756928214.461561005] [explore_node]: [AVOID] Backward (-0.12 m/s).
+[explore-10] [INFO] [1756928214.461632829] [explore_node]: Exploration stopped.
+[explore-10] [INFO] [1756928214.461931044] [explore_node]: [AVOID] Area clear again. Re-sending previous Nav2 goal.
+[bt_navigator-6] [INFO] [1756928214.461837541] [bt_navigator]: Begin navigating from current location (0.00, 0.00) to (1.92, 1.65)
+[bt_navigator-6] [INFO] [1756928214.461978732] [bt_navigator]: [navigate_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+[explore-10] [WARN] [1756928214.462166196] [explore_node]: [AVOID] Pausing Nav2 (reason: backward_through_gap) before publishing /cmd_vel.
+[explore-10] [INFO] [1756928214.462252826] [explore_node]: [AVOID] Backward (-0.12 m/s).
+[bt_navigator-6] [INFO] [1756928214.462190129] [bt_navigator]: Goal canceled
+[bt_navigator-6] [INFO] [1756928214.462839692] [bt_navigator]: Begin navigating from current location (0.00, 0.00) to (1.92, 1.65)
+[bt_navigator-6] [INFO] [1756928214.462979167] [bt_navigator]: [navigate_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+[bt_navigator-6] [INFO] [1756928214.463157731] [bt_navigator]: Goal canceled
+[explore-10] [INFO] [1756928214.496109550] [explore_node]: Exploration resuming.
+[explore-10] [INFO] [1756928214.533844924] [explore_node]: [AVOID] Area clear again. Re-sending previous Nav2 goal.
+[explore-10] [WARN] [1756928214.534246571] [explore_node]: [AVOID] Pausing Nav2 (reason: backward_through_gap) before publishing /cmd_vel.
+[explore-10] [INFO] [1756928214.534388657] [explore_node]: [AVOID] Backward (-0.12 m/s).
+[explore-10] [INFO] [1756928214.534456798] [explore_node]: Exploration stopped.
+[explore-10] [INFO] [1756928214.534797783] [explore_node]: Exploration resuming.
+[bt_navigator-6] [INFO] [1756928214.534603004] [bt_navigator]: Begin navigating from current location (0.00, 0.00) to (1.92, 1.65)
+[bt_navigator-6] [INFO] [1756928214.534737492] [bt_navigator]: [navigate_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+[bt_navigator-6] [INFO] [1756928214.534910073] [bt_navigator]: Goal canceled
+[explore-10] [INFO] [1756928214.592616057] [explore_node]: Exploration stopped.
+[explore-10] [INFO] [1756928214.592908211] [explore_node]: Exploration resuming.
+[explore-10] [INFO] [1756928214.661269952] [explore_node]: [AVOID] Area clear again. Re-sending previous Nav2 goal.
+[explore-10] [WARN] [1756928214.661586280] [explore_node]: [AVOID] Pausing Nav2 (reason: backward_through_gap) before publishing /cmd_vel.
+[explore-10] [INFO] [1756928214.661696186] [explore_node]: [AVOID] Backward (-0.12 m/s).
+[explore-10] [INFO] [1756928214.661760837] [explore_node]: Exploration stopped.
+[explore-10] [INFO] [1756928214.661997518] [explore_node]: [AVOID] Area clear again. Re-sending previous Nav2 goal.
+[explore-10] [WARN] [1756928214.662189211] [explore_node]: [AVOID] Pausing Nav2 (reason: backward_through_gap) before publishing /cmd_vel.
+[explore-10] [INFO] [1756928214.662252464] [explore_node]: [AVOID] Backward (-0.12 m/s).
+[bt_navigator-6] [INFO] [1756928214.662182663] [bt_navigator]: Begin navigating from current location (0.00, 0.00) to (1.92, 1.65)
+[bt_navigator-6] [INFO] [1756928214.663225844] [bt_navigator]: Received goal preemption request
+[bt_navigator-6] [INFO] [1756928214.663456887] [bt_navigator]: Begin navigating from current location (0.00, 0.00) to (1.92, 1.65)
+[bt_navigator-6] [INFO] [1756928214.672568873] [bt_navigator]: [navigate_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+[bt_navigator-6] [INFO] [1756928214.672793262] [bt_navigator]: Goal canceled
+[explore-10] [INFO] [1756928214.699423910] [explore_node]: Exploration resuming.
+[explore-10] [INFO] [1756928214.766797244] [explore_node]: [AVOID] Area clear again. Re-sending previous Nav2 goal.
+[explore-10] [WARN] [1756928214.767078629] [explore_node]: [AVOID] Pausing Nav2 (reason: backward_through_gap) before publishing /cmd_vel.
+[explore-10] [INFO] [1756928214.767172624] [explore_node]: [AVOID] Backward (-0.12 m/s).
+[explore-10] [INFO] [1756928214.767217807] [explore_node]: Exploration stopped.
+[explore-10] [INFO] [1756928214.767421333] [explore_node]: Exploration resuming.
+[bt_navigator-6] [INFO] [1756928214.767540683] [bt_navigator]: Begin navigating from current location (0.00, 0.00) to (1.92, 1.65)
+[bt_navigator-6] [INFO] [1756928214.767639844] [bt_navigator]: [navigate_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+[bt_navigator-6] [INFO] [1756928214.767972156] [bt_navigator]: Goal canceled
+[explore-10] [INFO] [1756928214.823811632] [explore_node]: [AVOID] Ranges m: fl=nan fr=nan rl=0.69 rr=0.62 | T=0.15
+[explore-10] [INFO] [1756928214.824149999] [explore_node]: [AVOID] Area clear again. Re-sending previous Nav2 goal.
+[explore-10] [WARN] [1756928214.824362434] [explore_node]: [AVOID] Pausing Nav2 (reason: backward_through_gap) before publishing /cmd_vel.
+[explore-10] [INFO] [1756928214.824448266] [explore_node]: [AVOID] Backward (-0.12 m/s).
+[explore-10] [INFO] [1756928214.824502579] [explore_node]: Exploration stopped.
+[explore-10] [INFO] [1756928214.824652543] [explore_node]: Exploration resuming.
+[bt_navigator-6] [INFO] [1756928214.824698822] [bt_navigator]: Begin navigating from current location (0.00, 0.00) to (1.92, 1.65)
+[bt_navigator-6] [INFO] [1756928214.824791464] [bt_navigator]: [navigate_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+[bt_navigator-6] [INFO] [1756928214.824896434] [bt_navigator]: Goal canceled
+[explore-10] [INFO] [1756928214.892441419] [explore_node]: Exploration stopped.
+[explore-10] [INFO] [1756928214.892759044] [explore_node]: Exploration resuming.
+[explore-10] [INFO] [1756928214.960728118] [explore_node]: [AVOID] Area clear again. Re-sending previous Nav2 goal.
+[explore-10] [WARN] [1756928214.961050794] [explore_node]: [AVOID] Pausing Nav2 (reason: backward_through_gap) before publishing /cmd_vel.
+[explore-10] [INFO] [1756928214.961164884] [explore_node]: [AVOID] Backward (-0.12 m/s).
+[explore-10] [INFO] [1756928214.961230258] [explore_node]: Exploration stopped.
+[explore-10] [INFO] [1756928214.961477972] [explore_node]: Exploration resuming.
+[bt_navigator-6] [INFO] [1756928214.961629074] [bt_navigator]: Begin navigating from current location (-0.00, -0.00) to (1.92, 1.65)
+[bt_navigator-6] [INFO] [1756928214.961774446] [bt_navigator]: [navigate_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+[bt_navigator-6] [INFO] [1756928214.961947208] [bt_navigator]: Goal canceled
+[explore-10] [INFO] [1756928214.997374895] [explore_node]: Exploration stopped.
+[explore-10] [INFO] [1756928214.997837830] [explore_node]: [AVOID] Area clear again. Re-sending previous Nav2 goal.
+[explore-10] [WARN] [1756928214.998000936] [explore_node]: [AVOID] Pausing Nav2 (reason: backward_through_gap) before publishing /cmd_vel.
+[explore-10] [INFO] [1756928214.998100924] [explore_node]: [AVOID] Backward (-0.12 m/s).
+[bt_navigator-6] [INFO] [1756928214.998348716] [bt_navigator]: Begin navigating from current location (-0.00, -0.00) to (1.92, 1.65)
+[bt_navigator-6] [INFO] [1756928214.998429575] [bt_navigator]: [navigate_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+[bt_navigator-6] [INFO] [1756928214.998521552] [bt_navigator]: Goal canceled
+[explore-10] [INFO] [1756928215.024701635] [explore_node]: [AVOID] Area clear again. Re-sending previous Nav2 goal.
+[explore-10] [WARN] [1756928215.024945296] [explore_node]: [AVOID] Pausing Nav2 (reason: backward_through_gap) before publishing /cmd_vel.
+[explore-10] [INFO] [1756928215.025023636] [explore_node]: [AVOID] Backward (-0.12 m/s).
+[explore-10] [INFO] [1756928215.025075915] [explore_node]: Exploration resuming.
+[bt_navigator-6] [INFO] [1756928215.025388193] [bt_navigator]: Begin navigating from current location (-0.01, -0.00) to (1.92, 1.65)
+[bt_navigator-6] [INFO] [1756928215.025479263] [bt_navigator]: [navigate_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+[bt_navigator-6] [INFO] [1756928215.025596422] [bt_navigator]: Goal canceled
+[explore-10] [INFO] [1756928215.090993254] [explore_node]: Exploration stopped.
+[explore-10] [INFO] [1756928215.091231392] [explore_node]: Exploration resuming.
+[explore-10] [INFO] [1756928215.139203023] [explore_node]: [AVOID] Area clear again. Re-sending previous Nav2 goal.
+[explore-10] [WARN] [1756928215.139518380] [explore_node]: [AVOID] Pausing Nav2 (reason: backward_through_gap) before publishing /cmd_vel.
+[explore-10] [INFO] [1756928215.139631439] [explore_node]: [AVOID] Backward (-0.12 m/s).
+[explore-10] [INFO] [1756928215.139697390] [explore_node]: Exploration stopped.
+[explore-10] [INFO] [1756928215.140014678] [explore_node]: [AVOID] Area clear again. Re-sending previous Nav2 goal.
+[bt_navigator-6] [INFO] [1756928215.140116490] [bt_navigator]: Begin navigating from current location (-0.01, -0.00) to (1.92, 1.65)
+[bt_navigator-6] [INFO] [1756928215.140267326] [bt_navigator]: [navigate_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+[bt_navigator-6] [INFO] [1756928215.140448383] [bt_navigator]: Goal canceled
+[explore-10] [WARN] [1756928215.140224893] [explore_node]: [AVOID] Pausing Nav2 (reason: backward_through_gap) before publishing /cmd_vel.
+[explore-10] [INFO] [1756928215.140293760] [explore_node]: [AVOID] Backward (-0.12 m/s).
+[bt_navigator-6] [INFO] [1756928215.140830257] [bt_navigator]: Begin navigating from current location (-0.01, -0.00) to (1.92, 1.65)
+[bt_navigator-6] [INFO] [1756928215.140954538] [bt_navigator]: [navigate_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+[bt_navigator-6] [INFO] [1756928215.141148661] [bt_navigator]: Goal canceled
+[explore-10] [INFO] [1756928215.192120244] [explore_node]: Exploration resuming.
+[explore-10] [INFO] [1756928215.229579603] [explore_node]: [AVOID] Area clear again. Re-sending previous Nav2 goal.
+[explore-10] [WARN] [1756928215.229924568] [explore_node]: [AVOID] Pausing Nav2 (reason: backward_through_gap) before publishing /cmd_vel.
+[explore-10] [INFO] [1756928215.230053689] [explore_node]: [AVOID] Backward (-0.12 m/s).
+[explore-10] [INFO] [1756928215.230117231] [explore_node]: Exploration stopped.
+[explore-10] [INFO] [1756928215.230335794] [explore_node]: Exploration resuming.
+[bt_navigator-6] [INFO] [1756928215.230299560] [bt_navigator]: Begin navigating from current location (-0.01, -0.00) to (1.92, 1.65)
+[bt_navigator-6] [INFO] [1756928215.230433296] [bt_navigator]: [navigate_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+[bt_navigator-6] [INFO] [1756928215.230623602] [bt_navigator]: Goal canceled
+[explore-10] [INFO] [1756928215.298172378] [explore_node]: Exploration stopped.
+[explore-10] [INFO] [1756928215.298480212] [explore_node]: Exploration resuming.
+[explore-10] [INFO] [1756928215.335461234] [explore_node]: [AVOID] Area clear again. Re-sending previous Nav2 goal.
+[explore-10] [WARN] [1756928215.335701962] [explore_node]: [AVOID] Pausing Nav2 (reason: backward_through_gap) before publishing /cmd_vel.
+[explore-10] [INFO] [1756928215.335782688] [explore_node]: [AVOID] Backward (-0.12 m/s).
+[explore-10] [INFO] [1756928215.335828382] [explore_node]: Exploration stopped.
+[explore-10] [INFO] [1756928215.336039662] [explore_node]: [AVOID] Area clear again. Re-sending previous Nav2 goal.
+[explore-10] [WARN] [1756928215.336167641] [explore_node]: [AVOID] Pausing Nav2 (reason: backward_through_gap) before publishing /cmd_vel.
+[explore-10] [INFO] [1756928215.336215952] [explore_node]: [AVOID] Backward (-0.12 m/s).
+[bt_navigator-6] [INFO] [1756928215.336227701] [bt_navigator]: Begin navigating from current location (-0.02, -0.00) to (1.92, 1.65)
+[bt_navigator-6] [INFO] [1756928215.336766616] [bt_navigator]: Received goal preemption request
+[bt_navigator-6] [INFO] [1756928215.336917602] [bt_navigator]: Begin navigating from current location (-0.02, -0.00) to (1.92, 1.65)
+[bt_navigator-6] [INFO] [1756928215.346460277] [bt_navigator]: [navigate_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+[bt_navigator-6] [INFO] [1756928215.346601294] [bt_navigator]: Goal canceled
+[explore-10] [INFO] [1756928215.404072242] [explore_node]: [AVOID] Area clear again. Re-sending previous Nav2 goal.
+[explore-10] [WARN] [1756928215.404455449] [explore_node]: [AVOID] Pausing Nav2 (reason: backward_through_gap) before publishing /cmd_vel.
+[explore-10] [INFO] [1756928215.404608200] [explore_node]: [AVOID] Backward (-0.12 m/s).
+[explore-10] [INFO] [1756928215.404685435] [explore_node]: Exploration resuming.
+[bt_navigator-6] [INFO] [1756928215.404832864] [bt_navigator]: Begin navigating from current location (-0.03, -0.00) to (1.92, 1.65)
+[bt_navigator-6] [INFO] [1756928215.404977626] [bt_navigator]: [navigate_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+[bt_navigator-6] [INFO] [1756928215.405155933] [bt_navigator]: Goal canceled
+[explore-10] [INFO] [1756928215.431893915] [explore_node]: Exploration stopped.
+[explore-10] [INFO] [1756928215.432176897] [explore_node]: Exploration resuming.
+[explore-10] [INFO] [1756928215.499809596] [explore_node]: Exploration stopped.
+[explore-10] [INFO] [1756928215.500029190] [explore_node]: Exploration resuming.
+[explore-10] [INFO] [1756928215.527445770] [explore_node]: [AVOID] Area clear again. Re-sending previous Nav2 goal.
+[explore-10] [WARN] [1756928215.527768892] [explore_node]: [AVOID] Pausing Nav2 (reason: backward_through_gap) before publishing /cmd_vel.
+[explore-10] [INFO] [1756928215.527899405] [explore_node]: [AVOID] Backward (-0.12 m/s).
+[explore-10] [INFO] [1756928215.527960170] [explore_node]: Exploration stopped.
+[explore-10] [INFO] [1756928215.528207845] [explore_node]: [AVOID] Area clear again. Re-sending previous Nav2 goal.
+[bt_navigator-6] [INFO] [1756928215.528036553] [bt_navigator]: Begin navigating from current location (-0.05, -0.00) to (1.92, 1.65)
+[bt_navigator-6] [INFO] [1756928215.528178567] [bt_navigator]: [navigate_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+[bt_navigator-6] [INFO] [1756928215.528364559] [bt_navigator]: Goal canceled
+[bt_navigator-6] [INFO] [1756928215.529062877] [bt_navigator]: Begin navigating from current location (-0.05, -0.00) to (1.92, 1.65)
+[explore-10] [WARN] [1756928215.528412398] [explore_node]: [AVOID] Pausing Nav2 (reason: backward_through_gap) before publishing /cmd_vel.
+[explore-10] [INFO] [1756928215.528500972] [explore_node]: [AVOID] Backward (-0.12 m/s).
+[bt_navigator-6] [INFO] [1756928215.529229533] [bt_navigator]: [navigate_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+[bt_navigator-6] [INFO] [1756928215.529393745] [bt_navigator]: Goal canceled
+[explore-10] [INFO] [1756928215.596075240] [explore_node]: Exploration resuming.
+[explore-10] [INFO] [1756928215.632533024] [explore_node]: [AVOID] Area clear again. Re-sending previous Nav2 goal.
+[explore-10] [WARN] [1756928215.632772513] [explore_node]: [AVOID] Pausing Nav2 (reason: backward_through_gap) before publishing /cmd_vel.
+[explore-10] [INFO] [1756928215.632898215] [explore_node]: [AVOID] Backward (-0.12 m/s).
+[explore-10] [INFO] [1756928215.632936754] [explore_node]: Exploration stopped.
+[explore-10] [INFO] [1756928215.633067599] [explore_node]: Exploration resuming.
+[bt_navigator-6] [INFO] [1756928215.633047440] [bt_navigator]: Begin navigating from current location (-0.06, -0.00) to (1.92, 1.65)
+[bt_navigator-6] [INFO] [1756928215.633187046] [bt_navigator]: [navigate_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+[bt_navigator-6] [INFO] [1756928215.633334571] [bt_navigator]: Goal canceled
+[explore-10] [INFO] [1756928215.701172980] [explore_node]: Exploration stopped.
+[explore-10] [INFO] [1756928215.701467829] [explore_node]: Exploration resuming.
+[explore-10] [INFO] [1756928215.789850817] [explore_node]: [AVOID] Area clear again. Re-sending previous Nav2 goal.
+[explore-10] [WARN] [1756928215.790151644] [explore_node]: [AVOID] Pausing Nav2 (reason: backward_through_gap) before publishing /cmd_vel.
+[explore-10] [INFO] [1756928215.790258887] [explore_node]: [AVOID] Backward (-0.12 m/s).
+[explore-10] [INFO] [1756928215.790325466] [explore_node]: Exploration stopped.
+[explore-10] [INFO] [1756928215.790600400] [explore_node]: [AVOID] Area clear again. Re-sending previous Nav2 goal.
+[bt_navigator-6] [INFO] [1756928215.790623242] [bt_navigator]: Begin navigating from current location (-0.08, -0.00) to (1.92, 1.65)
+[bt_navigator-6] [INFO] [1756928215.790749976] [bt_navigator]: [navigate_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+[bt_navigator-6] [INFO] [1756928215.790947967] [bt_navigator]: Goal canceled
+[bt_navigator-6] [INFO] [1756928215.791471866] [bt_navigator]: Begin navigating from current location (-0.08, -0.00) to (1.92, 1.65)
+[explore-10] [WARN] [1756928215.790800875] [explore_node]: [AVOID] Pausing Nav2 (reason: backward_through_gap) before publishing /cmd_vel.
+[explore-10] [INFO] [1756928215.790870838] [explore_node]: [AVOID] Backward (-0.12 m/s).
+[bt_navigator-6] [INFO] [1756928215.791601335] [bt_navigator]: [navigate_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+[bt_navigator-6] [INFO] [1756928215.791829698] [bt_navigator]: Goal canceled
+[explore-10] [INFO] [1756928215.868640941] [explore_node]: [AVOID] Ranges m: fl=nan fr=nan rl=0.63 rr=0.56 | T=0.15
+[explore-10] [INFO] [1756928215.869088468] [explore_node]: [AVOID] Area clear again. Re-sending previous Nav2 goal.
+[explore-10] [WARN] [1756928215.869378912] [explore_node]: [AVOID] Pausing Nav2 (reason: backward_through_gap) before publishing /cmd_vel.
+[explore-10] [INFO] [1756928215.869491820] [explore_node]: [AVOID] Backward (-0.12 m/s).
+[explore-10] [INFO] [1756928215.869557915] [explore_node]: Exploration resuming.
+[bt_navigator-6] [INFO] [1756928215.870003890] [bt_navigator]: Begin navigating from current location (-0.08, -0.00) to (1.92, 1.65)
+[bt_navigator-6] [INFO] [1756928215.870132863] [bt_navigator]: [navigate_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+[bt_navigator-6] [INFO] [1756928215.870344642] [bt_navigator]: Goal canceled
+[explore-10] [INFO] [1756928215.956558717] [explore_node]: [AVOID] Area clear again. Re-sending previous Nav2 goal.
+[explore-10] [WARN] [1756928215.956805841] [explore_node]: [AVOID] Pausing Nav2 (reason: backward_through_gap) before publishing /cmd_vel.
+[explore-10] [INFO] [1756928215.956879834] [explore_node]: [AVOID] Backward (-0.12 m/s).
+[explore-10] [INFO] [1756928215.956919622] [explore_node]: Exploration stopped.
+[explore-10] [INFO] [1756928215.957088996] [explore_node]: Exploration resuming.
+[bt_navigator-6] [INFO] [1756928215.957097313] [bt_navigator]: Begin navigating from current location (-0.09, -0.00) to (1.92, 1.65)
+[bt_navigator-6] [INFO] [1756928215.957189103] [bt_navigator]: [navigate_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+[bt_navigator-6] [INFO] [1756928215.957312120] [bt_navigator]: Goal canceled
+[explore-10] [INFO] [1756928215.994305595] [explore_node]: Exploration stopped.
+[explore-10] [INFO] [1756928215.994592184] [explore_node]: Exploration resuming.
+[explore-10] [INFO] [1756928216.062499776] [explore_node]: [AVOID] Area clear again. Re-sending previous Nav2 goal.
+[explore-10] [WARN] [1756928216.062749540] [explore_node]: [AVOID] Pausing Nav2 (reason: backward_through_gap) before publishing /cmd_vel.
+[explore-10] [INFO] [1756928216.062837373] [explore_node]: [AVOID] Backward (-0.12 m/s).
+[explore-10] [INFO] [1756928216.062887846] [explore_node]: Exploration stopped.
+[explore-10] [INFO] [1756928216.063076222] [explore_node]: Exploration resuming.
+[bt_navigator-6] [INFO] [1756928216.063219749] [bt_navigator]: Begin navigating from current location (-0.11, -0.00) to (1.92, 1.65)
+[bt_navigator-6] [INFO] [1756928216.063335905] [bt_navigator]: [navigate_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+[bt_navigator-6] [INFO] [1756928216.063474817] [bt_navigator]: Goal canceled
+[explore-10] [INFO] [1756928216.098102950] [explore_node]: Exploration stopped.
+[explore-10] [INFO] [1756928216.098283595] [explore_node]: Exploration resuming.
+[explore-10] [INFO] [1756928216.123685560] [explore_node]: [AVOID] Area clear again. Re-sending previous Nav2 goal.
+[explore-10] [WARN] [1756928216.123960226] [explore_node]: [AVOID] Pausing Nav2 (reason: backward_through_gap) before publishing /cmd_vel.
+[explore-10] [INFO] [1756928216.124078569] [explore_node]: [AVOID] Backward (-0.12 m/s).
+[bt_navigator-6] [INFO] [1756928216.124512245] [bt_navigator]: Begin navigating from current location (-0.12, -0.00) to (1.92, 1.65)
+[bt_navigator-6] [INFO] [1756928216.134862237] [bt_navigator]: [navigate_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+[bt_navigator-6] [INFO] [1756928216.135126291] [bt_navigator]: Goal canceled
+[explore-10] [INFO] [1756928216.190947937] [explore_node]: [AVOID] Area clear again. Re-sending previous Nav2 goal.
+[explore-10] [WARN] [1756928216.191280564] [explore_node]: [AVOID] Pausing Nav2 (reason: backward_through_gap) before publishing /cmd_vel.
+[explore-10] [INFO] [1756928216.191395602] [explore_node]: [AVOID] Backward (-0.12 m/s).
+[explore-10] [INFO] [1756928216.191463061] [explore_node]: Exploration stopped.
+[explore-10] [INFO] [1756928216.191651585] [explore_node]: Exploration resuming.
+[bt_navigator-6] [INFO] [1756928216.191920735] [bt_navigator]: Begin navigating from current location (-0.12, -0.00) to (1.92, 1.65)
+[bt_navigator-6] [INFO] [1756928216.192050290] [bt_navigator]: [navigate_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+[bt_navigator-6] [INFO] [1756928216.192578894] [bt_navigator]: Goal canceled
+[explore-10] [INFO] [1756928216.255177175] [explore_node]: [AVOID] Area clear again. Re-sending previous Nav2 goal.
+[explore-10] [WARN] [1756928216.255341278] [explore_node]: [AVOID] Pausing Nav2 (reason: backward_through_gap) before publishing /cmd_vel.
+[explore-10] [INFO] [1756928216.255392662] [explore_node]: [AVOID] Backward (-0.12 m/s).
+[explore-10] [INFO] [1756928216.255418877] [explore_node]: Exploration stopped.
+[explore-10] [INFO] [1756928216.255494123] [explore_node]: Exploration resuming.
+[bt_navigator-6] [INFO] [1756928216.255625219] [bt_navigator]: Begin navigating from current location (-0.13, -0.00) to (1.92, 1.65)
+[bt_navigator-6] [INFO] [1756928216.255684085] [bt_navigator]: [navigate_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+[bt_navigator-6] [INFO] [1756928216.255742811] [bt_navigator]: Goal canceled
+[explore-10] [INFO] [1756928216.288321799] [explore_node]: Exploration stopped.
+[explore-10] [INFO] [1756928216.288460286] [explore_node]: Exploration resuming.
+[explore-10] [INFO] [1756928216.385009836] [explore_node]: [AVOID] Area clear again. Re-sending previous Nav2 goal.
+[explore-10] [WARN] [1756928216.385274646] [explore_node]: [AVOID] Pausing Nav2 (reason: backward_through_gap) before publishing /cmd_vel.
+[explore-10] [INFO] [1756928216.385355496] [explore_node]: [AVOID] Backward (-0.12 m/s).
+[explore-10] [INFO] [1756928216.385399011] [explore_node]: Exploration stopped.
+[explore-10] [INFO] [1756928216.385600334] [explore_node]: [AVOID] Area clear again. Re-sending previous Nav2 goal.
+[explore-10] [WARN] [1756928216.385731640] [explore_node]: [AVOID] Pausing Nav2 (reason: backward_through_gap) before publishing /cmd_vel.
+[explore-10] [INFO] [1756928216.385783989] [explore_node]: [AVOID] Backward (-0.12 m/s).
+[bt_navigator-6] [INFO] [1756928216.385732859] [bt_navigator]: Begin navigating from current location (-0.15, -0.00) to (1.92, 1.65)
+[bt_navigator-6] [INFO] [1756928216.386341971] [bt_navigator]: Received goal preemption request
+[bt_navigator-6] [INFO] [1756928216.386523390] [bt_navigator]: Begin navigating from current location (-0.15, -0.00) to (1.92, 1.65)
+[bt_navigator-6] [INFO] [1756928216.396014966] [bt_navigator]: [navigate_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+[bt_navigator-6] [INFO] [1756928216.396254346] [bt_navigator]: Goal canceled
+[explore-10] [INFO] [1756928216.463824291] [explore_node]: [AVOID] Area clear again. Re-sending previous Nav2 goal.
+[explore-10] [WARN] [1756928216.464182920] [explore_node]: [AVOID] Pausing Nav2 (reason: backward_through_gap) before publishing /cmd_vel.
+[explore-10] [INFO] [1756928216.464305239] [explore_node]: [AVOID] Backward (-0.12 m/s).
+[explore-10] [INFO] [1756928216.464377611] [explore_node]: Exploration resuming.
+[bt_navigator-6] [INFO] [1756928216.464798741] [bt_navigator]: Begin navigating from current location (-0.15, -0.00) to (1.92, 1.65)
+[bt_navigator-6] [INFO] [1756928216.464938339] [bt_navigator]: [navigate_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+[bt_navigator-6] [INFO] [1756928216.465125917] [bt_navigator]: Goal canceled
+[explore-10] [INFO] [1756928216.562071095] [explore_node]: [AVOID] Area clear again. Re-sending previous Nav2 goal.
+[explore-10] [WARN] [1756928216.562401291] [explore_node]: [AVOID] Pausing Nav2 (reason: backward_through_gap) before publishing /cmd_vel.
+[explore-10] [INFO] [1756928216.562512939] [explore_node]: [AVOID] Backward (-0.12 m/s).
+[explore-10] [INFO] [1756928216.562591988] [explore_node]: Exploration stopped.
+[bt_navigator-6] [INFO] [1756928216.562714829] [bt_navigator]: Begin navigating from current location (-0.17, -0.00) to (1.92, 1.65)
+[bt_navigator-6] [INFO] [1756928216.562843242] [bt_navigator]: [navigate_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+[explore-10] [INFO] [1756928216.562905160] [explore_node]: Exploration resuming.
+[bt_navigator-6] [INFO] [1756928216.563004969] [bt_navigator]: Goal canceled
+[explore-10] [INFO] [1756928216.599026048] [explore_node]: Exploration stopped.
+[explore-10] [INFO] [1756928216.599283999] [explore_node]: Exploration resuming.
+[explore-10] [INFO] [1756928216.667454530] [explore_node]: [AVOID] Area clear again. Re-sending previous Nav2 goal.
+[explore-10] [WARN] [1756928216.667784770] [explore_node]: [AVOID] Pausing Nav2 (reason: backward_through_gap) before publishing /cmd_vel.
+[explore-10] [INFO] [1756928216.667897936] [explore_node]: [AVOID] Backward (-0.12 m/s).
+[explore-10] [INFO] [1756928216.667961803] [explore_node]: Exploration stopped.
+[explore-10] [INFO] [1756928216.668167768] [explore_node]: Exploration resuming.
+[bt_navigator-6] [INFO] [1756928216.668229307] [bt_navigator]: Begin navigating from current location (-0.18, -0.00) to (1.92, 1.65)
+[bt_navigator-6] [INFO] [1756928216.668415252] [bt_navigator]: [navigate_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+[bt_navigator-6] [INFO] [1756928216.668668348] [bt_navigator]: Goal canceled
+[explore-10] [INFO] [1756928216.766889227] [explore_node]: [AVOID] Area clear again. Re-sending previous Nav2 goal.
+[explore-10] [WARN] [1756928216.767267001] [explore_node]: [AVOID] Pausing Nav2 (reason: backward_through_gap) before publishing /cmd_vel.
+[explore-10] [INFO] [1756928216.767395924] [explore_node]: [AVOID] Backward (-0.12 m/s).
+[explore-10] [INFO] [1756928216.767461822] [explore_node]: Exploration stopped.
+[explore-10] [INFO] [1756928216.767731939] [explore_node]: Exploration resuming.
+[bt_navigator-6] [INFO] [1756928216.767782305] [bt_navigator]: Begin navigating from current location (-0.19, -0.00) to (1.92, 1.65)
+[bt_navigator-6] [INFO] [1756928216.767918966] [bt_navigator]: [navigate_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+[bt_navigator-6] [INFO] [1756928216.768147293] [bt_navigator]: Goal canceled
+[explore-10] [INFO] [1756928216.836051878] [explore_node]: [AVOID] Area clear again. Re-sending previous Nav2 goal.
+[explore-10] [WARN] [1756928216.836436169] [explore_node]: [AVOID] Pausing Nav2 (reason: backward_through_gap) before publishing /cmd_vel.
+[explore-10] [INFO] [1756928216.836586236] [explore_node]: [AVOID] Backward (-0.12 m/s).
+[explore-10] [INFO] [1756928216.836658581] [explore_node]: Exploration stopped.
+[explore-10] [INFO] [1756928216.836866062] [explore_node]: Exploration resuming.
+[bt_navigator-6] [INFO] [1756928216.836789782] [bt_navigator]: Begin navigating from current location (-0.20, -0.00) to (1.92, 1.65)
+[bt_navigator-6] [INFO] [1756928216.836933902] [bt_navigator]: [navigate_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+[bt_navigator-6] [INFO] [1756928216.837149041] [bt_navigator]: Goal canceled
+[explore-10] [INFO] [1756928216.892148688] [explore_node]: Exploration stopped.
+[explore-10] [INFO] [1756928216.892423729] [explore_node]: Exploration resuming.
+[explore-10] [INFO] [1756928216.929934793] [explore_node]: [AVOID] Ranges m: fl=nan fr=nan rl=0.52 rr=0.45 | T=0.15
+[explore-10] [INFO] [1756928216.930360626] [explore_node]: [AVOID] Area clear again. Re-sending previous Nav2 goal.
+[explore-10] [WARN] [1756928216.930608085] [explore_node]: [AVOID] Pausing Nav2 (reason: backward_through_gap) before publishing /cmd_vel.
+[explore-10] [INFO] [1756928216.930715610] [explore_node]: [AVOID] Backward (-0.12 m/s).
+[explore-10] [INFO] [1756928216.930773780] [explore_node]: Exploration stopped.
+[explore-10] [INFO] [1756928216.931067150] [explore_node]: [AVOID] Area clear again. Re-sending previous Nav2 goal.
+[explore-10] [WARN] [1756928216.931236428] [explore_node]: [AVOID] Pausing Nav2 (reason: backward_through_gap) before publishing /cmd_vel.
+[explore-10] [INFO] [1756928216.931293299] [explore_node]: [AVOID] Backward (-0.12 m/s).
+[bt_navigator-6] [INFO] [1756928216.931061370] [bt_navigator]: Begin navigating from current location (-0.21, -0.00) to (1.92, 1.65)
+[bt_navigator-6] [INFO] [1756928216.931186356] [bt_navigator]: [navigate_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+[bt_navigator-6] [INFO] [1756928216.931394667] [bt_navigator]: Goal canceled
+[bt_navigator-6] [INFO] [1756928216.931998907] [bt_navigator]: Begin navigating from current location (-0.21, -0.00) to (1.92, 1.65)
+[bt_navigator-6] [INFO] [1756928216.942326908] [bt_navigator]: [navigate_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+[bt_navigator-6] [INFO] [1756928216.942526910] [bt_navigator]: Goal canceled
+[explore-10] [INFO] [1756928216.998953647] [explore_node]: Exploration resuming.
+[explore-10] [INFO] [1756928217.026482841] [explore_node]: [AVOID] Area clear again. Re-sending previous Nav2 goal.
+[explore-10] [WARN] [1756928217.026860933] [explore_node]: [AVOID] Pausing Nav2 (reason: backward_through_gap) before publishing /cmd_vel.
+[explore-10] [INFO] [1756928217.027046763] [explore_node]: [AVOID] Backward (-0.12 m/s).
+[explore-10] [INFO] [1756928217.027115783] [explore_node]: Exploration stopped.
+[bt_navigator-6] [INFO] [1756928217.027364077] [bt_navigator]: Begin navigating from current location (-0.22, -0.00) to (1.92, 1.65)
+[bt_navigator-6] [INFO] [1756928217.027512587] [bt_navigator]: [navigate_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+[explore-10] [INFO] [1756928217.027413808] [explore_node]: Exploration resuming.
+[bt_navigator-6] [INFO] [1756928217.027717602] [bt_navigator]: Goal canceled
+[explore-10] [INFO] [1756928217.095272384] [explore_node]: Exploration stopped.
+[explore-10] [INFO] [1756928217.095615243] [explore_node]: Exploration resuming.
+[explore-10] [INFO] [1756928217.163677271] [explore_node]: [AVOID] Area clear again. Re-sending previous Nav2 goal.
+[explore-10] [WARN] [1756928217.164025686] [explore_node]: [AVOID] Pausing Nav2 (reason: backward_through_gap) before publishing /cmd_vel.
+[explore-10] [INFO] [1756928217.164153821] [explore_node]: [AVOID] Backward (-0.12 m/s).
+[explore-10] [INFO] [1756928217.164219651] [explore_node]: Exploration stopped.
+[explore-10] [INFO] [1756928217.164471158] [explore_node]: Exploration resuming.
+[bt_navigator-6] [INFO] [1756928217.164387995] [bt_navigator]: Begin navigating from current location (-0.24, -0.00) to (1.92, 1.65)
+[bt_navigator-6] [INFO] [1756928217.164553672] [bt_navigator]: [navigate_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+[bt_navigator-6] [INFO] [1756928217.164763839] [bt_navigator]: Goal canceled
+[explore-10] [ERROR] [1756928217.469641041] [explore_node]: Extrapolation Error looking up robot pose: Lookup would require extrapolation into the future.  Requested time 1756928217.164507 but the latest data is at time 1756928217.114212, when looking up transform from frame [base_link] to frame [map]
+[explore-10] 
+[explore-10] [INFO] [1756928217.476429379] [explore_node]: [AVOID] Area clear again. Re-sending previous Nav2 goal.
+[explore-10] [WARN] [1756928217.476502269] [explore_node]: [AVOID] Pausing Nav2 (reason: backward_through_gap) before publishing /cmd_vel.
+[explore-10] [INFO] [1756928217.476531794] [explore_node]: [AVOID] Backward (-0.12 m/s).
+[explore-10] [INFO] [1756928217.476547159] [explore_node]: Exploration stopped.
+[explore-10] [INFO] [1756928217.476596281] [explore_node]: Exploration resuming.
+[bt_navigator-6] [INFO] [1756928217.476712406] [bt_navigator]: Begin navigating from current location (-0.24, -0.00) to (1.92, 1.65)
+[bt_navigator-6] [INFO] [1756928217.476751304] [bt_navigator]: [navigate_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+[bt_navigator-6] [INFO] [1756928217.476910523] [bt_navigator]: Goal canceled
+[explore-10] [INFO] [1756928217.747999707] [explore_node]: [AVOID] Area clear again. Re-sending previous Nav2 goal.
+[explore-10] [WARN] [1756928217.748373589] [explore_node]: [AVOID] Pausing Nav2 (reason: backward_through_gap) before publishing /cmd_vel.
+[explore-10] [INFO] [1756928217.748515675] [explore_node]: [AVOID] Backward (-0.12 m/s).
+[bt_navigator-6] [INFO] [1756928217.748727204] [bt_navigator]: Begin navigating from current location (-0.29, -0.00) to (1.92, 1.65)
+[bt_navigator-6] [INFO] [1756928217.748871129] [bt_navigator]: [navigate_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+[bt_navigator-6] [INFO] [1756928217.749055148] [bt_navigator]: Goal canceled
+[explore-10] [INFO] [1756928217.797462050] [explore_node]: [AVOID] Area clear again. Re-sending previous Nav2 goal.
+[explore-10] [WARN] [1756928217.797921434] [explore_node]: [AVOID] Pausing Nav2 (reason: backward_through_gap) before publishing /cmd_vel.
+[explore-10] [INFO] [1756928217.798131160] [explore_node]: [AVOID] Backward (-0.12 m/s).
+[bt_navigator-6] [INFO] [1756928217.798279995] [bt_navigator]: Begin navigating from current location (-0.31, -0.00) to (1.92, 1.65)
+[bt_navigator-6] [INFO] [1756928217.798416819] [bt_navigator]: [navigate_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+[bt_navigator-6] [INFO] [1756928217.798585494] [bt_navigator]: Goal canceled
+[explore-10] [INFO] [1756928217.798620396] [explore_node]: Exploration stopped.
+[explore-10] [INFO] [1756928217.799153393] [explore_node]: Exploration resuming.
+[explore-10] [INFO] [1756928217.827096378] [explore_node]: [AVOID] Area clear again. Re-sending previous Nav2 goal.
+[explore-10] [WARN] [1756928217.827495977] [explore_node]: [AVOID] Pausing Nav2 (reason: backward_through_gap) before publishing /cmd_vel.
+[explore-10] [INFO] [1756928217.827676805] [explore_node]: [AVOID] Backward (-0.12 m/s).
+[explore-10] [INFO] [1756928217.827777385] [explore_node]: Exploration stopped.
+[bt_navigator-6] [INFO] [1756928217.827788127] [bt_navigator]: Begin navigating from current location (-0.32, -0.00) to (1.92, 1.65)
+[bt_navigator-6] [INFO] [1756928217.827896272] [bt_navigator]: [navigate_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+[bt_navigator-6] [INFO] [1756928217.828079807] [bt_navigator]: Goal canceled
+[explore-10] [INFO] [1756928217.828135111] [explore_node]: Exploration resuming.
+[explore-10] [INFO] [1756928217.896263134] [explore_node]: Exploration stopped.
+[explore-10] [INFO] [1756928217.896625165] [explore_node]: Exploration resuming.
+[explore-10] [INFO] [1756928217.933961035] [explore_node]: [AVOID] Ranges m: fl=nan fr=nan rl=0.41 rr=0.34 | T=0.15
+[explore-10] [INFO] [1756928217.934346629] [explore_node]: [AVOID] Area clear again. Re-sending previous Nav2 goal.
+[explore-10] [WARN] [1756928217.934572942] [explore_node]: [AVOID] Pausing Nav2 (reason: backward_through_gap) before publishing /cmd_vel.
+[explore-10] [INFO] [1756928217.934671208] [explore_node]: [AVOID] Backward (-0.12 m/s).
+[explore-10] [INFO] [1756928217.934725717] [explore_node]: Exploration stopped.
+[explore-10] [INFO] [1756928217.934968895] [explore_node]: [AVOID] Area clear again. Re-sending previous Nav2 goal.
+[explore-10] [WARN] [1756928217.935135841] [explore_node]: [AVOID] Pausing Nav2 (reason: backward_through_gap) before publishing /cmd_vel.
+[explore-10] [INFO] [1756928217.935204733] [explore_node]: [AVOID] Backward (-0.12 m/s).
+[bt_navigator-6] [INFO] [1756928217.935011196] [bt_navigator]: Begin navigating from current location (-0.32, -0.01) to (1.92, 1.65)
+[bt_navigator-6] [INFO] [1756928217.935129104] [bt_navigator]: [navigate_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+[bt_navigator-6] [INFO] [1756928217.935482671] [bt_navigator]: Goal canceled
+[bt_navigator-6] [INFO] [1756928217.935705399] [bt_navigator]: Begin navigating from current location (-0.32, -0.01) to (1.92, 1.65)
+[bt_navigator-6] [INFO] [1756928217.935790970] [bt_navigator]: [navigate_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+[bt_navigator-6] [INFO] [1756928217.936097751] [bt_navigator]: Goal canceled
+[explore-10] [INFO] [1756928218.003114233] [explore_node]: [AVOID] Area clear again. Re-sending previous Nav2 goal.
+[explore-10] [WARN] [1756928218.003426616] [explore_node]: [AVOID] Pausing Nav2 (reason: backward_through_gap) before publishing /cmd_vel.
+[explore-10] [INFO] [1756928218.003539763] [explore_node]: [AVOID] Backward (-0.12 m/s).
+[explore-10] [INFO] [1756928218.003600224] [explore_node]: Exploration resuming.
+[bt_navigator-6] [INFO] [1756928218.003759069] [bt_navigator]: Begin navigating from current location (-0.33, -0.01) to (1.92, 1.65)
+[bt_navigator-6] [INFO] [1756928218.003873804] [bt_navigator]: [navigate_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+[bt_navigator-6] [INFO] [1756928218.004074544] [bt_navigator]: Goal canceled
+[explore-10] [INFO] [1756928218.061395327] [explore_node]: Exploration stopped.
+[explore-10] [INFO] [1756928218.061718520] [explore_node]: Exploration resuming.
+[explore-10] [INFO] [1756928218.109304567] [explore_node]: [AVOID] Area clear again. Re-sending previous Nav2 goal.
+[explore-10] [WARN] [1756928218.109525213] [explore_node]: [AVOID] Pausing Nav2 (reason: backward_through_gap) before publishing /cmd_vel.
+[explore-10] [INFO] [1756928218.109611175] [explore_node]: [AVOID] Backward (-0.12 m/s).
+[explore-10] [INFO] [1756928218.109667715] [explore_node]: Exploration stopped.
+[explore-10] [INFO] [1756928218.109804190] [explore_node]: Exploration resuming.
+[bt_navigator-6] [INFO] [1756928218.109886815] [bt_navigator]: Begin navigating from current location (-0.34, -0.02) to (1.92, 1.65)
+[bt_navigator-6] [INFO] [1756928218.109986166] [bt_navigator]: [navigate_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+[bt_navigator-6] [INFO] [1756928218.110107087] [bt_navigator]: Goal canceled
+[explore-10] [INFO] [1756928218.165838658] [explore_node]: Exploration stopped.
+[explore-10] [INFO] [1756928218.166083110] [explore_node]: Exploration resuming.
+[explore-10] [INFO] [1756928218.200196341] [explore_node]: [AVOID] Area clear again. Re-sending previous Nav2 goal.
+[explore-10] [WARN] [1756928218.200434703] [explore_node]: [AVOID] Pausing Nav2 (reason: backward_through_gap) before publishing /cmd_vel.
+[explore-10] [INFO] [1756928218.200527192] [explore_node]: [AVOID] Backward (-0.12 m/s).
+[bt_navigator-6] [INFO] [1756928218.200820484] [bt_navigator]: Begin navigating from current location (-0.35, -0.02) to (1.92, 1.65)
+[bt_navigator-6] [INFO] [1756928218.200927620] [bt_navigator]: [navigate_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+[bt_navigator-6] [INFO] [1756928218.201070755] [bt_navigator]: Goal canceled
+[explore-10] [INFO] [1756928218.278879041] [explore_node]: [AVOID] Area clear again. Re-sending previous Nav2 goal.
+[explore-10] [WARN] [1756928218.279254076] [explore_node]: [AVOID] Pausing Nav2 (reason: backward_through_gap) before publishing /cmd_vel.
+[explore-10] [INFO] [1756928218.279369262] [explore_node]: [AVOID] Backward (-0.12 m/s).
+[explore-10] [INFO] [1756928218.279442108] [explore_node]: Exploration stopped.
+[explore-10] [INFO] [1756928218.279767599] [explore_node]: Exploration resuming.
+[bt_navigator-6] [INFO] [1756928218.279695768] [bt_navigator]: Begin navigating from current location (-0.36, -0.02) to (1.92, 1.65)
+[bt_navigator-6] [INFO] [1756928218.279825786] [bt_navigator]: [navigate_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+[bt_navigator-6] [INFO] [1756928218.279989009] [bt_navigator]: Goal canceled
+[explore-10] [INFO] [1756928218.324902049] [explore_node]: [AVOID] Area clear again. Re-sending previous Nav2 goal.
+[explore-10] [WARN] [1756928218.325184552] [explore_node]: [AVOID] Pausing Nav2 (reason: backward_through_gap) before publishing /cmd_vel.
+[explore-10] [INFO] [1756928218.325284023] [explore_node]: [AVOID] Backward (-0.12 m/s).
+[explore-10] [INFO] [1756928218.325328536] [explore_node]: Exploration stopped.
+[explore-10] [INFO] [1756928218.325499472] [explore_node]: Exploration resuming.
+[bt_navigator-6] [INFO] [1756928218.325762909] [bt_navigator]: Begin navigating from current location (-0.37, -0.02) to (1.92, 1.65)
+[bt_navigator-6] [INFO] [1756928218.325869359] [bt_navigator]: [navigate_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+[bt_navigator-6] [INFO] [1756928218.326123060] [bt_navigator]: Goal canceled
+[explore-10] [INFO] [1756928218.420253852] [explore_node]: [AVOID] Area clear again. Re-sending previous Nav2 goal.
+[explore-10] [WARN] [1756928218.420415423] [explore_node]: [AVOID] Pausing Nav2 (reason: backward_through_gap) before publishing /cmd_vel.
+[explore-10] [INFO] [1756928218.420495348] [explore_node]: [AVOID] Backward (-0.12 m/s).
+[explore-10] [INFO] [1756928218.420528139] [explore_node]: Exploration stopped.
+[explore-10] [INFO] [1756928218.420723175] [explore_node]: Exploration resuming.
+[bt_navigator-6] [INFO] [1756928218.420635863] [bt_navigator]: Begin navigating from current location (-0.37, -0.02) to (1.92, 1.65)
+[bt_navigator-6] [INFO] [1756928218.420706740] [bt_navigator]: [navigate_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+[bt_navigator-6] [INFO] [1756928218.420789559] [bt_navigator]: Goal canceled
+[explore-10] [INFO] [1756928218.517164139] [explore_node]: [AVOID] Area clear again. Re-sending previous Nav2 goal.
+[explore-10] [WARN] [1756928218.517364410] [explore_node]: [AVOID] Pausing Nav2 (reason: backward_through_gap) before publishing /cmd_vel.
+[explore-10] [INFO] [1756928218.517428102] [explore_node]: [AVOID] Backward (-0.12 m/s).
+[explore-10] [INFO] [1756928218.517465133] [explore_node]: Exploration stopped.
+[explore-10] [INFO] [1756928218.517571753] [explore_node]: Exploration resuming.
+[bt_navigator-6] [INFO] [1756928218.517897104] [bt_navigator]: Begin navigating from current location (-0.39, -0.02) to (1.92, 1.65)
+[bt_navigator-6] [INFO] [1756928218.517971642] [bt_navigator]: [navigate_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+[bt_navigator-6] [INFO] [1756928218.518130735] [bt_navigator]: Goal canceled
+[explore-10] [INFO] [1756928218.596146542] [explore_node]: Exploration stopped.
+[explore-10] [INFO] [1756928218.596621548] [explore_node]: Exploration resuming.
+[explore-10] [INFO] [1756928218.665198223] [explore_node]: [AVOID] Area clear again. Re-sending previous Nav2 goal.
+[explore-10] [WARN] [1756928218.665519919] [explore_node]: [AVOID] Pausing Nav2 (reason: backward_through_gap) before publishing /cmd_vel.
+[explore-10] [INFO] [1756928218.665635331] [explore_node]: [AVOID] Backward (-0.12 m/s).
+[explore-10] [INFO] [1756928218.665702573] [explore_node]: Exploration stopped.
+[explore-10] [INFO] [1756928218.665941811] [explore_node]: [AVOID] Area clear again. Re-sending previous Nav2 goal.
+[explore-10] [WARN] [1756928218.666151129] [explore_node]: [AVOID] Pausing Nav2 (reason: backward_through_gap) before publishing /cmd_vel.
+[explore-10] [INFO] [1756928218.666222330] [explore_node]: [AVOID] Backward (-0.12 m/s).
+[bt_navigator-6] [INFO] [1756928218.666338187] [bt_navigator]: Begin navigating from current location (-0.40, -0.02) to (1.92, 1.65)
+[bt_navigator-6] [INFO] [1756928218.666482802] [bt_navigator]: [navigate_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+[bt_navigator-6] [INFO] [1756928218.666649465] [bt_navigator]: [navigate_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+[bt_navigator-6] [INFO] [1756928218.666734116] [bt_navigator]: Goal canceled
+[explore-10] [INFO] [1756928218.764999586] [explore_node]: [AVOID] Area clear again. Re-sending previous Nav2 goal.
+[explore-10] [WARN] [1756928218.765382531] [explore_node]: [AVOID] Pausing Nav2 (reason: backward_through_gap) before publishing /cmd_vel.
+[explore-10] [INFO] [1756928218.765509672] [explore_node]: [AVOID] Backward (-0.12 m/s).
+[explore-10] [INFO] [1756928218.765585890] [explore_node]: Exploration resuming.
+[bt_navigator-6] [INFO] [1756928218.765718248] [bt_navigator]: Begin navigating from current location (-0.41, -0.02) to (1.92, 1.65)
+[bt_navigator-6] [INFO] [1756928218.765851605] [bt_navigator]: [navigate_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+[bt_navigator-6] [INFO] [1756928218.766028234] [bt_navigator]: Goal canceled
+[explore-10] [INFO] [1756928218.832319751] [explore_node]: [AVOID] Area clear again. Re-sending previous Nav2 goal.
+[explore-10] [WARN] [1756928218.832567912] [explore_node]: [AVOID] Pausing Nav2 (reason: backward_through_gap) before publishing /cmd_vel.
+[explore-10] [INFO] [1756928218.832695246] [explore_node]: [AVOID] Backward (-0.12 m/s).
+[explore-10] [INFO] [1756928218.832731047] [explore_node]: Exploration stopped.
+[explore-10] [INFO] [1756928218.832858724] [explore_node]: Exploration resuming.
+[bt_navigator-6] [INFO] [1756928218.832979608] [bt_navigator]: Begin navigating from current location (-0.43, -0.02) to (1.92, 1.65)
+[bt_navigator-6] [INFO] [1756928218.833069012] [bt_navigator]: [navigate_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+[bt_navigator-6] [INFO] [1756928218.833179854] [bt_navigator]: Goal canceled
+[explore-10] [INFO] [1756928218.900270275] [explore_node]: Exploration stopped.
+[explore-10] [INFO] [1756928218.900570610] [explore_node]: Exploration resuming.
+[explore-10] [INFO] [1756928218.927667713] [explore_node]: [AVOID] Area clear again. Re-sending previous Nav2 goal.
+[explore-10] [WARN] [1756928218.927909040] [explore_node]: [AVOID] Pausing Nav2 (reason: backward_through_gap) before publishing /cmd_vel.
+[explore-10] [INFO] [1756928218.927993781] [explore_node]: [AVOID] Backward (-0.12 m/s).
+[explore-10] [INFO] [1756928218.928038982] [explore_node]: Exploration stopped.
+[explore-10] [INFO] [1756928218.928167158] [explore_node]: Exploration resuming.
+[bt_navigator-6] [INFO] [1756928218.928284196] [bt_navigator]: Begin navigating from current location (-0.44, -0.02) to (1.92, 1.65)
+[bt_navigator-6] [INFO] [1756928218.928391475] [bt_navigator]: [navigate_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+[bt_navigator-6] [INFO] [1756928218.928598741] [bt_navigator]: Goal canceled
+[explore-10] [INFO] [1756928218.994015844] [explore_node]: Exploration stopped.
+[explore-10] [INFO] [1756928218.994240920] [explore_node]: Exploration resuming.
+[explore-10] [INFO] [1756928219.061611026] [explore_node]: [AVOID] Ranges m: fl=nan fr=nan rl=0.25 rr=0.18 | T=0.15
+[explore-10] [INFO] [1756928219.062069827] [explore_node]: [AVOID] Area clear again. Re-sending previous Nav2 goal.
+[explore-10] [WARN] [1756928219.062383804] [explore_node]: [AVOID] Pausing Nav2 (reason: backward_through_gap) before publishing /cmd_vel.
+[explore-10] [INFO] [1756928219.062530117] [explore_node]: [AVOID] Backward (-0.12 m/s).
+[bt_navigator-6] [INFO] [1756928219.062888138] [bt_navigator]: Begin navigating from current location (-0.45, -0.02) to (1.92, 1.65)
+[bt_navigator-6] [INFO] [1756928219.063032971] [bt_navigator]: [navigate_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+[bt_navigator-6] [INFO] [1756928219.063222577] [bt_navigator]: Goal canceled
+[explore-10] [INFO] [1756928219.098766259] [explore_node]: [AVOID] Area clear again. Re-sending previous Nav2 goal.
+[explore-10] [WARN] [1756928219.099139155] [explore_node]: [AVOID] Pausing Nav2 (reason: backward_through_gap) before publishing /cmd_vel.
+[explore-10] [INFO] [1756928219.099256674] [explore_node]: [AVOID] Backward (-0.12 m/s).
+[explore-10] [INFO] [1756928219.099347939] [explore_node]: Exploration stopped.
+[bt_navigator-6] [INFO] [1756928219.099452391] [bt_navigator]: Begin navigating from current location (-0.46, -0.02) to (1.92, 1.65)
+[bt_navigator-6] [INFO] [1756928219.099587194] [bt_navigator]: [navigate_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+[explore-10] [INFO] [1756928219.099668977] [explore_node]: Exploration resuming.
+[bt_navigator-6] [INFO] [1756928219.099832590] [bt_navigator]: Goal canceled
+[explore-10] [INFO] [1756928219.123796384] [explore_node]: [AVOID] Area clear again. Re-sending previous Nav2 goal.
+[explore-10] [WARN] [1756928219.124002507] [explore_node]: [AVOID] Pausing Nav2 (reason: backward_through_gap) before publishing /cmd_vel.
+[explore-10] [INFO] [1756928219.124072776] [explore_node]: [AVOID] Backward (-0.12 m/s).
+[explore-10] [INFO] [1756928219.124107068] [explore_node]: Exploration stopped.
+[explore-10] [INFO] [1756928219.124235185] [explore_node]: Exploration resuming.
+[bt_navigator-6] [INFO] [1756928219.124318224] [bt_navigator]: Begin navigating from current location (-0.46, -0.02) to (1.92, 1.65)
+[bt_navigator-6] [INFO] [1756928219.124401130] [bt_navigator]: [navigate_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+[bt_navigator-6] [INFO] [1756928219.124619914] [bt_navigator]: Goal canceled
+[explore-10] [INFO] [1756928219.190381859] [explore_node]: Exploration stopped.
+[explore-10] [INFO] [1756928219.190632134] [explore_node]: Exploration resuming.
+[explore-10] [INFO] [1756928219.255929548] [explore_node]: [AVOID] Area clear again. Re-sending previous Nav2 goal.
+[explore-10] [WARN] [1756928219.256153529] [explore_node]: [AVOID] Pausing Nav2 (reason: backward_through_gap) before publishing /cmd_vel.
+[explore-10] [INFO] [1756928219.256236980] [explore_node]: [AVOID] Backward (-0.12 m/s).
+[explore-10] [INFO] [1756928219.256280559] [explore_node]: Exploration stopped.
+[explore-10] [INFO] [1756928219.256499234] [explore_node]: [AVOID] Area clear again. Re-sending previous Nav2 goal.
+[bt_navigator-6] [INFO] [1756928219.256581790] [bt_navigator]: Begin navigating from current location (-0.47, -0.02) to (1.92, 1.65)
+[bt_navigator-6] [INFO] [1756928219.256684595] [bt_navigator]: [navigate_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+[bt_navigator-6] [INFO] [1756928219.256824321] [bt_navigator]: Goal canceled
+[explore-10] [WARN] [1756928219.256646186] [explore_node]: [AVOID] Pausing Nav2 (reason: backward_through_gap) before publishing /cmd_vel.
+[explore-10] [INFO] [1756928219.256716835] [explore_node]: [AVOID] Backward (-0.12 m/s).
+[bt_navigator-6] [INFO] [1756928219.257425562] [bt_navigator]: Begin navigating from current location (-0.47, -0.02) to (1.92, 1.65)
+[bt_navigator-6] [INFO] [1756928219.267643030] [bt_navigator]: [navigate_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+[bt_navigator-6] [INFO] [1756928219.267823514] [bt_navigator]: Goal canceled
+[explore-10] [INFO] [1756928219.291743898] [explore_node]: Exploration resuming.
+[explore-10] [INFO] [1756928219.358061878] [explore_node]: [AVOID] Area clear again. Re-sending previous Nav2 goal.
+[explore-10] [WARN] [1756928219.358434470] [explore_node]: [AVOID] Pausing Nav2 (reason: backward_through_gap) before publishing /cmd_vel.
+[explore-10] [INFO] [1756928219.358559716] [explore_node]: [AVOID] Backward (-0.12 m/s).
+[explore-10] [INFO] [1756928219.358619287] [explore_node]: Exploration stopped.
+[bt_navigator-6] [INFO] [1756928219.358955378] [bt_navigator]: Begin navigating from current location (-0.48, -0.02) to (1.92, 1.65)
+[bt_navigator-6] [INFO] [1756928219.359086598] [bt_navigator]: [navigate_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+[bt_navigator-6] [INFO] [1756928219.359263816] [bt_navigator]: Goal canceled
+[explore-10] [INFO] [1756928219.359057008] [explore_node]: Exploration resuming.
+[explore-10] [INFO] [1756928219.396568914] [explore_node]: Exploration stopped.
+[explore-10] [INFO] [1756928219.396980083] [explore_node]: Exploration resuming.
+[explore-10] [INFO] [1756928219.434459056] [explore_node]: Exploration stopped.
+[explore-10] [INFO] [1756928219.793884364] [explore_node]: [NAV] Remembered last goal (2.04, 1.07, yaw from quat).
+[bt_navigator-6] [INFO] [1756928219.794867540] [bt_navigator]: Begin navigating from current location (-0.52, -0.02) to (2.04, 1.07)
+[controller_server-2] [INFO] [1756928219.816104438] [controller_server]: Received a goal, begin computing control effort.
+[explore-10] [INFO] [1756928220.101951069] [explore_node]: [AVOID] Ranges m: fl=nan fr=nan rl=0.15 rr=0.10 | T=0.15
+[explore-10] [INFO] [1756928220.602170752] [explore_node]: [AVOID] Area clear again. Re-sending previous Nav2 goal.
+[explore-10] [WARN] [1756928220.602402583] [explore_node]: [AVOID] Pausing Nav2 (reason: backward_through_gap) before publishing /cmd_vel.
+[explore-10] [INFO] [1756928220.602511511] [explore_node]: [AVOID] Backward (-0.12 m/s).
+[explore-10] [INFO] [1756928220.602584192] [explore_node]: Exploration resuming.
+[controller_server-2] [INFO] [1756928220.616321525] [controller_server]: Goal was canceled. Stopping the robot.
+[controller_server-2] [INFO] [1756928220.616403349] [controller_server]: [follow_path] [ActionServer] Client requested to cancel the goal. Cancelling.
+[bt_navigator-6] [INFO] [1756928220.616727031] [bt_navigator]: [navigate_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+[bt_navigator-6] [INFO] [1756928220.616981062] [bt_navigator]: [navigate_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+[bt_navigator-6] [INFO] [1756928220.617072367] [bt_navigator]: Goal canceled
+[explore-10] [INFO] [1756928220.656411170] [explore_node]: Exploration stopped.
+[explore-10] [INFO] [1756928220.656957849] [explore_node]: [AVOID] Area clear again. Re-sending previous Nav2 goal.
+[explore-10] [WARN] [1756928220.657089820] [explore_node]: [AVOID] Pausing Nav2 (reason: backward_through_gap) before publishing /cmd_vel.
+[explore-10] [INFO] [1756928220.657141657] [explore_node]: [AVOID] Backward (-0.12 m/s).
+[bt_navigator-6] [INFO] [1756928220.657279322] [bt_navigator]: Begin navigating from current location (-0.37, -0.02) to (2.04, 1.07)
+[bt_navigator-6] [INFO] [1756928220.657354814] [bt_navigator]: [navigate_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+[bt_navigator-6] [INFO] [1756928220.657438091] [bt_navigator]: Goal canceled
+[explore-10] [INFO] [1756928220.699061536] [explore_node]: Exploration resuming.
+[explore-10] [INFO] [1756928220.733356177] [explore_node]: [AVOID] Area clear again. Re-sending previous Nav2 goal.
+[explore-10] [WARN] [1756928220.733629748] [explore_node]: [AVOID] Pausing Nav2 (reason: backward_through_gap) before publishing /cmd_vel.
+[explore-10] [INFO] [1756928220.733722927] [explore_node]: [AVOID] Backward (-0.12 m/s).
+[explore-10] [INFO] [1756928220.733768328] [explore_node]: Exploration stopped.
+[explore-10] [INFO] [1756928220.733966933] [explore_node]: Exploration resuming.
+[bt_navigator-6] [INFO] [1756928220.733865775] [bt_navigator]: Begin navigating from current location (-0.33, -0.02) to (2.04, 1.07)
+[bt_navigator-6] [INFO] [1756928220.733973916] [bt_navigator]: [navigate_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+[bt_navigator-6] [INFO] [1756928220.734117127] [bt_navigator]: Goal canceled
+[explore-10] [INFO] [1756928220.787878514] [explore_node]: Exploration stopped.
+[explore-10] [INFO] [1756928220.788261429] [explore_node]: [AVOID] Area clear again. Re-sending previous Nav2 goal.
+[explore-10] [WARN] [1756928220.788393840] [explore_node]: [AVOID] Pausing Nav2 (reason: backward_through_gap) before publishing /cmd_vel.
+[explore-10] [INFO] [1756928220.788450427] [explore_node]: [AVOID] Backward (-0.12 m/s).
+[bt_navigator-6] [INFO] [1756928220.788644020] [bt_navigator]: Begin navigating from current location (-0.32, -0.02) to (2.04, 1.07)
+[bt_navigator-6] [INFO] [1756928220.788709688] [bt_navigator]: [navigate_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+[bt_navigator-6] [INFO] [1756928220.788789647] [bt_navigator]: Goal canceled
+[explore-10] [INFO] [1756928220.842022117] [explore_node]: [AVOID] Area clear again. Re-sending previous Nav2 goal.
+[explore-10] [WARN] [1756928220.842207213] [explore_node]: [AVOID] Pausing Nav2 (reason: backward_through_gap) before publishing /cmd_vel.
+[explore-10] [INFO] [1756928220.842272765] [explore_node]: [AVOID] Backward (-0.12 m/s).
+[explore-10] [INFO] [1756928220.842310253] [explore_node]: Exploration resuming.
+[bt_navigator-6] [INFO] [1756928220.842524367] [bt_navigator]: Begin navigating from current location (-0.30, -0.02) to (2.04, 1.07)
+[bt_navigator-6] [INFO] [1756928220.842590474] [bt_navigator]: [navigate_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+[bt_navigator-6] [INFO] [1756928220.842709571] [bt_navigator]: Goal canceled
+[explore-10] [INFO] [1756928220.899434420] [explore_node]: Exploration stopped.
+[explore-10] [INFO] [1756928220.899776315] [explore_node]: Exploration resuming.
+[explore-10] [INFO] [1756928220.925207693] [explore_node]: [AVOID] Area clear again. Re-sending previous Nav2 goal.
+[explore-10] [WARN] [1756928220.925550991] [explore_node]: [AVOID] Pausing Nav2 (reason: backward_through_gap) before publishing /cmd_vel.
+[explore-10] [INFO] [1756928220.925681214] [explore_node]: [AVOID] Backward (-0.12 m/s).
+[explore-10] [INFO] [1756928220.925747135] [explore_node]: Exploration stopped.
+[explore-10] [INFO] [1756928220.926004221] [explore_node]: [AVOID] Area clear again. Re-sending previous Nav2 goal.
+[bt_navigator-6] [INFO] [1756928220.926082780] [bt_navigator]: Begin navigating from current location (-0.29, -0.02) to (2.04, 1.07)
+[bt_navigator-6] [INFO] [1756928220.926219552] [bt_navigator]: [navigate_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+[bt_navigator-6] [INFO] [1756928220.926511225] [bt_navigator]: Goal canceled
+[explore-10] [WARN] [1756928220.926231476] [explore_node]: [AVOID] Pausing Nav2 (reason: backward_through_gap) before publishing /cmd_vel.
+[explore-10] [INFO] [1756928220.926328071] [explore_node]: [AVOID] Backward (-0.12 m/s).
+[bt_navigator-6] [INFO] [1756928220.927079218] [bt_navigator]: Begin navigating from current location (-0.29, -0.02) to (2.04, 1.07)
+[bt_navigator-6] [INFO] [1756928220.937281583] [bt_navigator]: [navigate_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+[bt_navigator-6] [INFO] [1756928220.937456900] [bt_navigator]: Goal canceled
+[explore-10] [INFO] [1756928221.003934159] [explore_node]: [AVOID] Area clear again. Re-sending previous Nav2 goal.
+[explore-10] [WARN] [1756928221.004313264] [explore_node]: [AVOID] Pausing Nav2 (reason: backward_through_gap) before publishing /cmd_vel.
+[explore-10] [INFO] [1756928221.004438491] [explore_node]: [AVOID] Backward (-0.12 m/s).
+[explore-10] [INFO] [1756928221.004525390] [explore_node]: Exploration resuming.
+[bt_navigator-6] [INFO] [1756928221.004703792] [bt_navigator]: Begin navigating from current location (-0.28, -0.02) to (2.04, 1.07)
+[bt_navigator-6] [INFO] [1756928221.004845357] [bt_navigator]: [navigate_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+[bt_navigator-6] [INFO] [1756928221.005045064] [bt_navigator]: Goal canceled
+[explore-10] [INFO] [1756928221.030086567] [explore_node]: Exploration stopped.
+[explore-10] [INFO] [1756928221.030512977] [explore_node]: Exploration resuming.
+[explore-10] [INFO] [1756928221.097877561] [explore_node]: Exploration stopped.
+[explore-10] [INFO] [1756928221.098130199] [explore_node]: Exploration resuming.
+[explore-10] [INFO] [1756928221.123091535] [explore_node]: [AVOID] Ranges m: fl=nan fr=nan rl=0.40 rr=0.32 | T=0.15
+[explore-10] [INFO] [1756928221.123418470] [explore_node]: [AVOID] Area clear again. Re-sending previous Nav2 goal.
+[explore-10] [WARN] [1756928221.123612783] [explore_node]: [AVOID] Pausing Nav2 (reason: backward_through_gap) before publishing /cmd_vel.
+[explore-10] [INFO] [1756928221.123692093] [explore_node]: [AVOID] Backward (-0.12 m/s).
+[explore-10] [INFO] [1756928221.123738044] [explore_node]: Exploration stopped.
+[explore-10] [INFO] [1756928221.123926358] [explore_node]: [AVOID] Area clear again. Re-sending previous Nav2 goal.
+[explore-10] [WARN] [1756928221.124099177] [explore_node]: [AVOID] Pausing Nav2 (reason: backward_through_gap) before publishing /cmd_vel.
+[explore-10] [INFO] [1756928221.124169115] [explore_node]: [AVOID] Backward (-0.12 m/s).
+[bt_navigator-6] [INFO] [1756928221.123943131] [bt_navigator]: Begin navigating from current location (-0.28, -0.02) to (2.04, 1.07)
+[bt_navigator-6] [INFO] [1756928221.124048818] [bt_navigator]: [navigate_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+[bt_navigator-6] [INFO] [1756928221.124183168] [bt_navigator]: Goal canceled
+[bt_navigator-6] [INFO] [1756928221.124562930] [bt_navigator]: Begin navigating from current location (-0.28, -0.02) to (2.04, 1.07)
+[bt_navigator-6] [INFO] [1756928221.124635215] [bt_navigator]: [navigate_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+[bt_navigator-6] [INFO] [1756928221.124772754] [bt_navigator]: Goal canceled
+[explore-10] [INFO] [1756928221.191467129] [explore_node]: Exploration resuming.
+[explore-10] [INFO] [1756928221.259684417] [explore_node]: [AVOID] Area clear again. Re-sending previous Nav2 goal.
+[explore-10] [WARN] [1756928221.260068513] [explore_node]: [AVOID] Pausing Nav2 (reason: backward_through_gap) before publishing /cmd_vel.
+[explore-10] [INFO] [1756928221.260200854] [explore_node]: [AVOID] Backward (-0.12 m/s).
+[explore-10] [INFO] [1756928221.260256623] [explore_node]: Exploration stopped.
+[explore-10] [INFO] [1756928221.260586618] [explore_node]: Exploration resuming.
+[bt_navigator-6] [INFO] [1756928221.261214310] [bt_navigator]: Begin navigating from current location (-0.28, -0.02) to (2.04, 1.07)
+[bt_navigator-6] [INFO] [1756928221.261348332] [bt_navigator]: [navigate_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+[bt_navigator-6] [INFO] [1756928221.261538423] [bt_navigator]: Goal canceled
+[explore-10] [INFO] [1756928221.297621907] [explore_node]: Exploration stopped.
+[explore-10] [INFO] [1756928221.297854656] [explore_node]: Exploration resuming.
+[explore-10] [INFO] [1756928221.365336710] [explore_node]: [AVOID] Area clear again. Re-sending previous Nav2 goal.
+[explore-10] [WARN] [1756928221.365579821] [explore_node]: [AVOID] Pausing Nav2 (reason: backward_through_gap) before publishing /cmd_vel.
+[explore-10] [INFO] [1756928221.365678093] [explore_node]: [AVOID] Backward (-0.12 m/s).
+[explore-10] [INFO] [1756928221.365729398] [explore_node]: Exploration stopped.
+[explore-10] [INFO] [1756928221.365980934] [explore_node]: [AVOID] Area clear again. Re-sending previous Nav2 goal.
+[bt_navigator-6] [INFO] [1756928221.365834586] [bt_navigator]: Begin navigating from current location (-0.28, -0.02) to (2.04, 1.07)
+[bt_navigator-6] [INFO] [1756928221.365948563] [bt_navigator]: [navigate_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+[bt_navigator-6] [INFO] [1756928221.366104628] [bt_navigator]: Goal canceled
+[bt_navigator-6] [INFO] [1756928221.366357274] [bt_navigator]: Begin navigating from current location (-0.28, -0.02) to (2.04, 1.07)
+[explore-10] [WARN] [1756928221.366140659] [explore_node]: [AVOID] Pausing Nav2 (reason: backward_through_gap) before publishing /cmd_vel.
+[explore-10] [INFO] [1756928221.366200379] [explore_node]: [AVOID] Backward (-0.12 m/s).
+[bt_navigator-6] [INFO] [1756928221.376612926] [bt_navigator]: [navigate_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+[bt_navigator-6] [INFO] [1756928221.376853329] [bt_navigator]: Goal canceled
+[explore-10] [INFO] [1756928221.462077823] [explore_node]: [AVOID] Area clear again. Re-sending previous Nav2 goal.
+[explore-10] [WARN] [1756928221.462395494] [explore_node]: [AVOID] Pausing Nav2 (reason: backward_through_gap) before publishing /cmd_vel.
+[explore-10] [INFO] [1756928221.462500060] [explore_node]: [AVOID] Backward (-0.12 m/s).
+[explore-10] [INFO] [1756928221.462560772] [explore_node]: Exploration resuming.
+[bt_navigator-6] [INFO] [1756928221.462681264] [bt_navigator]: Begin navigating from current location (-0.28, -0.02) to (2.04, 1.07)
+[bt_navigator-6] [INFO] [1756928221.462790200] [bt_navigator]: [navigate_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+[bt_navigator-6] [INFO] [1756928221.462943163] [bt_navigator]: Goal canceled
+[explore-10] [INFO] [1756928221.498990386] [explore_node]: Exploration stopped.
+[explore-10] [INFO] [1756928221.499503639] [explore_node]: Exploration resuming.
+[explore-10] [INFO] [1756928221.577750259] [explore_node]: [AVOID] Area clear again. Re-sending previous Nav2 goal.
+[explore-10] [WARN] [1756928221.578063143] [explore_node]: [AVOID] Pausing Nav2 (reason: backward_through_gap) before publishing /cmd_vel.
+[explore-10] [INFO] [1756928221.578162839] [explore_node]: [AVOID] Backward (-0.12 m/s).
+[explore-10] [INFO] [1756928221.578219106] [explore_node]: Exploration stopped.
+[explore-10] [INFO] [1756928221.578431177] [explore_node]: Exploration resuming.
+[bt_navigator-6] [INFO] [1756928221.578460100] [bt_navigator]: Begin navigating from current location (-0.28, -0.02) to (2.04, 1.07)
+[bt_navigator-6] [INFO] [1756928221.578585503] [bt_navigator]: [navigate_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+[bt_navigator-6] [INFO] [1756928221.578754172] [bt_navigator]: Goal canceled
+[explore-10] [INFO] [1756928221.666297829] [explore_node]: [AVOID] Area clear again. Re-sending previous Nav2 goal.
+[explore-10] [WARN] [1756928221.666675901] [explore_node]: [AVOID] Pausing Nav2 (reason: backward_through_gap) before publishing /cmd_vel.
+[explore-10] [INFO] [1756928221.666810807] [explore_node]: [AVOID] Backward (-0.12 m/s).
+[explore-10] [INFO] [1756928221.666873487] [explore_node]: Exploration stopped.
+[explore-10] [INFO] [1756928221.667111169] [explore_node]: Exploration resuming.
+[bt_navigator-6] [INFO] [1756928221.667123853] [bt_navigator]: Begin navigating from current location (-0.28, -0.02) to (2.04, 1.07)
+[bt_navigator-6] [INFO] [1756928221.667265069] [bt_navigator]: [navigate_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+[bt_navigator-6] [INFO] [1756928221.667464753] [bt_navigator]: Goal canceled
+[explore-10] [INFO] [1756928221.765295670] [explore_node]: [AVOID] Area clear again. Re-sending previous Nav2 goal.
+[explore-10] [WARN] [1756928221.765687409] [explore_node]: [AVOID] Pausing Nav2 (reason: backward_through_gap) before publishing /cmd_vel.
+[explore-10] [INFO] [1756928221.765807411] [explore_node]: [AVOID] Backward (-0.12 m/s).
+[explore-10] [INFO] [1756928221.766267398] [explore_node]: Exploration stopped.
+[bt_navigator-6] [INFO] [1756928221.766260726] [bt_navigator]: Begin navigating from current location (-0.28, -0.02) to (2.04, 1.07)
+[bt_navigator-6] [INFO] [1756928221.766407713] [bt_navigator]: [navigate_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+[bt_navigator-6] [INFO] [1756928221.766608944] [bt_navigator]: Goal canceled
+[explore-10] [INFO] [1756928221.766539311] [explore_node]: Exploration resuming.
+[explore-10] [INFO] [1756928221.812567250] [explore_node]: [AVOID] Area clear again. Re-sending previous Nav2 goal.
+[explore-10] [WARN] [1756928221.812806196] [explore_node]: [AVOID] Pausing Nav2 (reason: backward_through_gap) before publishing /cmd_vel.
+[explore-10] [INFO] [1756928221.812883699] [explore_node]: [AVOID] Backward (-0.12 m/s).
+[explore-10] [INFO] [1756928221.812924986] [explore_node]: Exploration stopped.
+[explore-10] [INFO] [1756928221.813109653] [explore_node]: Exploration resuming.
+[bt_navigator-6] [INFO] [1756928221.813170712] [bt_navigator]: Begin navigating from current location (-0.28, -0.02) to (2.04, 1.07)
+[bt_navigator-6] [INFO] [1756928221.813264654] [bt_navigator]: [navigate_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+[bt_navigator-6] [INFO] [1756928221.813376820] [bt_navigator]: Goal canceled
+[explore-10] [INFO] [1756928221.860452985] [explore_node]: Exploration stopped.
+[explore-10] [INFO] [1756928221.860782447] [explore_node]: Exploration resuming.
+[explore-10] [INFO] [1756928221.897881093] [explore_node]: Exploration stopped.
+[explore-10] [INFO] [1756928221.898404795] [explore_node]: [AVOID] Area clear again. Re-sending previous Nav2 goal.
+[explore-10] [WARN] [1756928221.898671394] [explore_node]: [AVOID] Pausing Nav2 (reason: backward_through_gap) before publishing /cmd_vel.
+[explore-10] [INFO] [1756928221.898774236] [explore_node]: [AVOID] Backward (-0.12 m/s).
+[bt_navigator-6] [INFO] [1756928221.898964703] [bt_navigator]: Begin navigating from current location (-0.28, -0.02) to (2.04, 1.07)
+[bt_navigator-6] [INFO] [1756928221.899100817] [bt_navigator]: [navigate_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+[bt_navigator-6] [INFO] [1756928221.899299615] [bt_navigator]: Goal canceled
+[explore-10] [INFO] [1756928221.965604747] [explore_node]: [AVOID] Area clear again. Re-sending previous Nav2 goal.
+[explore-10] [WARN] [1756928221.965868204] [explore_node]: [AVOID] Pausing Nav2 (reason: backward_through_gap) before publishing /cmd_vel.
+[explore-10] [INFO] [1756928221.965947711] [explore_node]: [AVOID] Backward (-0.12 m/s).
+[explore-10] [INFO] [1756928221.965996292] [explore_node]: Exploration resuming.
+[bt_navigator-6] [INFO] [1756928221.966400260] [bt_navigator]: Begin navigating from current location (-0.28, -0.02) to (2.04, 1.07)
+[bt_navigator-6] [INFO] [1756928221.966490048] [bt_navigator]: [navigate_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+[bt_navigator-6] [INFO] [1756928221.966674334] [bt_navigator]: Goal canceled
+[explore-10] [INFO] [1756928222.044247602] [explore_node]: [AVOID] Area clear again. Re-sending previous Nav2 goal.
+[explore-10] [WARN] [1756928222.044643999] [explore_node]: [AVOID] Pausing Nav2 (reason: backward_through_gap) before publishing /cmd_vel.
+[explore-10] [INFO] [1756928222.044768539] [explore_node]: [AVOID] Backward (-0.12 m/s).
+[explore-10] [INFO] [1756928222.044821143] [explore_node]: Exploration stopped.
+[explore-10] [INFO] [1756928222.045021756] [explore_node]: Exploration resuming.
+[bt_navigator-6] [INFO] [1756928222.045041509] [bt_navigator]: Begin navigating from current location (-0.30, -0.02) to (2.04, 1.07)
+[bt_navigator-6] [INFO] [1756928222.045171937] [bt_navigator]: [navigate_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+[bt_navigator-6] [INFO] [1756928222.045363797] [bt_navigator]: Goal canceled
+[rviz2-11] [ERROR] [1756928222.062829897] [rviz2]: Lookup would require extrapolation into the future.  Requested time 1756928222.033141 but the latest data is at time 1756928222.030294, when looking up transform from frame [laser] to frame [map]
+[explore-10] [INFO] [1756928222.092522390] [explore_node]: Exploration stopped.
+[explore-10] [INFO] [1756928222.092824283] [explore_node]: Exploration resuming.
+[explore-10] [INFO] [1756928222.160202880] [explore_node]: [AVOID] Ranges m: fl=nan fr=nan rl=0.42 rr=0.35 | T=0.15
+[explore-10] [INFO] [1756928222.160665649] [explore_node]: [AVOID] Area clear again. Re-sending previous Nav2 goal.
+[explore-10] [WARN] [1756928222.160939441] [explore_node]: [AVOID] Pausing Nav2 (reason: backward_through_gap) before publishing /cmd_vel.
+[explore-10] [INFO] [1756928222.161055244] [explore_node]: [AVOID] Backward (-0.12 m/s).
+[explore-10] [INFO] [1756928222.161115307] [explore_node]: Exploration stopped.
+[explore-10] [INFO] [1756928222.161413608] [explore_node]: [AVOID] Area clear again. Re-sending previous Nav2 goal.
+[explore-10] [WARN] [1756928222.161624390] [explore_node]: [AVOID] Pausing Nav2 (reason: backward_through_gap) before publishing /cmd_vel.
+[explore-10] [INFO] [1756928222.161704595] [explore_node]: [AVOID] Backward (-0.12 m/s).
+[bt_navigator-6] [INFO] [1756928222.161475281] [bt_navigator]: Begin navigating from current location (-0.31, -0.02) to (2.04, 1.07)
+[bt_navigator-6] [INFO] [1756928222.161622720] [bt_navigator]: [navigate_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+[bt_navigator-6] [INFO] [1756928222.161830556] [bt_navigator]: Goal canceled
+[bt_navigator-6] [INFO] [1756928222.162513854] [bt_navigator]: Begin navigating from current location (-0.31, -0.02) to (2.04, 1.07)
+[bt_navigator-6] [INFO] [1756928222.162641370] [bt_navigator]: [navigate_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+[bt_navigator-6] [INFO] [1756928222.162886500] [bt_navigator]: Goal canceled
+[explore-10] [INFO] [1756928222.196797071] [explore_node]: Exploration resuming.
+[explore-10] [INFO] [1756928222.263055914] [explore_node]: [AVOID] Area clear again. Re-sending previous Nav2 goal.
+[explore-10] [WARN] [1756928222.263315344] [explore_node]: [AVOID] Pausing Nav2 (reason: backward_through_gap) before publishing /cmd_vel.
+[explore-10] [INFO] [1756928222.263427011] [explore_node]: [AVOID] Backward (-0.12 m/s).
+[explore-10] [INFO] [1756928222.263470537] [explore_node]: Exploration stopped.
+[explore-10] [INFO] [1756928222.263681712] [explore_node]: Exploration resuming.
+[bt_navigator-6] [INFO] [1756928222.263722686] [bt_navigator]: Begin navigating from current location (-0.32, -0.02) to (2.04, 1.07)
+[bt_navigator-6] [INFO] [1756928222.263868172] [bt_navigator]: [navigate_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+[bt_navigator-6] [INFO] [1756928222.264009026] [bt_navigator]: Goal canceled
+[explore-10] [INFO] [1756928222.300539818] [explore_node]: Exploration stopped.
+[explore-10] [INFO] [1756928222.300834797] [explore_node]: Exploration resuming.
+[explore-10] [INFO] [1756928222.325576703] [explore_node]: [AVOID] Area clear again. Re-sending previous Nav2 goal.
+[explore-10] [WARN] [1756928222.325757822] [explore_node]: [AVOID] Pausing Nav2 (reason: backward_through_gap) before publishing /cmd_vel.
+[explore-10] [INFO] [1756928222.325825599] [explore_node]: [AVOID] Backward (-0.12 m/s).
+[explore-10] [INFO] [1756928222.325862775] [explore_node]: Exploration stopped.
+[explore-10] [INFO] [1756928222.326023770] [explore_node]: [AVOID] Area clear again. Re-sending previous Nav2 goal.
+[bt_navigator-6] [INFO] [1756928222.325961670] [bt_navigator]: Begin navigating from current location (-0.33, -0.02) to (2.04, 1.07)
+[bt_navigator-6] [INFO] [1756928222.326045901] [bt_navigator]: [navigate_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+[bt_navigator-6] [INFO] [1756928222.326163215] [bt_navigator]: Goal canceled
+[explore-10] [WARN] [1756928222.326158988] [explore_node]: [AVOID] Pausing Nav2 (reason: backward_through_gap) before publishing /cmd_vel.
+[explore-10] [INFO] [1756928222.326204505] [explore_node]: [AVOID] Backward (-0.12 m/s).
+[bt_navigator-6] [INFO] [1756928222.326353348] [bt_navigator]: Begin navigating from current location (-0.33, -0.02) to (2.04, 1.07)
+[bt_navigator-6] [INFO] [1756928222.326431553] [bt_navigator]: [navigate_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+[bt_navigator-6] [INFO] [1756928222.326553218] [bt_navigator]: Goal canceled
+[explore-10] [INFO] [1756928222.393669734] [explore_node]: Exploration resuming.
+[explore-10] [INFO] [1756928222.461881371] [explore_node]: [AVOID] Area clear again. Re-sending previous Nav2 goal.
+[explore-10] [WARN] [1756928222.462264677] [explore_node]: [AVOID] Pausing Nav2 (reason: backward_through_gap) before publishing /cmd_vel.
+[explore-10] [INFO] [1756928222.462384580] [explore_node]: [AVOID] Backward (-0.12 m/s).
+[explore-10] [INFO] [1756928222.462438187] [explore_node]: Exploration stopped.
+[explore-10] [INFO] [1756928222.462746593] [explore_node]: Exploration resuming.
+[bt_navigator-6] [INFO] [1756928222.462724751] [bt_navigator]: Begin navigating from current location (-0.34, -0.02) to (2.04, 1.07)
+[bt_navigator-6] [INFO] [1756928222.462869668] [bt_navigator]: [navigate_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+[bt_navigator-6] [INFO] [1756928222.463078575] [bt_navigator]: Goal canceled
+[explore-10] [INFO] [1756928222.500018352] [explore_node]: Exploration stopped.
+[explore-10] [INFO] [1756928222.500325297] [explore_node]: Exploration resuming.
+[explore-10] [INFO] [1756928222.557899557] [explore_node]: [AVOID] Area clear again. Re-sending previous Nav2 goal.
+[explore-10] [WARN] [1756928222.558227059] [explore_node]: [AVOID] Pausing Nav2 (reason: backward_through_gap) before publishing /cmd_vel.
+[explore-10] [INFO] [1756928222.558363468] [explore_node]: [AVOID] Backward (-0.12 m/s).
+[explore-10] [INFO] [1756928222.558432305] [explore_node]: Exploration stopped.
+[explore-10] [INFO] [1756928222.558793866] [explore_node]: [AVOID] Area clear again. Re-sending previous Nav2 goal.
+[bt_navigator-6] [INFO] [1756928222.558419082] [bt_navigator]: Begin navigating from current location (-0.35, -0.02) to (2.04, 1.07)
+[bt_navigator-6] [INFO] [1756928222.558767042] [bt_navigator]: [navigate_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+[bt_navigator-6] [INFO] [1756928222.558995973] [bt_navigator]: Goal canceled
+[bt_navigator-6] [INFO] [1756928222.559382074] [bt_navigator]: Begin navigating from current location (-0.35, -0.02) to (2.04, 1.07)
+[bt_navigator-6] [INFO] [1756928222.559498050] [bt_navigator]: [navigate_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+[explore-10] [WARN] [1756928222.559054083] [explore_node]: [AVOID] Pausing Nav2 (reason: backward_through_gap) before publishing /cmd_vel.
+[explore-10] [INFO] [1756928222.559136444] [explore_node]: [AVOID] Backward (-0.12 m/s).
+[bt_navigator-6] [INFO] [1756928222.559698201] [bt_navigator]: Goal canceled
+[explore-10] [INFO] [1756928222.600840418] [explore_node]: Exploration resuming.
+[explore-10] [INFO] [1756928222.658018084] [explore_node]: [AVOID] Area clear again. Re-sending previous Nav2 goal.
+[explore-10] [WARN] [1756928222.658314979] [explore_node]: [AVOID] Pausing Nav2 (reason: backward_through_gap) before publishing /cmd_vel.
+[explore-10] [INFO] [1756928222.658431521] [explore_node]: [AVOID] Backward (-0.12 m/s).
+[explore-10] [INFO] [1756928222.658503281] [explore_node]: Exploration stopped.
+[explore-10] [INFO] [1756928222.658685828] [explore_node]: Exploration resuming.
+[bt_navigator-6] [INFO] [1756928222.658716578] [bt_navigator]: Begin navigating from current location (-0.36, -0.02) to (2.04, 1.07)
+[bt_navigator-6] [INFO] [1756928222.668965166] [bt_navigator]: [navigate_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+[bt_navigator-6] [INFO] [1756928222.669150481] [bt_navigator]: Goal canceled
+[explore-10] [INFO] [1756928222.705050553] [explore_node]: [AVOID] Area clear again. Re-sending previous Nav2 goal.
+[explore-10] [WARN] [1756928222.705304598] [explore_node]: [AVOID] Pausing Nav2 (reason: backward_through_gap) before publishing /cmd_vel.
+[explore-10] [INFO] [1756928222.705388319] [explore_node]: [AVOID] Backward (-0.12 m/s).
+[explore-10] [INFO] [1756928222.705433138] [explore_node]: Exploration stopped.
+[explore-10] [INFO] [1756928222.705529763] [explore_node]: Exploration resuming.
+[bt_navigator-6] [INFO] [1756928222.705705152] [bt_navigator]: Begin navigating from current location (-0.37, -0.02) to (2.04, 1.07)
+[bt_navigator-6] [INFO] [1756928222.715969563] [bt_navigator]: [navigate_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+[bt_navigator-6] [INFO] [1756928222.716185265] [bt_navigator]: Goal canceled
+[explore-10] [INFO] [1756928222.731957063] [explore_node]: Exploration stopped.
+[explore-10] [INFO] [1756928222.732137191] [explore_node]: Exploration resuming.
+[explore-10] [INFO] [1756928222.808246535] [explore_node]: [AVOID] Area clear again. Re-sending previous Nav2 goal.
+[explore-10] [WARN] [1756928222.808462337] [explore_node]: [AVOID] Pausing Nav2 (reason: backward_through_gap) before publishing /cmd_vel.
+[explore-10] [INFO] [1756928222.808575449] [explore_node]: [AVOID] Backward (-0.12 m/s).
+[explore-10] [INFO] [1756928222.808626246] [explore_node]: Exploration stopped.
+[explore-10] [INFO] [1756928222.808804944] [explore_node]: Exploration resuming.
+[bt_navigator-6] [INFO] [1756928222.808703191] [bt_navigator]: Begin navigating from current location (-0.38, -0.02) to (2.04, 1.07)
+[bt_navigator-6] [INFO] [1756928222.808814569] [bt_navigator]: [navigate_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+[bt_navigator-6] [INFO] [1756928222.808965197] [bt_navigator]: Goal canceled
+[explore-10] [INFO] [1756928222.833849569] [explore_node]: Exploration stopped.
+[explore-10] [INFO] [1756928222.834339503] [explore_node]: [AVOID] Area clear again. Re-sending previous Nav2 goal.
+[explore-10] [WARN] [1756928222.834486781] [explore_node]: [AVOID] Pausing Nav2 (reason: backward_through_gap) before publishing /cmd_vel.
+[explore-10] [INFO] [1756928222.834544207] [explore_node]: [AVOID] Backward (-0.12 m/s).
+[bt_navigator-6] [INFO] [1756928222.834717222] [bt_navigator]: Begin navigating from current location (-0.39, -0.02) to (2.04, 1.07)
+[bt_navigator-6] [INFO] [1756928222.834801060] [bt_navigator]: [navigate_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+[bt_navigator-6] [INFO] [1756928222.834915936] [bt_navigator]: Goal canceled
+[explore-10] [INFO] [1756928222.891760468] [explore_node]: Exploration resuming.
+[explore-10] [INFO] [1756928222.929066487] [explore_node]: [AVOID] Area clear again. Re-sending previous Nav2 goal.
+[explore-10] [WARN] [1756928222.929381137] [explore_node]: [AVOID] Pausing Nav2 (reason: backward_through_gap) before publishing /cmd_vel.
+[explore-10] [INFO] [1756928222.929488238] [explore_node]: [AVOID] Backward (-0.12 m/s).
+[explore-10] [INFO] [1756928222.929540438] [explore_node]: Exploration stopped.
+[explore-10] [INFO] [1756928222.929772581] [explore_node]: Exploration resuming.
+[bt_navigator-6] [INFO] [1756928222.929639865] [bt_navigator]: Begin navigating from current location (-0.40, -0.02) to (2.04, 1.07)
+[bt_navigator-6] [INFO] [1756928222.929765175] [bt_navigator]: [navigate_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+[bt_navigator-6] [INFO] [1756928222.929938131] [bt_navigator]: Goal canceled
+[explore-10] [INFO] [1756928222.997056271] [explore_node]: Exploration stopped.
+[explore-10] [INFO] [1756928222.997651670] [explore_node]: [AVOID] Area clear again. Re-sending previous Nav2 goal.
+[explore-10] [WARN] [1756928222.997936828] [explore_node]: [AVOID] Pausing Nav2 (reason: backward_through_gap) before publishing /cmd_vel.
+[explore-10] [INFO] [1756928222.998045960] [explore_node]: [AVOID] Backward (-0.12 m/s).
+[bt_navigator-6] [INFO] [1756928222.998374792] [bt_navigator]: Begin navigating from current location (-0.41, -0.02) to (2.04, 1.07)
+[bt_navigator-6] [INFO] [1756928222.998480718] [bt_navigator]: [navigate_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+[bt_navigator-6] [INFO] [1756928222.998705114] [bt_navigator]: Goal canceled
+[explore-10] [INFO] [1756928223.063687634] [explore_node]: [AVOID] Area clear again. Re-sending previous Nav2 goal.
+[explore-10] [WARN] [1756928223.063951927] [explore_node]: [AVOID] Pausing Nav2 (reason: backward_through_gap) before publishing /cmd_vel.
+[explore-10] [INFO] [1756928223.064039817] [explore_node]: [AVOID] Backward (-0.12 m/s).
+[explore-10] [INFO] [1756928223.064094086] [explore_node]: Exploration resuming.
+[bt_navigator-6] [INFO] [1756928223.064574009] [bt_navigator]: Begin navigating from current location (-0.41, -0.02) to (2.04, 1.07)
+[bt_navigator-6] [INFO] [1756928223.064671961] [bt_navigator]: [navigate_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+[bt_navigator-6] [INFO] [1756928223.065013696] [bt_navigator]: Goal canceled
+[explore-10] [INFO] [1756928223.090494597] [explore_node]: Exploration stopped.
+[explore-10] [INFO] [1756928223.090704088] [explore_node]: Exploration resuming.
+[explore-10] [INFO] [1756928223.168184024] [explore_node]: [AVOID] Ranges m: fl=nan fr=nan rl=0.31 rr=0.24 | T=0.15
+[explore-10] [INFO] [1756928223.168630503] [explore_node]: [AVOID] Area clear again. Re-sending previous Nav2 goal.
+[explore-10] [WARN] [1756928223.168920084] [explore_node]: [AVOID] Pausing Nav2 (reason: backward_through_gap) before publishing /cmd_vel.
+[explore-10] [INFO] [1756928223.169038223] [explore_node]: [AVOID] Backward (-0.12 m/s).
+[explore-10] [INFO] [1756928223.169101978] [explore_node]: Exploration stopped.
+[bt_navigator-6] [INFO] [1756928223.169391038] [bt_navigator]: Begin navigating from current location (-0.42, -0.02) to (2.04, 1.07)
+[bt_navigator-6] [INFO] [1756928223.169529193] [bt_navigator]: [navigate_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+[bt_navigator-6] [INFO] [1756928223.169771917] [bt_navigator]: Goal canceled
+[explore-10] [INFO] [1756928223.169412145] [explore_node]: [AVOID] Area clear again. Re-sending previous Nav2 goal.
+[explore-10] [WARN] [1756928223.169702978] [explore_node]: [AVOID] Pausing Nav2 (reason: backward_through_gap) before publishing /cmd_vel.
+[explore-10] [INFO] [1756928223.169783240] [explore_node]: [AVOID] Backward (-0.12 m/s).
+[bt_navigator-6] [INFO] [1756928223.170350323] [bt_navigator]: Begin navigating from current location (-0.42, -0.02) to (2.04, 1.07)
+[bt_navigator-6] [INFO] [1756928223.180711670] [bt_navigator]: [navigate_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+[bt_navigator-6] [INFO] [1756928223.180931205] [bt_navigator]: Goal canceled
+[explore-10] [INFO] [1756928223.267726534] [explore_node]: [AVOID] Area clear again. Re-sending previous Nav2 goal.
+[explore-10] [WARN] [1756928223.268130179] [explore_node]: [AVOID] Pausing Nav2 (reason: backward_through_gap) before publishing /cmd_vel.
+[explore-10] [INFO] [1756928223.268259573] [explore_node]: [AVOID] Backward (-0.12 m/s).
+[explore-10] [INFO] [1756928223.268335434] [explore_node]: Exploration resuming.
+[bt_navigator-6] [INFO] [1756928223.268464267] [bt_navigator]: Begin navigating from current location (-0.44, -0.02) to (2.04, 1.07)
+[bt_navigator-6] [INFO] [1756928223.268618539] [bt_navigator]: [navigate_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+[bt_navigator-6] [INFO] [1756928223.268831255] [bt_navigator]: Goal canceled
+[explore-10] [INFO] [1756928223.365262749] [explore_node]: [AVOID] Area clear again. Re-sending previous Nav2 goal.
+[explore-10] [WARN] [1756928223.365356705] [explore_node]: [AVOID] Pausing Nav2 (reason: backward_through_gap) before publishing /cmd_vel.
+[explore-10] [INFO] [1756928223.365386858] [explore_node]: [AVOID] Backward (-0.12 m/s).
+[explore-10] [INFO] [1756928223.365401440] [explore_node]: Exploration stopped.
+[explore-10] [INFO] [1756928223.365511906] [explore_node]: Exploration resuming.
+[bt_navigator-6] [INFO] [1756928223.365609835] [bt_navigator]: Begin navigating from current location (-0.45, -0.02) to (2.04, 1.07)
+[bt_navigator-6] [INFO] [1756928223.365647822] [bt_navigator]: [navigate_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+[bt_navigator-6] [INFO] [1756928223.365689716] [bt_navigator]: Goal canceled
+[explore-10] [INFO] [1756928223.432518730] [explore_node]: [AVOID] Area clear again. Re-sending previous Nav2 goal.
+[explore-10] [WARN] [1756928223.432891114] [explore_node]: [AVOID] Pausing Nav2 (reason: backward_through_gap) before publishing /cmd_vel.
+[explore-10] [INFO] [1756928223.433012479] [explore_node]: [AVOID] Backward (-0.12 m/s).
+[explore-10] [INFO] [1756928223.433073417] [explore_node]: Exploration stopped.
+[explore-10] [INFO] [1756928223.433281323] [explore_node]: Exploration resuming.
+[bt_navigator-6] [INFO] [1756928223.433319073] [bt_navigator]: Begin navigating from current location (-0.46, -0.02) to (2.04, 1.07)
+[bt_navigator-6] [INFO] [1756928223.433449552] [bt_navigator]: [navigate_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+[bt_navigator-6] [INFO] [1756928223.433633649] [bt_navigator]: Goal canceled
+[explore-10] [INFO] [1756928223.501114464] [explore_node]: Exploration stopped.
+[explore-10] [INFO] [1756928223.501410053] [explore_node]: Exploration resuming.
+[explore-10] [INFO] [1756928223.525289720] [explore_node]: [AVOID] Area clear again. Re-sending previous Nav2 goal.
+[explore-10] [WARN] [1756928223.525513276] [explore_node]: [AVOID] Pausing Nav2 (reason: backward_through_gap) before publishing /cmd_vel.
+[explore-10] [INFO] [1756928223.525603282] [explore_node]: [AVOID] Backward (-0.12 m/s).
+[explore-10] [INFO] [1756928223.525646206] [explore_node]: Exploration stopped.
+[explore-10] [INFO] [1756928223.525791513] [explore_node]: Exploration resuming.
+[bt_navigator-6] [INFO] [1756928223.525798776] [bt_navigator]: Begin navigating from current location (-0.47, -0.02) to (2.04, 1.07)
+[bt_navigator-6] [INFO] [1756928223.525903535] [bt_navigator]: [navigate_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+[bt_navigator-6] [INFO] [1756928223.526045381] [bt_navigator]: Goal canceled
+[explore-10] [INFO] [1756928223.593322439] [explore_node]: Exploration stopped.
+[explore-10] [INFO] [1756928223.593637934] [explore_node]: Exploration resuming.
+[explore-10] [INFO] [1756928223.629942014] [explore_node]: [AVOID] Area clear again. Re-sending previous Nav2 goal.
+[explore-10] [WARN] [1756928223.630205082] [explore_node]: [AVOID] Pausing Nav2 (reason: backward_through_gap) before publishing /cmd_vel.
+[explore-10] [INFO] [1756928223.630294998] [explore_node]: [AVOID] Backward (-0.12 m/s).
+[explore-10] [INFO] [1756928223.630345487] [explore_node]: Exploration stopped.
+[explore-10] [INFO] [1756928223.630509962] [explore_node]: [AVOID] Area clear again. Re-sending previous Nav2 goal.
+[explore-10] [WARN] [1756928223.630686607] [explore_node]: [AVOID] Pausing Nav2 (reason: backward_through_gap) before publishing /cmd_vel.
+[bt_navigator-6] [INFO] [1756928223.630542268] [bt_navigator]: Begin navigating from current location (-0.48, -0.02) to (2.04, 1.07)
+[bt_navigator-6] [INFO] [1756928223.630656139] [bt_navigator]: [navigate_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+[explore-10] [INFO] [1756928223.630774772] [explore_node]: [AVOID] Backward (-0.12 m/s).
+[bt_navigator-6] [INFO] [1756928223.630876052] [bt_navigator]: Goal canceled
+[bt_navigator-6] [INFO] [1756928223.630919518] [bt_navigator]: Begin navigating from current location (-0.48, -0.02) to (2.04, 1.07)
+[bt_navigator-6] [INFO] [1756928223.630956623] [bt_navigator]: [navigate_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+[bt_navigator-6] [INFO] [1756928223.631084690] [bt_navigator]: Goal canceled
+[explore-10] [INFO] [1756928223.697002093] [explore_node]: Exploration resuming.
+[explore-10] [INFO] [1756928223.763413680] [explore_node]: [AVOID] Area clear again. Re-sending previous Nav2 goal.
+[explore-10] [WARN] [1756928223.763709599] [explore_node]: [AVOID] Pausing Nav2 (reason: backward_through_gap) before publishing /cmd_vel.
+[explore-10] [INFO] [1756928223.763813871] [explore_node]: [AVOID] Backward (-0.12 m/s).
+[explore-10] [INFO] [1756928223.763864075] [explore_node]: Exploration stopped.
+[explore-10] [INFO] [1756928223.764074574] [explore_node]: Exploration resuming.
+[bt_navigator-6] [INFO] [1756928223.764178469] [bt_navigator]: Begin navigating from current location (-0.49, -0.02) to (2.04, 1.07)
+[bt_navigator-6] [INFO] [1756928223.764212095] [bt_navigator]: [navigate_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+[bt_navigator-6] [INFO] [1756928223.764266110] [bt_navigator]: Goal canceled
+[explore-10] [INFO] [1756928223.828873060] [explore_node]: [AVOID] Area clear again. Re-sending previous Nav2 goal.
+[explore-10] [WARN] [1756928223.829099782] [explore_node]: [AVOID] Pausing Nav2 (reason: backward_through_gap) before publishing /cmd_vel.
+[explore-10] [INFO] [1756928223.829170322] [explore_node]: [AVOID] Backward (-0.12 m/s).
+[explore-10] [INFO] [1756928223.829208756] [explore_node]: Exploration stopped.
+[explore-10] [INFO] [1756928223.829334634] [explore_node]: Exploration resuming.
+[bt_navigator-6] [INFO] [1756928223.829368576] [bt_navigator]: Begin navigating from current location (-0.51, -0.02) to (2.04, 1.07)
+[bt_navigator-6] [INFO] [1756928223.829444735] [bt_navigator]: [navigate_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+[bt_navigator-6] [INFO] [1756928223.829579447] [bt_navigator]: Goal canceled
+[explore-10] [INFO] [1756928223.897029693] [explore_node]: Exploration stopped.
+[explore-10] [INFO] [1756928223.897338891] [explore_node]: Exploration resuming.
+[explore-10] [INFO] [1756928223.965118935] [explore_node]: [AVOID] Area clear again. Re-sending previous Nav2 goal.
+[explore-10] [WARN] [1756928223.965486520] [explore_node]: [AVOID] Pausing Nav2 (reason: backward_through_gap) before publishing /cmd_vel.
+[explore-10] [INFO] [1756928223.965682934] [explore_node]: [AVOID] Backward (-0.12 m/s).
+[explore-10] [INFO] [1756928223.965761215] [explore_node]: Exploration stopped.
+[bt_navigator-6] [INFO] [1756928223.965787064] [bt_navigator]: Begin navigating from current location (-0.52, -0.02) to (2.04, 1.07)
+[bt_navigator-6] [INFO] [1756928223.965931788] [bt_navigator]: [navigate_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+[bt_navigator-6] [INFO] [1756928223.966137955] [bt_navigator]: Goal canceled
+[explore-10] [INFO] [1756928224.063382318] [explore_node]: Exploration resuming.
+[explore-10] [INFO] [1756928224.088644039] [explore_node]: Exploration stopped.
+[explore-10] [INFO] [1756928224.213783100] [explore_node]: [AVOID] Ranges m: fl=nan fr=nan rl=0.17 rr=0.11 | T=0.15
+[explore-10] [INFO] [1756928224.375057611] [explore_node]: [AVOID] Sides+rear blocked -> rotating.
+[explore-10] [INFO] [1756928224.462945725] [explore_node]: [AVOID] Rotating in place: wz=1.00 rad/s (accum=5 deg).
+[explore-10] [INFO] [1756928225.302149243] [explore_node]: [AVOID] Ranges m: fl=nan fr=nan rl=0.14 rr=0.08 | T=0.15
+[explore-10] [INFO] [1756928225.502174850] [explore_node]: [AVOID] Rotating in place: wz=1.00 rad/s (accum=65 deg).
+[explore-10] [INFO] [1756928226.202616988] [explore_node]: [AVOID] Area clear again. Re-sending previous Nav2 goal.
+[explore-10] [WARN] [1756928226.203134406] [explore_node]: [AVOID] Pausing Nav2 (reason: rotation_search) before publishing /cmd_vel.
+[explore-10] [INFO] [1756928226.203508835] [explore_node]: Exploration resuming.
+[bt_navigator-6] [INFO] [1756928226.203408772] [bt_navigator]: Begin navigating from current location (-0.55, -0.02) to (2.04, 1.07)
+[bt_navigator-6] [INFO] [1756928226.203560903] [bt_navigator]: [navigate_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+[bt_navigator-6] [INFO] [1756928226.203768463] [bt_navigator]: Goal canceled
+[explore-10] [INFO] [1756928226.261962270] [explore_node]: Exploration stopped.
+[explore-10] [INFO] [1756928226.263190294] [explore_node]: [AVOID] Area clear again. Re-sending previous Nav2 goal.
+[explore-10] [WARN] [1756928226.263638077] [explore_node]: [AVOID] Pausing Nav2 (reason: rotation_search) before publishing /cmd_vel.
+[bt_navigator-6] [INFO] [1756928226.264038674] [bt_navigator]: Begin navigating from current location (-0.55, -0.02) to (2.04, 1.07)
+[bt_navigator-6] [INFO] [1756928226.264179582] [bt_navigator]: [navigate_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+[bt_navigator-6] [INFO] [1756928226.264373979] [bt_navigator]: Goal canceled
+[explore-10] [INFO] [1756928226.302000798] [explore_node]: Exploration resuming.
+[explore-10] [INFO] [1756928226.330475053] [explore_node]: [AVOID] Ranges m: fl=0.51 fr=0.76 rl=0.16 rr=0.52 | T=0.15
+[explore-10] [INFO] [1756928226.330948145] [explore_node]: [AVOID] Area clear again. Re-sending previous Nav2 goal.
+[explore-10] [WARN] [1756928226.331373006] [explore_node]: [AVOID] Pausing Nav2 (reason: rotation_search) before publishing /cmd_vel.
+[explore-10] [INFO] [1756928226.331664885] [explore_node]: Exploration stopped.
+[bt_navigator-6] [INFO] [1756928226.331657496] [bt_navigator]: Begin navigating from current location (-0.55, -0.02) to (2.04, 1.07)
+[bt_navigator-6] [INFO] [1756928226.331836875] [bt_navigator]: [navigate_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+[bt_navigator-6] [INFO] [1756928226.332068462] [bt_navigator]: Goal canceled
+[explore-10] [INFO] [1756928226.332199589] [explore_node]: Exploration resuming.
+[explore-10] [INFO] [1756928226.399670279] [explore_node]: Exploration stopped.
+[explore-10] [INFO] [1756928226.602174056] [explore_node]: [AVOID] Rotating in place: wz=-1.00 rad/s (accum=128 deg).
+[explore-10] [INFO] [1756928227.402110438] [explore_node]: [AVOID] Ranges m: fl=nan fr=nan rl=0.12 rr=0.10 | T=0.15
+[explore-10] [INFO] [1756928227.702276296] [explore_node]: [AVOID] Rotating in place: wz=1.00 rad/s (accum=191 deg).
+[explore-10] [INFO] [1756928228.402216116] [explore_node]: [AVOID] Ranges m: fl=0.82 fr=nan rl=0.11 rr=0.13 | T=0.15
+[explore-10] [INFO] [1756928228.702280647] [explore_node]: [AVOID] Rotating in place: wz=1.00 rad/s (accum=248 deg).
+[explore-10] [INFO] [1756928229.202448622] [explore_node]: [AVOID] Area clear again. Re-sending previous Nav2 goal.
+[explore-10] [WARN] [1756928229.202783602] [explore_node]: [AVOID] Pausing Nav2 (reason: rotation_search) before publishing /cmd_vel.
+[explore-10] [INFO] [1756928229.202975303] [explore_node]: Exploration resuming.
+[bt_navigator-6] [INFO] [1756928229.203339452] [bt_navigator]: Begin navigating from current location (-0.55, -0.02) to (2.04, 1.07)
+[bt_navigator-6] [INFO] [1756928229.203468902] [bt_navigator]: [navigate_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+[bt_navigator-6] [INFO] [1756928229.203708527] [bt_navigator]: Goal canceled
+[explore-10] [INFO] [1756928229.258532101] [explore_node]: Exploration stopped.
+[explore-10] [INFO] [1756928229.259379109] [explore_node]: [AVOID] Area clear again. Re-sending previous Nav2 goal.
+[explore-10] [WARN] [1756928229.259644265] [explore_node]: [AVOID] Pausing Nav2 (reason: rotation_search) before publishing /cmd_vel.
+[bt_navigator-6] [INFO] [1756928229.259892152] [bt_navigator]: Begin navigating from current location (-0.55, -0.02) to (2.04, 1.07)
+[bt_navigator-6] [INFO] [1756928229.260039426] [bt_navigator]: [navigate_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+[bt_navigator-6] [INFO] [1756928229.260194832] [bt_navigator]: Goal canceled
+[explore-10] [INFO] [1756928229.296237614] [explore_node]: Exploration resuming.
+[explore-10] [INFO] [1756928229.331792428] [explore_node]: [AVOID] Area clear again. Re-sending previous Nav2 goal.
+[explore-10] [WARN] [1756928229.332127561] [explore_node]: [AVOID] Pausing Nav2 (reason: rotation_search) before publishing /cmd_vel.
+[explore-10] [INFO] [1756928229.332259981] [explore_node]: Exploration stopped.
+[explore-10] [INFO] [1756928229.332536470] [explore_node]: Exploration resuming.
+[bt_navigator-6] [INFO] [1756928229.332863788] [bt_navigator]: Begin navigating from current location (-0.55, -0.02) to (2.04, 1.07)
+[bt_navigator-6] [INFO] [1756928229.333003465] [bt_navigator]: [navigate_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+[bt_navigator-6] [INFO] [1756928229.333213446] [bt_navigator]: Goal canceled
+[explore-10] [INFO] [1756928229.398665271] [explore_node]: Exploration stopped.
+[explore-10] [INFO] [1756928229.399462190] [explore_node]: [AVOID] Area clear again. Re-sending previous Nav2 goal.
+[explore-10] [WARN] [1756928229.399691245] [explore_node]: [AVOID] Pausing Nav2 (reason: rotation_search) before publishing /cmd_vel.
+[bt_navigator-6] [INFO] [1756928229.400170563] [bt_navigator]: Begin navigating from current location (-0.55, -0.02) to (2.04, 1.07)
+[bt_navigator-6] [INFO] [1756928229.400291750] [bt_navigator]: [navigate_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+[bt_navigator-6] [INFO] [1756928229.400641814] [bt_navigator]: Goal canceled
+[explore-10] [INFO] [1756928229.436765984] [explore_node]: [AVOID] Ranges m: fl=0.48 fr=0.56 rl=0.26 rr=0.69 | T=0.15
+[explore-10] [INFO] [1756928229.437153336] [explore_node]: [AVOID] Area clear again. Re-sending previous Nav2 goal.
+[explore-10] [WARN] [1756928229.437467432] [explore_node]: [AVOID] Pausing Nav2 (reason: rotation_search) before publishing /cmd_vel.
+[explore-10] [INFO] [1756928229.437687682] [explore_node]: Exploration resuming.
+[bt_navigator-6] [INFO] [1756928229.437879007] [bt_navigator]: Begin navigating from current location (-0.55, -0.02) to (2.04, 1.07)
+[bt_navigator-6] [INFO] [1756928229.438005192] [bt_navigator]: [navigate_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+[bt_navigator-6] [INFO] [1756928229.438191666] [bt_navigator]: Goal canceled
+[explore-10] [INFO] [1756928229.497153001] [explore_node]: Exploration stopped.
+[explore-10] [INFO] [1756928229.497713605] [explore_node]: Exploration resuming.
+[explore-10] [INFO] [1756928229.563983037] [explore_node]: [AVOID] Area clear again. Re-sending previous Nav2 goal.
+[explore-10] [WARN] [1756928229.564402919] [explore_node]: [AVOID] Pausing Nav2 (reason: rotation_search) before publishing /cmd_vel.
+[explore-10] [INFO] [1756928229.564736622] [explore_node]: Exploration stopped.
+[bt_navigator-6] [INFO] [1756928229.564695590] [bt_navigator]: Begin navigating from current location (-0.55, -0.02) to (2.04, 1.07)
+[bt_navigator-6] [INFO] [1756928229.564827768] [bt_navigator]: [navigate_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+[bt_navigator-6] [INFO] [1756928229.565025309] [bt_navigator]: Goal canceled
+[explore-10] [INFO] [1756928229.565256615] [explore_node]: [AVOID] Area clear again. Re-sending previous Nav2 goal.
+[explore-10] [WARN] [1756928229.565607962] [explore_node]: [AVOID] Pausing Nav2 (reason: rotation_search) before publishing /cmd_vel.
+[bt_navigator-6] [INFO] [1756928229.565807735] [bt_navigator]: Begin navigating from current location (-0.55, -0.02) to (2.04, 1.07)
+[bt_navigator-6] [INFO] [1756928229.565905253] [bt_navigator]: [navigate_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+[bt_navigator-6] [INFO] [1756928229.566088156] [bt_navigator]: Goal canceled
+[explore-10] [INFO] [1756928229.634437620] [explore_node]: [AVOID] Area clear again. Re-sending previous Nav2 goal.
+[explore-10] [WARN] [1756928229.634816027] [explore_node]: [AVOID] Pausing Nav2 (reason: rotation_search) before publishing /cmd_vel.
+[explore-10] [INFO] [1756928229.634985008] [explore_node]: Exploration resuming.
+[bt_navigator-6] [INFO] [1756928229.635317758] [bt_navigator]: Begin navigating from current location (-0.55, -0.02) to (2.04, 1.07)
+[bt_navigator-6] [INFO] [1756928229.635534199] [bt_navigator]: [navigate_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+[bt_navigator-6] [INFO] [1756928229.635811548] [bt_navigator]: Goal canceled
+[explore-10] [INFO] [1756928229.692796184] [explore_node]: Exploration stopped.
+[explore-10] [INFO] [1756928229.693121294] [explore_node]: Exploration resuming.
+[explore-10] [INFO] [1756928229.770945885] [explore_node]: [AVOID] Area clear again. Re-sending previous Nav2 goal.
+[explore-10] [WARN] [1756928229.771278877] [explore_node]: [AVOID] Pausing Nav2 (reason: rotation_search) before publishing /cmd_vel.
+[explore-10] [INFO] [1756928229.771404382] [explore_node]: [AVOID] Rotating in place: wz=1.00 rad/s (accum=309 deg).
+[bt_navigator-6] [INFO] [1756928229.771653049] [bt_navigator]: Begin navigating from current location (-0.55, -0.02) to (2.04, 1.07)
+[bt_navigator-6] [INFO] [1756928229.771806016] [bt_navigator]: [navigate_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+[explore-10] [INFO] [1756928229.771870232] [explore_node]: Exploration stopped.
+[explore-10] [INFO] [1756928229.772141244] [explore_node]: Exploration resuming.
+[bt_navigator-6] [INFO] [1756928229.772107690] [bt_navigator]: Goal canceled
+[explore-10] [INFO] [1756928229.849900702] [explore_node]: [AVOID] Area clear again. Re-sending previous Nav2 goal.
+[explore-10] [WARN] [1756928229.849985520] [explore_node]: [AVOID] Pausing Nav2 (reason: rotation_search) before publishing /cmd_vel.
+[explore-10] [INFO] [1756928229.850025825] [explore_node]: Exploration stopped.
+[explore-10] [INFO] [1756928229.850063959] [explore_node]: Exploration resuming.
+[bt_navigator-6] [INFO] [1756928229.850194408] [bt_navigator]: Begin navigating from current location (-0.55, -0.02) to (2.04, 1.07)
+[bt_navigator-6] [INFO] [1756928229.850226700] [bt_navigator]: [navigate_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+[bt_navigator-6] [INFO] [1756928229.850273302] [bt_navigator]: Goal canceled
+[explore-10] [INFO] [1756928229.896430858] [explore_node]: [AVOID] Area clear again. Re-sending previous Nav2 goal.
+[explore-10] [WARN] [1756928229.896717746] [explore_node]: [AVOID] Pausing Nav2 (reason: rotation_search) before publishing /cmd_vel.
+[bt_navigator-6] [INFO] [1756928229.897029674] [bt_navigator]: Begin navigating from current location (-0.55, -0.02) to (2.04, 1.07)
+[bt_navigator-6] [INFO] [1756928229.897126856] [bt_navigator]: [navigate_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+[bt_navigator-6] [INFO] [1756928229.897307069] [bt_navigator]: Goal canceled
+[explore-10] [INFO] [1756928229.973086658] [explore_node]: [AVOID] Area clear again. Re-sending previous Nav2 goal.
+[explore-10] [WARN] [1756928229.973436455] [explore_node]: [AVOID] Pausing Nav2 (reason: rotation_search) before publishing /cmd_vel.
+[explore-10] [INFO] [1756928229.973591026] [explore_node]: Exploration stopped.
+[bt_navigator-6] [INFO] [1756928229.974017079] [bt_navigator]: Begin navigating from current location (-0.55, -0.02) to (2.04, 1.07)
+[bt_navigator-6] [INFO] [1756928229.974137759] [bt_navigator]: [navigate_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+[bt_navigator-6] [INFO] [1756928229.974357242] [bt_navigator]: Goal canceled
+[explore-10] [INFO] [1756928229.974124227] [explore_node]: Exploration resuming.
+[explore-10] [INFO] [1756928230.071831444] [explore_node]: [AVOID] Area clear again. Re-sending previous Nav2 goal.
+[explore-10] [WARN] [1756928230.072211439] [explore_node]: [AVOID] Pausing Nav2 (reason: rotation_search) before publishing /cmd_vel.
+[explore-10] [INFO] [1756928230.072384711] [explore_node]: Exploration stopped.
+[explore-10] [INFO] [1756928230.072612466] [explore_node]: Exploration resuming.
+[bt_navigator-6] [INFO] [1756928230.072763295] [bt_navigator]: Begin navigating from current location (-0.55, -0.02) to (2.04, 1.07)
+[bt_navigator-6] [INFO] [1756928230.072921014] [bt_navigator]: [navigate_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+[bt_navigator-6] [INFO] [1756928230.073262599] [bt_navigator]: Goal canceled
+[explore-10] [INFO] [1756928230.169925405] [explore_node]: [AVOID] Area clear again. Re-sending previous Nav2 goal.
+[explore-10] [WARN] [1756928230.170161875] [explore_node]: [AVOID] Pausing Nav2 (reason: rotation_search) before publishing /cmd_vel.
+[explore-10] [INFO] [1756928230.170196489] [explore_node]: Exploration stopped.
+[explore-10] [INFO] [1756928230.170252440] [explore_node]: Exploration resuming.
+[bt_navigator-6] [INFO] [1756928230.170399454] [bt_navigator]: Begin navigating from current location (-0.55, -0.02) to (2.04, 1.07)
+[bt_navigator-6] [INFO] [1756928230.170448746] [bt_navigator]: [navigate_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+[bt_navigator-6] [INFO] [1756928230.170502726] [bt_navigator]: Goal canceled
+[explore-10] [INFO] [1756928230.257815680] [explore_node]: Exploration stopped.
+[explore-10] [INFO] [1756928230.258507621] [explore_node]: Exploration resuming.
+[explore-10] [INFO] [1756928230.293610675] [explore_node]: Exploration stopped.
+[explore-10] [INFO] [1756928230.293747817] [explore_node]: Exploration resuming.
+[explore-10] [INFO] [1756928230.405719710] [explore_node]: Exploration stopped.
+[explore-10] [INFO] [1756928230.462778011] [explore_node]: [AVOID] Ranges m: fl=0.10 fr=0.43 rl=0.74 rr=nan | T=0.15
+[explore-10] [WARN] [1756928230.689582710] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [WARN] [1756928230.720851982] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [WARN] [1756928230.720885932] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [INFO] [1756928230.792876913] [explore_node]: [AVOID] Rotating in place: wz=-1.00 rad/s (accum=368 deg).
+[explore-10] [WARN] [1756928230.792907931] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [WARN] [1756928230.824613448] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [WARN] [1756928230.824659051] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [WARN] [1756928230.902333355] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [WARN] [1756928231.002253749] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [WARN] [1756928231.102256730] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [WARN] [1756928231.202423156] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [WARN] [1756928231.302359148] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [WARN] [1756928231.402225854] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [INFO] [1756928231.502204856] [explore_node]: [AVOID] Ranges m: fl=0.08 fr=0.17 rl=0.87 rr=nan | T=0.15
+[explore-10] [WARN] [1756928231.502500799] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [WARN] [1756928231.602373758] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [WARN] [1756928231.702253697] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [INFO] [1756928231.802255832] [explore_node]: [AVOID] Rotating in place: wz=-1.00 rad/s (accum=426 deg).
+[explore-10] [WARN] [1756928231.802362961] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [WARN] [1756928231.902306107] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [WARN] [1756928232.002297126] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [WARN] [1756928232.102304519] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [WARN] [1756928232.202316305] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [WARN] [1756928232.302334866] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [WARN] [1756928232.402317003] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [INFO] [1756928232.502213074] [explore_node]: [AVOID] Ranges m: fl=0.08 fr=0.17 rl=0.86 rr=nan | T=0.15
+[explore-10] [WARN] [1756928232.502417217] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [WARN] [1756928232.602306297] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [WARN] [1756928232.702314239] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [INFO] [1756928232.802288915] [explore_node]: [AVOID] Rotating in place: wz=-1.00 rad/s (accum=483 deg).
+[explore-10] [WARN] [1756928232.802397016] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [WARN] [1756928232.902299870] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [WARN] [1756928233.002310399] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [WARN] [1756928233.102323185] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [WARN] [1756928233.202234712] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [WARN] [1756928233.302281310] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [WARN] [1756928233.402307669] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [INFO] [1756928233.502301284] [explore_node]: [AVOID] Ranges m: fl=0.08 fr=0.17 rl=0.87 rr=nan | T=0.15
+[explore-10] [WARN] [1756928233.502522894] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [WARN] [1756928233.602388862] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [WARN] [1756928233.702505303] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [INFO] [1756928233.802330624] [explore_node]: [AVOID] Rotating in place: wz=-1.00 rad/s (accum=540 deg).
+[explore-10] [WARN] [1756928233.802441069] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [WARN] [1756928233.902345155] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [WARN] [1756928234.002475925] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [WARN] [1756928234.102341826] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [WARN] [1756928234.202405836] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [WARN] [1756928234.302426093] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [WARN] [1756928234.402451082] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [INFO] [1756928234.502314204] [explore_node]: [AVOID] Ranges m: fl=0.08 fr=0.17 rl=0.87 rr=nan | T=0.15
+[explore-10] [WARN] [1756928234.502577944] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [WARN] [1756928234.602446162] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [WARN] [1756928234.702452462] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [WARN] [1756928234.802303453] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [INFO] [1756928234.902251540] [explore_node]: [AVOID] Rotating in place: wz=-1.00 rad/s (accum=603 deg).
+[explore-10] [WARN] [1756928234.902314277] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [WARN] [1756928235.002352009] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [WARN] [1756928235.102339594] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [WARN] [1756928235.202356606] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [WARN] [1756928235.302471558] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [WARN] [1756928235.402368686] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [WARN] [1756928235.502347546] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [INFO] [1756928235.602251116] [explore_node]: [AVOID] Ranges m: fl=0.08 fr=0.16 rl=0.87 rr=nan | T=0.15
+[explore-10] [WARN] [1756928235.602424936] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [WARN] [1756928235.702319909] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [WARN] [1756928235.802282365] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [INFO] [1756928235.902285217] [explore_node]: [AVOID] Rotating in place: wz=-1.00 rad/s (accum=660 deg).
+[explore-10] [WARN] [1756928235.902349300] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [WARN] [1756928236.002232986] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [WARN] [1756928236.102367141] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [WARN] [1756928236.202468093] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [WARN] [1756928236.302380641] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [WARN] [1756928236.402377171] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [WARN] [1756928236.502367351] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [INFO] [1756928236.602273276] [explore_node]: [AVOID] Ranges m: fl=0.08 fr=0.17 rl=0.87 rr=nan | T=0.15
+[explore-10] [WARN] [1756928236.602522338] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [WARN] [1756928236.702461568] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [WARN] [1756928236.802399838] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [INFO] [1756928236.902372957] [explore_node]: [AVOID] Rotating in place: wz=-1.00 rad/s (accum=718 deg).
+[explore-10] [WARN] [1756928236.902564146] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [WARN] [1756928237.002379827] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [WARN] [1756928237.102441287] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [WARN] [1756928237.202468202] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [WARN] [1756928237.302516213] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [WARN] [1756928237.402482359] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [WARN] [1756928237.502468965] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [INFO] [1756928237.602424182] [explore_node]: [AVOID] Ranges m: fl=0.08 fr=0.17 rl=0.86 rr=nan | T=0.15
+[explore-10] [WARN] [1756928237.602716276] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [WARN] [1756928237.702460321] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [WARN] [1756928237.802528283] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [INFO] [1756928237.902491843] [explore_node]: [AVOID] Rotating in place: wz=-1.00 rad/s (accum=775 deg).
+[explore-10] [WARN] [1756928237.902594392] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [WARN] [1756928238.002380904] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [WARN] [1756928238.102488823] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [WARN] [1756928238.202501512] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [WARN] [1756928238.302429353] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [WARN] [1756928238.402471374] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [WARN] [1756928238.502417077] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [WARN] [1756928238.602511909] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [INFO] [1756928238.702325241] [explore_node]: [AVOID] Ranges m: fl=0.08 fr=0.17 rl=0.86 rr=nan | T=0.15
+[explore-10] [WARN] [1756928238.702517325] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [WARN] [1756928238.802448885] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [WARN] [1756928238.902326174] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [INFO] [1756928239.002374823] [explore_node]: [AVOID] Rotating in place: wz=-1.00 rad/s (accum=838 deg).
+[explore-10] [WARN] [1756928239.002455385] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [WARN] [1756928239.102398012] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [WARN] [1756928239.202428641] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [WARN] [1756928239.302511827] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [WARN] [1756928239.402526947] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [WARN] [1756928239.502393032] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [WARN] [1756928239.602394244] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [WARN] [1756928239.702414189] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [INFO] [1756928239.802367331] [explore_node]: [AVOID] Ranges m: fl=0.08 fr=0.17 rl=0.86 rr=nan | T=0.15
+[explore-10] [WARN] [1756928239.802667604] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [WARN] [1756928239.902498462] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [INFO] [1756928240.002442836] [explore_node]: [AVOID] Rotating in place: wz=-1.00 rad/s (accum=895 deg).
+[explore-10] [WARN] [1756928240.002566998] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [WARN] [1756928240.102436759] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [WARN] [1756928240.202443147] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [WARN] [1756928240.302523870] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [WARN] [1756928240.402380576] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [WARN] [1756928240.502433720] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [WARN] [1756928240.602601435] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [WARN] [1756928240.702551942] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [INFO] [1756928240.802376446] [explore_node]: [AVOID] Ranges m: fl=0.08 fr=0.17 rl=0.86 rr=nan | T=0.15
+[explore-10] [WARN] [1756928240.802793659] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [WARN] [1756928240.902347565] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [WARN] [1756928241.002403553] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [INFO] [1756928241.102450305] [explore_node]: [AVOID] Rotating in place: wz=-1.00 rad/s (accum=958 deg).
+[explore-10] [WARN] [1756928241.102575642] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [WARN] [1756928241.202541800] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [WARN] [1756928241.302549906] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [WARN] [1756928241.402555809] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [WARN] [1756928241.502548686] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [WARN] [1756928241.602605603] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [WARN] [1756928241.702520405] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [WARN] [1756928241.802489612] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [INFO] [1756928241.902436862] [explore_node]: [AVOID] Ranges m: fl=0.08 fr=0.17 rl=0.87 rr=nan | T=0.15
+[explore-10] [WARN] [1756928241.902604872] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [WARN] [1756928242.002415157] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [INFO] [1756928242.102572892] [explore_node]: [AVOID] Rotating in place: wz=-1.00 rad/s (accum=1016 deg).
+[explore-10] [WARN] [1756928242.102670711] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [WARN] [1756928242.202442115] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [WARN] [1756928242.302574387] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [WARN] [1756928242.402484532] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [WARN] [1756928242.502498267] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [WARN] [1756928242.602496896] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [WARN] [1756928242.702593966] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [WARN] [1756928242.802522104] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [WARN] [1756928242.902503120] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [INFO] [1756928243.002390003] [explore_node]: [AVOID] Ranges m: fl=0.08 fr=0.17 rl=0.86 rr=nan | T=0.15
+[explore-10] [WARN] [1756928243.002589224] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [INFO] [1756928243.102631687] [explore_node]: [AVOID] Rotating in place: wz=-1.00 rad/s (accum=1073 deg).
+[explore-10] [WARN] [1756928243.102735895] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [WARN] [1756928243.202525506] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [WARN] [1756928243.302596895] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [WARN] [1756928243.402482172] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [WARN] [1756928243.502497057] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [WARN] [1756928243.602466994] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [WARN] [1756928243.702573033] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [WARN] [1756928243.802569561] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [WARN] [1756928243.902594567] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [INFO] [1756928244.002510675] [explore_node]: [AVOID] Ranges m: fl=0.08 fr=0.17 rl=0.85 rr=nan | T=0.15
+[explore-10] [WARN] [1756928244.002741293] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [WARN] [1756928244.102633594] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [INFO] [1756928244.202512746] [explore_node]: [AVOID] Rotating in place: wz=-1.00 rad/s (accum=1136 deg).
+[explore-10] [WARN] [1756928244.202614545] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [WARN] [1756928244.302538639] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [WARN] [1756928244.402629426] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [WARN] [1756928244.502598018] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [WARN] [1756928244.602516898] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [WARN] [1756928244.702522479] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [WARN] [1756928244.802593428] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [WARN] [1756928244.902627484] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [WARN] [1756928245.002600721] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [INFO] [1756928245.102511649] [explore_node]: [AVOID] Ranges m: fl=0.08 fr=0.17 rl=0.87 rr=nan | T=0.15
+[explore-10] [WARN] [1756928245.102790340] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [WARN] [1756928245.202492589] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [INFO] [1756928245.302645877] [explore_node]: [AVOID] Rotating in place: wz=-1.00 rad/s (accum=1199 deg).
+[explore-10] [WARN] [1756928245.302801627] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [WARN] [1756928245.402665096] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [WARN] [1756928245.502635245] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [WARN] [1756928245.602543441] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [WARN] [1756928245.702646791] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [WARN] [1756928245.802599924] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [WARN] [1756928245.902475328] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [WARN] [1756928246.002486475] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [WARN] [1756928246.102466740] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [INFO] [1756928246.202425889] [explore_node]: [AVOID] Ranges m: fl=0.08 fr=0.17 rl=0.88 rr=nan | T=0.15
+[explore-10] [WARN] [1756928246.202589325] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [WARN] [1756928246.302417381] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [INFO] [1756928246.402539224] [explore_node]: [AVOID] Rotating in place: wz=-1.00 rad/s (accum=1262 deg).
+[explore-10] [WARN] [1756928246.402637699] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [WARN] [1756928246.502641690] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [WARN] [1756928246.602661463] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [WARN] [1756928246.702622397] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [WARN] [1756928246.802680591] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [WARN] [1756928246.902633849] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [WARN] [1756928247.002496271] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [WARN] [1756928247.102709590] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [INFO] [1756928247.202461479] [explore_node]: [AVOID] Ranges m: fl=0.08 fr=0.17 rl=0.88 rr=nan | T=0.15
+[explore-10] [WARN] [1756928247.202628522] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [WARN] [1756928247.302646572] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [INFO] [1756928247.402657344] [explore_node]: [AVOID] Rotating in place: wz=-1.00 rad/s (accum=1319 deg).
+[explore-10] [WARN] [1756928247.402817128] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [WARN] [1756928247.502667180] [explore_node]: [AVOID] 360° search failed. Cancel Nav2 & pause exploration.
+[explore-10] [WARN] [17

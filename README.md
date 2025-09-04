@@ -6,3 +6,8 @@
 ros2 launch tutorial_pkg explore.launch.py 2>&1 | grep -v "Message Filter dropping message: frame 'laser'"
 ```
 (Logs still go to ~/.ros/log unfiltered.)
+
+## running all the necessary pacakge
+```sh
+./explore
+``
