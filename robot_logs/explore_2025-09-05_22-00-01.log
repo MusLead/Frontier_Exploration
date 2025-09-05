@@ -1,0 +1,783 @@
+[INFO] [launch]: All log files can be found below /home/robot/.ros/log/2025-09-05-22-00-01-265140-robot-pc04-95013
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [async_slam_toolbox_node-1]: process started with pid [95026]
+[INFO] [controller_server-2]: process started with pid [95028]
+[INFO] [smoother_server-3]: process started with pid [95030]
+[INFO] [planner_server-4]: process started with pid [95032]
+[INFO] [behavior_server-5]: process started with pid [95034]
+[INFO] [bt_navigator-6]: process started with pid [95036]
+[INFO] [waypoint_follower-7]: process started with pid [95038]
+[INFO] [velocity_smoother-8]: process started with pid [95040]
+[INFO] [lifecycle_manager-9]: process started with pid [95042]
+[INFO] [explore-10]: process started with pid [95044]
+[INFO] [rviz2-11]: process started with pid [95046]
+[async_slam_toolbox_node-1] [INFO] [1757102401.378187449] [slam]: Node using stack size 40000000
+[planner_server-4] [INFO] [1757102401.379531836] [planner_server]: 
+[planner_server-4] 	planner_server lifecycle node launched. 
+[planner_server-4] 	Waiting on external lifecycle transitions to activate
+[planner_server-4] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[controller_server-2] [INFO] [1757102401.379816285] [controller_server]: 
+[controller_server-2] 	controller_server lifecycle node launched. 
+[controller_server-2] 	Waiting on external lifecycle transitions to activate
+[controller_server-2] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[bt_navigator-6] [INFO] [1757102401.380133543] [bt_navigator]: 
+[bt_navigator-6] 	bt_navigator lifecycle node launched. 
+[bt_navigator-6] 	Waiting on external lifecycle transitions to activate
+[bt_navigator-6] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[bt_navigator-6] [INFO] [1757102401.380198403] [bt_navigator]: Creating
+[planner_server-4] [INFO] [1757102401.380347594] [planner_server]: Creating
+[smoother_server-3] [INFO] [1757102401.381044819] [smoother_server]: 
+[smoother_server-3] 	smoother_server lifecycle node launched. 
+[smoother_server-3] 	Waiting on external lifecycle transitions to activate
+[smoother_server-3] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[controller_server-2] [INFO] [1757102401.381624706] [controller_server]: Creating controller server
+[smoother_server-3] [INFO] [1757102401.381775916] [smoother_server]: Creating smoother server
+[behavior_server-5] [INFO] [1757102401.382081277] [behavior_server]: 
+[behavior_server-5] 	behavior_server lifecycle node launched. 
+[behavior_server-5] 	Waiting on external lifecycle transitions to activate
+[behavior_server-5] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[waypoint_follower-7] [INFO] [1757102401.382132703] [waypoint_follower]: 
+[waypoint_follower-7] 	waypoint_follower lifecycle node launched. 
+[waypoint_follower-7] 	Waiting on external lifecycle transitions to activate
+[waypoint_follower-7] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[lifecycle_manager-9] [INFO] [1757102401.382325895] [lifecycle_manager_navigation]: Creating
+[waypoint_follower-7] [INFO] [1757102401.382563750] [waypoint_follower]: Creating
+[lifecycle_manager-9] [INFO] [1757102401.383529030] [lifecycle_manager_navigation]: [34m[1mCreating and initializing lifecycle service clients[0m[0m
+[velocity_smoother-8] [INFO] [1757102401.383539083] [velocity_smoother]: 
+[velocity_smoother-8] 	velocity_smoother lifecycle node launched. 
+[velocity_smoother-8] 	Waiting on external lifecycle transitions to activate
+[velocity_smoother-8] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[explore-10] [INFO] [1757102401.385074413] [explore_node]: Waiting for costmap to become available, topic: map
+[planner_server-4] [INFO] [1757102401.386883674] [global_costmap.global_costmap]: 
+[planner_server-4] 	global_costmap lifecycle node launched. 
+[planner_server-4] 	Waiting on external lifecycle transitions to activate
+[planner_server-4] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[controller_server-2] [INFO] [1757102401.387135840] [local_costmap.local_costmap]: 
+[controller_server-2] 	local_costmap lifecycle node launched. 
+[controller_server-2] 	Waiting on external lifecycle transitions to activate
+[controller_server-2] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[planner_server-4] [INFO] [1757102401.387275740] [global_costmap.global_costmap]: Creating Costmap
+[controller_server-2] [INFO] [1757102401.387496566] [local_costmap.local_costmap]: Creating Costmap
+[async_slam_toolbox_node-1] [INFO] [1757102401.396990844] [slam]: Using solver plugin solver_plugins::CeresSolver
+[async_slam_toolbox_node-1] [INFO] [1757102401.397130382] [slam]: CeresSolver: Using SCHUR_JACOBI preconditioner.
+[lifecycle_manager-9] [INFO] [1757102401.492118307] [lifecycle_manager_navigation]: [34m[1mStarting managed nodes bringup...[0m[0m
+[lifecycle_manager-9] [INFO] [1757102401.492146225] [lifecycle_manager_navigation]: [34m[1mConfiguring controller_server[0m[0m
+[controller_server-2] [INFO] [1757102401.492266180] [controller_server]: Configuring controller interface
+[controller_server-2] [INFO] [1757102401.492341506] [controller_server]: getting goal checker plugins..
+[controller_server-2] [INFO] [1757102401.492393097] [controller_server]: Controller frequency set to 10.0000Hz
+[controller_server-2] [INFO] [1757102401.492412552] [local_costmap.local_costmap]: Configuring
+[controller_server-2] [INFO] [1757102401.494332921] [local_costmap.local_costmap]: Using plugin "static_layer"
+[controller_server-2] [INFO] [1757102401.495770142] [local_costmap.local_costmap]: Subscribing to the map topic (/map) with transient local durability
+[controller_server-2] [INFO] [1757102401.496203513] [local_costmap.local_costmap]: Initialized plugin "static_layer"
+[controller_server-2] [INFO] [1757102401.496213499] [local_costmap.local_costmap]: Using plugin "obstacle_layer"
+[controller_server-2] [INFO] [1757102401.496334284] [local_costmap.local_costmap]: Subscribed to Topics: scan
+[controller_server-2] [INFO] [1757102401.497279792] [local_costmap.local_costmap]: Initialized plugin "obstacle_layer"
+[controller_server-2] [INFO] [1757102401.497289987] [local_costmap.local_costmap]: Using plugin "inflation_layer"
+[controller_server-2] [INFO] [1757102401.497857126] [local_costmap.local_costmap]: Initialized plugin "inflation_layer"
+[controller_server-2] [INFO] [1757102401.500795522] [controller_server]: Created progress_checker : progress_checker of type nav2_controller::SimpleProgressChecker
+[controller_server-2] [INFO] [1757102401.501036401] [controller_server]: Created goal checker : goal_checker of type nav2_controller::SimpleGoalChecker
+[controller_server-2] [INFO] [1757102401.501227446] [controller_server]: Controller Server has goal_checker  goal checkers available.
+[controller_server-2] [INFO] [1757102401.501844815] [controller_server]: Created controller : FollowPath of type nav2_regulated_pure_pursuit_controller::RegulatedPurePursuitController
+[controller_server-2] [INFO] [1757102401.509605223] [controller_server]: Controller Server has FollowPath  controllers available.
+[lifecycle_manager-9] [INFO] [1757102401.519480258] [lifecycle_manager_navigation]: [34m[1mConfiguring smoother_server[0m[0m
+[smoother_server-3] [INFO] [1757102401.519620295] [smoother_server]: Configuring smoother server
+[smoother_server-3] [INFO] [1757102401.523491369] [smoother_server]: Created smoother : simple_smoother of type nav2_smoother::SimpleSmoother
+[smoother_server-3] [INFO] [1757102401.523631554] [smoother_server]: Smoother Server has simple_smoother  smoothers available.
+[lifecycle_manager-9] [INFO] [1757102401.529936626] [lifecycle_manager_navigation]: [34m[1mConfiguring planner_server[0m[0m
+[planner_server-4] [INFO] [1757102401.530299293] [planner_server]: Configuring
+[planner_server-4] [INFO] [1757102401.530362032] [global_costmap.global_costmap]: Configuring
+[planner_server-4] [INFO] [1757102401.535041250] [global_costmap.global_costmap]: Using plugin "static_layer"
+[planner_server-4] [INFO] [1757102401.536948216] [global_costmap.global_costmap]: Subscribing to the map topic (/map) with transient local durability
+[planner_server-4] [INFO] [1757102401.537590068] [global_costmap.global_costmap]: Initialized plugin "static_layer"
+[planner_server-4] [INFO] [1757102401.537604490] [global_costmap.global_costmap]: Using plugin "obstacle_layer"
+[planner_server-4] [INFO] [1757102401.537802735] [global_costmap.global_costmap]: Subscribed to Topics: scan
+[planner_server-4] [INFO] [1757102401.540565162] [global_costmap.global_costmap]: Initialized plugin "obstacle_layer"
+[planner_server-4] [INFO] [1757102401.540600949] [global_costmap.global_costmap]: Using plugin "inflation_layer"
+[planner_server-4] [INFO] [1757102401.542208917] [global_costmap.global_costmap]: Initialized plugin "inflation_layer"
+[planner_server-4] [INFO] [1757102401.554050605] [planner_server]: Created global planner plugin GridBased of type nav2_navfn_planner/NavfnPlanner
+[planner_server-4] [INFO] [1757102401.554069328] [planner_server]: Configuring plugin GridBased of type NavfnPlanner
+[planner_server-4] [INFO] [1757102401.554422775] [planner_server]: Planner Server has GridBased  planners available.
+[lifecycle_manager-9] [INFO] [1757102401.557669822] [lifecycle_manager_navigation]: [34m[1mConfiguring behavior_server[0m[0m
+[behavior_server-5] [INFO] [1757102401.557804007] [behavior_server]: Configuring
+[behavior_server-5] [INFO] [1757102401.560810802] [behavior_server]: Creating behavior plugin spin of type nav2_behaviors/Spin
+[behavior_server-5] [INFO] [1757102401.561182792] [behavior_server]: Configuring spin
+[behavior_server-5] [INFO] [1757102401.562650240] [behavior_server]: Creating behavior plugin backup of type nav2_behaviors/BackUp
+[behavior_server-5] [INFO] [1757102401.562962100] [behavior_server]: Configuring backup
+[behavior_server-5] [INFO] [1757102401.564441821] [behavior_server]: Creating behavior plugin drive_on_heading of type nav2_behaviors/DriveOnHeading
+[behavior_server-5] [INFO] [1757102401.565412945] [behavior_server]: Configuring drive_on_heading
+[behavior_server-5] [INFO] [1757102401.569532434] [behavior_server]: Creating behavior plugin wait of type nav2_behaviors/Wait
+[behavior_server-5] [INFO] [1757102401.570275613] [behavior_server]: Configuring wait
+[behavior_server-5] [INFO] [1757102401.574370265] [behavior_server]: Creating behavior plugin assisted_teleop of type nav2_behaviors/AssistedTeleop
+[behavior_server-5] [INFO] [1757102401.575883568] [behavior_server]: Configuring assisted_teleop
+[lifecycle_manager-9] [INFO] [1757102401.580259005] [lifecycle_manager_navigation]: [34m[1mConfiguring bt_navigator[0m[0m
+[bt_navigator-6] [INFO] [1757102401.580483234] [bt_navigator]: Configuring
+[lifecycle_manager-9] [INFO] [1757102401.607182035] [lifecycle_manager_navigation]: [34m[1mConfiguring waypoint_follower[0m[0m
+[waypoint_follower-7] [INFO] [1757102401.607297593] [waypoint_follower]: Configuring
+[waypoint_follower-7] [INFO] [1757102401.611445433] [waypoint_follower]: Created waypoint_task_executor : wait_at_waypoint of type nav2_waypoint_follower::WaitAtWaypoint
+[lifecycle_manager-9] [INFO] [1757102401.611867959] [lifecycle_manager_navigation]: [34m[1mConfiguring velocity_smoother[0m[0m
+[velocity_smoother-8] [INFO] [1757102401.612036468] [velocity_smoother]: Configuring velocity smoother
+[lifecycle_manager-9] [INFO] [1757102401.614053065] [lifecycle_manager_navigation]: [34m[1mActivating controller_server[0m[0m
+[controller_server-2] [INFO] [1757102401.614159056] [controller_server]: Activating
+[controller_server-2] [INFO] [1757102401.614190074] [local_costmap.local_costmap]: Activating
+[controller_server-2] [INFO] [1757102401.614200014] [local_costmap.local_costmap]: Checking transform
+[controller_server-2] [INFO] [1757102401.614219159] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[rviz2-11] [INFO] [1757102401.914110216] [rviz2]: Stereo is NOT SUPPORTED
+[rviz2-11] [INFO] [1757102401.914167215] [rviz2]: OpenGl version: 4.6 (GLSL 4.6)
+[rviz2-11] [INFO] [1757102401.994923848] [rviz2]: Stereo is NOT SUPPORTED
+[controller_server-2] [INFO] [1757102402.114276717] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[controller_server-2] [INFO] [1757102402.614269141] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[controller_server-2] [INFO] [1757102403.114278731] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[controller_server-2] [INFO] [1757102403.614291018] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[controller_server-2] [INFO] [1757102404.114269211] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[controller_server-2] [INFO] [1757102404.614297194] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[controller_server-2] [INFO] [1757102405.114282343] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[controller_server-2] [INFO] [1757102405.614289414] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[controller_server-2] [INFO] [1757102406.114424362] [local_costmap.local_costmap]: start
+[controller_server-2] [INFO] [1757102406.316031359] [controller_server]: Activating controller: FollowPath of type regulated_pure_pursuit_controller::RegulatedPurePursuitController
+[controller_server-2] [INFO] [1757102406.316128311] [controller_server]: Creating bond (controller_server) to lifecycle manager.
+[lifecycle_manager-9] [INFO] [1757102406.424254346] [lifecycle_manager_navigation]: Server controller_server connected with bond.
+[lifecycle_manager-9] [INFO] [1757102406.424371283] [lifecycle_manager_navigation]: [34m[1mActivating smoother_server[0m[0m
+[smoother_server-3] [INFO] [1757102406.425026047] [smoother_server]: Activating
+[smoother_server-3] [INFO] [1757102406.425119457] [smoother_server]: Creating bond (smoother_server) to lifecycle manager.
+[lifecycle_manager-9] [INFO] [1757102406.532102601] [lifecycle_manager_navigation]: Server smoother_server connected with bond.
+[lifecycle_manager-9] [INFO] [1757102406.532196366] [lifecycle_manager_navigation]: [34m[1mActivating planner_server[0m[0m
+[planner_server-4] [INFO] [1757102406.532685595] [planner_server]: Activating
+[planner_server-4] [INFO] [1757102406.532779877] [global_costmap.global_costmap]: Activating
+[planner_server-4] [INFO] [1757102406.532803497] [global_costmap.global_costmap]: Checking transform
+[planner_server-4] [INFO] [1757102406.532846141] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[planner_server-4] [INFO] [1757102407.032910116] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[async_slam_toolbox_node-1] [WARN] [1757102407.122443934] [slam]: minimum laser range setting (0.0 m) exceeds the capabilities of the used Lidar (0.1 m)
+[controller_server-2] [INFO] [1757102407.401809325] [local_costmap.local_costmap]: StaticLayer: Resizing static layer to 86 X 107 at 0.040000 m/pix
+[planner_server-4] [INFO] [1757102407.401882595] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 86 X 107 at 0.040000 m/pix
+[rviz2-11] [INFO] [1757102407.417013974] [rviz2]: Trying to create a map of size 86 x 107 using 1 swatches
+[planner_server-4] [INFO] [1757102407.533112840] [global_costmap.global_costmap]: start
+[rviz2-11] [INFO] [1757102408.567240797] [rviz2]: Trying to create a map of size 86 x 107 using 1 swatches
+[planner_server-4] [INFO] [1757102408.584766222] [planner_server]: Activating plugin GridBased of type NavfnPlanner
+[planner_server-4] [INFO] [1757102408.586558878] [planner_server]: Creating bond (planner_server) to lifecycle manager.
+[lifecycle_manager-9] [INFO] [1757102408.693474363] [lifecycle_manager_navigation]: Server planner_server connected with bond.
+[lifecycle_manager-9] [INFO] [1757102408.693571886] [lifecycle_manager_navigation]: [34m[1mActivating behavior_server[0m[0m
+[behavior_server-5] [INFO] [1757102408.694176522] [behavior_server]: Activating
+[behavior_server-5] [INFO] [1757102408.694246627] [behavior_server]: Activating spin
+[behavior_server-5] [INFO] [1757102408.694279359] [behavior_server]: Activating backup
+[behavior_server-5] [INFO] [1757102408.694299527] [behavior_server]: Activating drive_on_heading
+[behavior_server-5] [INFO] [1757102408.694318461] [behavior_server]: Activating wait
+[behavior_server-5] [INFO] [1757102408.694335428] [behavior_server]: Activating assisted_teleop
+[behavior_server-5] [INFO] [1757102408.694359647] [behavior_server]: Creating bond (behavior_server) to lifecycle manager.
+[lifecycle_manager-9] [INFO] [1757102408.801727105] [lifecycle_manager_navigation]: Server behavior_server connected with bond.
+[lifecycle_manager-9] [INFO] [1757102408.801842243] [lifecycle_manager_navigation]: [34m[1mActivating bt_navigator[0m[0m
+[bt_navigator-6] [INFO] [1757102408.802586858] [bt_navigator]: Activating
+[bt_navigator-6] [INFO] [1757102408.839009057] [bt_navigator]: Creating bond (bt_navigator) to lifecycle manager.
+[lifecycle_manager-9] [INFO] [1757102408.941204118] [lifecycle_manager_navigation]: Server bt_navigator connected with bond.
+[lifecycle_manager-9] [INFO] [1757102408.941321911] [lifecycle_manager_navigation]: [34m[1mActivating waypoint_follower[0m[0m
+[waypoint_follower-7] [INFO] [1757102408.942028184] [waypoint_follower]: Activating
+[waypoint_follower-7] [INFO] [1757102408.942118221] [waypoint_follower]: Creating bond (waypoint_follower) to lifecycle manager.
+[lifecycle_manager-9] [INFO] [1757102409.051864422] [lifecycle_manager_navigation]: Server waypoint_follower connected with bond.
+[lifecycle_manager-9] [INFO] [1757102409.051980391] [lifecycle_manager_navigation]: [34m[1mActivating velocity_smoother[0m[0m
+[velocity_smoother-8] [INFO] [1757102409.052779858] [velocity_smoother]: Activating
+[velocity_smoother-8] [INFO] [1757102409.052948731] [velocity_smoother]: Creating bond (velocity_smoother) to lifecycle manager.
+[lifecycle_manager-9] [INFO] [1757102409.161537572] [lifecycle_manager_navigation]: Server velocity_smoother connected with bond.
+[lifecycle_manager-9] [INFO] [1757102409.161652759] [lifecycle_manager_navigation]: [34m[1mManaged nodes are active[0m[0m
+[lifecycle_manager-9] [INFO] [1757102409.161688437] [lifecycle_manager_navigation]: [34m[1mCreating bond timer...[0m[0m
+[explore-10] [INFO] [1757102412.712573481] [explore_node]: Waiting to connect to move_base nav2 server
+[explore-10] [INFO] [1757102412.712909897] [explore_node]: Connected to move_base nav2 server
+[explore-10] [INFO] [1757102412.712925216] [explore_node]: Getting initial pose of the robot
+[explore-10] [ERROR] [1757102413.016574288] [explore_node]: Extrapolation Error looking up robot pose: Lookup would require extrapolation at time 1757102412.713019, but only time 1757102409.545538 is in the buffer, when looking up transform from frame [base_link] to frame [map]
+[explore-10] 
+[explore-10] [INFO] [1757102413.026411762] [explore_node]: [NAV] Remembered last goal (0.14, 0.22, yaw from quat).
+[bt_navigator-6] [INFO] [1757102413.027270406] [bt_navigator]: Begin navigating from current location (1.37, 0.46) to (0.14, 0.22)
+[controller_server-2] [INFO] [1757102413.047944925] [controller_server]: Received a goal, begin computing control effort.
+[controller_server-2] [WARN] [1757102413.048008509] [controller_server]: No goal checker was specified in parameter 'current_goal_checker'. Server will use only plugin loaded goal_checker . This warning will appear once.
+[controller_server-2] [ERROR] [1757102413.149052740] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102412.864224 but the latest data is at time 1757102409.545538, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102413.149159792] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102413.149335086] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757102413.252031140] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102412.864224 but the latest data is at time 1757102409.545538, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102413.252174810] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102413.252422470] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757102413.353622539] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102412.864224 but the latest data is at time 1757102409.545538, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102413.353767008] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102413.354073864] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757102413.457211758] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102412.864224 but the latest data is at time 1757102409.545538, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102413.457334360] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102413.457557395] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757102413.558491151] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102412.864224 but the latest data is at time 1757102409.545538, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102413.558602569] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102413.558838759] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757102413.662226294] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102412.864224 but the latest data is at time 1757102409.545538, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102413.662403771] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102413.662605158] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757102413.763711132] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102412.864224 but the latest data is at time 1757102409.545538, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102413.763838292] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102413.764007976] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757102413.866560780] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102412.864224 but the latest data is at time 1757102409.545538, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102413.866652934] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102413.866800664] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757102413.967744847] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102412.864224 but the latest data is at time 1757102409.545538, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102413.967853906] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102413.968021332] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757102414.071083051] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102412.864224 but the latest data is at time 1757102409.545538, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102414.071209272] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102414.071392275] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757102414.172475460] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102412.864224 but the latest data is at time 1757102409.545538, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102414.172536051] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102414.172620933] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [INFO] [1757102414.172633799] [controller_server]: Passing new path to controller.
+[controller_server-2] [ERROR] [1757102414.274694744] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102412.864224 but the latest data is at time 1757102409.545538, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102414.274791698] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102414.274954336] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757102414.375916620] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102412.864224 but the latest data is at time 1757102409.545538, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102414.375990000] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102414.376106828] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757102414.478596648] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102412.864224 but the latest data is at time 1757102409.545538, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102414.478710763] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102414.478901770] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757102414.579956522] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102412.864224 but the latest data is at time 1757102409.545538, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102414.580080764] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102414.580267211] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757102414.683288666] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102412.864224 but the latest data is at time 1757102409.545538, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102414.683455216] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102414.683747796] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757102414.784911364] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102414.615180 but the latest data is at time 1757102413.186972, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102414.785006932] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102414.785152708] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757102414.887895729] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102414.714414 but the latest data is at time 1757102413.186972, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102414.887983580] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102414.888134316] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757102414.989125185] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102414.826922 but the latest data is at time 1757102413.186972, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102414.989243868] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102414.989425226] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757102415.093067723] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102414.914200 but the latest data is at time 1757102413.186972, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102415.093231844] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [ERROR] [1757102415.093327938] [controller_server]: Controller patience exceeded
+[controller_server-2] [WARN] [1757102415.093454830] [controller_server]: [follow_path] [ActionServer] Aborting handle.
+[controller_server-2] [INFO] [1757102415.107661429] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[controller_server-2] [INFO] [1757102415.109457394] [controller_server]: Received a goal, begin computing control effort.
+[controller_server-2] [INFO] [1757102415.119557381] [controller_server]: Passing new path to controller.
+[controller_server-2] [ERROR] [1757102415.220788341] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102415.090892 but the latest data is at time 1757102413.186972, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102415.220924754] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102415.221119013] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757102415.322476265] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102415.173295 but the latest data is at time 1757102413.186972, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102415.322656095] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102415.322864354] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757102415.426826998] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102415.264218 but the latest data is at time 1757102413.186972, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102415.426944215] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102415.427172475] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757102415.528226345] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102415.391064 but the latest data is at time 1757102413.186972, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102415.528320740] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102415.528473910] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757102415.631530113] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102415.464421 but the latest data is at time 1757102413.186972, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102415.631648298] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102415.631837768] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757102415.733140751] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102415.564240 but the latest data is at time 1757102413.186972, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102415.733287897] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102415.733545561] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757102415.836681447] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102415.664226 but the latest data is at time 1757102413.186972, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102415.836781583] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102415.836939889] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757102415.937927408] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102415.765920 but the latest data is at time 1757102413.186972, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102415.938032261] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102415.938190717] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757102416.041187658] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102415.864280 but the latest data is at time 1757102413.186972, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102416.041238352] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102416.041311547] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[rviz2-11] [INFO] [1757102416.112689477] [rviz2]: Trying to create a map of size 100 x 100 using 1 swatches
+[controller_server-2] [ERROR] [1757102416.142432851] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102415.964216 but the latest data is at time 1757102413.186972, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102416.142592656] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102416.142910401] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [INFO] [1757102416.142973008] [controller_server]: Passing new path to controller.
+[controller_server-2] [ERROR] [1757102416.245229485] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102416.064248 but the latest data is at time 1757102413.186972, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102416.245331254] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102416.245495079] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757102416.346598477] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102416.165273 but the latest data is at time 1757102413.186972, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102416.346751039] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102416.347038470] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757102416.450050085] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102416.264205 but the latest data is at time 1757102413.186972, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102416.450189758] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102416.450463654] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757102416.551911652] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102416.414215 but the latest data is at time 1757102413.186972, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102416.552069588] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102416.552389206] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757102416.655597516] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102416.514221 but the latest data is at time 1757102413.186972, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102416.655742432] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102416.656067021] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757102416.757701786] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102416.564207 but the latest data is at time 1757102413.186972, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102416.757969985] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102416.758355612] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757102416.861567463] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102416.564207 but the latest data is at time 1757102413.186972, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102416.861704304] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102416.862004080] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757102416.963439796] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102416.564207 but the latest data is at time 1757102413.186972, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102416.963564703] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102416.963756253] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757102417.067005903] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102416.564207 but the latest data is at time 1757102413.186972, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102417.067181645] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102417.067391795] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757102417.168572107] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102416.564207 but the latest data is at time 1757102413.186972, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102417.168680689] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [ERROR] [1757102417.168722273] [controller_server]: Controller patience exceeded
+[controller_server-2] [WARN] [1757102417.168799351] [controller_server]: [follow_path] [ActionServer] Aborting handle.
+[controller_server-2] [INFO] [1757102417.168896927] [controller_server]: Received a goal, begin computing control effort.
+[controller_server-2] [ERROR] [1757102417.272793978] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102416.564207 but the latest data is at time 1757102413.186972, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102417.272910684] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102417.273131930] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757102417.374291428] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102416.564207 but the latest data is at time 1757102413.186972, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102417.374410871] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102417.374596806] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757102417.477832167] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102416.614594 but the latest data is at time 1757102413.186972, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102417.477976611] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102417.478174904] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757102417.579397947] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102417.414574 but the latest data is at time 1757102413.186972, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102417.579486182] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102417.579634245] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757102417.683480579] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102417.514208 but the latest data is at time 1757102413.186972, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102417.683601335] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102417.683792401] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757102417.785230408] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102417.564228 but the latest data is at time 1757102413.186972, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102417.785397009] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102417.785747533] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757102417.888385973] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102417.741379 but the latest data is at time 1757102413.186972, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102417.888706966] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102417.889050078] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757102417.990656793] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102417.857049 but the latest data is at time 1757102413.186972, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102417.990816674] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102417.991082098] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757102418.094417981] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102417.864334 but the latest data is at time 1757102413.186972, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102418.094530469] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102418.094718174] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757102418.195931779] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102418.014288 but the latest data is at time 1757102413.186972, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102418.196048562] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102418.196221852] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757102418.299106018] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102418.114204 but the latest data is at time 1757102413.186972, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102418.299230631] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102418.299456978] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [INFO] [1757102418.299487639] [controller_server]: Passing new path to controller.
+[controller_server-2] [ERROR] [1757102418.400712572] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102418.214746 but the latest data is at time 1757102413.186972, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102418.400818816] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102418.400974676] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757102418.504222652] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102418.314306 but the latest data is at time 1757102413.186972, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102418.504343861] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102418.504551857] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757102418.605810458] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102418.414243 but the latest data is at time 1757102413.186972, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102418.605987284] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102418.606308914] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757102418.709449714] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102418.514262 but the latest data is at time 1757102413.186972, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102418.709564360] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102418.709821420] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757102418.810932591] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102418.614200 but the latest data is at time 1757102413.186972, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102418.811058631] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102418.811236419] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757102418.915860179] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102418.614200 but the latest data is at time 1757102413.186972, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102418.916143206] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102418.916403764] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757102419.019204427] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102418.614200 but the latest data is at time 1757102413.186972, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102419.019336037] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102419.019559184] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757102419.120867687] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102418.614200 but the latest data is at time 1757102413.186972, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102419.121021677] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102419.121282459] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757102419.224934681] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102418.614200 but the latest data is at time 1757102413.186972, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102419.225067465] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [ERROR] [1757102419.225117036] [controller_server]: Controller patience exceeded
+[controller_server-2] [WARN] [1757102419.225193779] [controller_server]: [follow_path] [ActionServer] Aborting handle.
+[controller_server-2] [INFO] [1757102419.227973266] [controller_server]: Received a goal, begin computing control effort.
+[rviz2-11] [ERROR] [1757102419.280560124] [rviz2]: Lookup would require extrapolation into the future.  Requested time 1757102412.684613 but the latest data is at time 1757102412.614293, when looking up transform from frame [laser] to frame [map]
+[controller_server-2] [ERROR] [1757102419.329300318] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102418.614200 but the latest data is at time 1757102413.186972, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102419.329483454] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102419.329772080] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757102419.529254796] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102419.314357 but the latest data is at time 1757102418.892640, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102419.529388507] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102419.529574020] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757102419.634011904] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102419.440569 but the latest data is at time 1757102418.892640, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102419.634175015] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102419.634455289] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[explore-10] [ERROR] [1757102419.682557713] [explore_node]: Extrapolation Error looking up robot pose: Lookup would require extrapolation into the future.  Requested time 1757102419.379219 but the latest data is at time 1757102412.991114, when looking up transform from frame [base_link] to frame [map]
+[explore-10] 
+[controller_server-2] [ERROR] [1757102419.736027571] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102419.532705 but the latest data is at time 1757102418.892640, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102419.736199157] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102419.736541715] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757102419.840005995] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102419.670982 but the latest data is at time 1757102418.892640, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102419.840130296] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102419.840347788] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757102419.941254946] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102419.766923 but the latest data is at time 1757102418.892640, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102419.941324970] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102419.941435104] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757102420.044830398] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102419.864270 but the latest data is at time 1757102418.892640, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102420.044946137] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102420.045110987] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757102420.145984931] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102419.964461 but the latest data is at time 1757102418.892640, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102420.146051967] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102420.146150631] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757102420.248460496] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102420.064197 but the latest data is at time 1757102418.892640, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102420.248584460] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102420.248816417] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757102420.350021597] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102420.164198 but the latest data is at time 1757102418.892640, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102420.350138909] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102420.350314385] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [INFO] [1757102420.350340257] [controller_server]: Passing new path to controller.
+[controller_server-2] [ERROR] [1757102420.453897665] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102420.264708 but the latest data is at time 1757102418.892640, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102420.454069413] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102420.454367902] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757102420.555850546] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102420.365506 but the latest data is at time 1757102418.892640, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102420.556050038] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102420.556329860] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757102420.659251231] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102420.514509 but the latest data is at time 1757102418.892640, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102420.659398055] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102420.659711950] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757102420.761090363] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102420.614194 but the latest data is at time 1757102418.892640, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102420.761218816] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102420.761408232] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757102420.865073919] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102420.614194 but the latest data is at time 1757102418.892640, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102420.865222603] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102420.865506838] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757102420.966663364] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102420.714255 but the latest data is at time 1757102418.892640, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102420.966801203] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102420.967068130] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757102421.070636419] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102420.714255 but the latest data is at time 1757102418.892640, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102421.070784188] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102421.071065082] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757102421.172785520] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102420.714255 but the latest data is at time 1757102418.892640, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102421.172975820] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102421.173348507] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757102421.276577412] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102420.714255 but the latest data is at time 1757102418.892640, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102421.276746708] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102421.277098669] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757102421.378727074] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102420.714255 but the latest data is at time 1757102418.892640, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102421.378866712] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [ERROR] [1757102421.379023454] [controller_server]: Controller patience exceeded
+[controller_server-2] [WARN] [1757102421.379209763] [controller_server]: [follow_path] [ActionServer] Aborting handle.
+[controller_server-2] [INFO] [1757102421.379404002] [controller_server]: Received a goal, begin computing control effort.
+[controller_server-2] [ERROR] [1757102421.482415901] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102420.714255 but the latest data is at time 1757102418.892640, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102421.482568281] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102421.482895857] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757102421.584411563] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102420.714255 but the latest data is at time 1757102418.892640, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102421.584543502] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102421.584728300] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757102421.688047876] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102420.764250 but the latest data is at time 1757102418.892640, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102421.688160679] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102421.688335853] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757102421.789332431] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102420.764250 but the latest data is at time 1757102418.892640, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102421.789451473] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102421.789658838] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757102421.891220255] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102420.764250 but the latest data is at time 1757102418.892640, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102421.891297830] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102421.891435722] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757102421.994155422] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102420.764250 but the latest data is at time 1757102418.892640, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102421.994328089] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102421.994625998] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757102422.098696088] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102420.764250 but the latest data is at time 1757102418.892640, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102422.098824466] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102422.099009735] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757102422.201066173] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102422.014187 but the latest data is at time 1757102421.792553, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102422.201194157] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102422.201380488] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757102422.305887383] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102422.114209 but the latest data is at time 1757102421.792553, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102422.306036790] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102422.306234020] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [WARN] [1757102422.388389103] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [INFO] [1757102422.388467918] [controller_server]: Passing new path to controller.
+[controller_server-2] [ERROR] [1757102423.281234331] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102423.114216 but the latest data is at time 1757102422.521303, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102423.281364322] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102423.281567447] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757102423.383451707] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102423.214198 but the latest data is at time 1757102422.521303, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102423.383571831] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102423.383766611] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [INFO] [1757102423.383793605] [controller_server]: Passing new path to controller.
+[controller_server-2] [ERROR] [1757102423.487596271] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102423.264256 but the latest data is at time 1757102422.521303, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102423.487730020] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102423.487991187] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757102423.590236915] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102423.414199 but the latest data is at time 1757102422.521303, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102423.590375404] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102423.590580568] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757102423.693990111] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102423.514487 but the latest data is at time 1757102422.521303, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102423.694109505] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102423.694293349] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757102423.795467066] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102423.614235 but the latest data is at time 1757102422.521303, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102423.795625584] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102423.795935572] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757102423.899474904] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102423.714213 but the latest data is at time 1757102422.521303, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102423.899678566] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102423.900084050] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757102424.001649947] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102423.714213 but the latest data is at time 1757102422.521303, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102424.001807987] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102424.002137690] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757102424.106241134] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102423.914205 but the latest data is at time 1757102422.521303, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102424.106345514] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102424.106498521] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757102424.207840961] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102424.026881 but the latest data is at time 1757102422.521303, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102424.207937899] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102424.208087829] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757102424.310653107] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102424.114314 but the latest data is at time 1757102422.521303, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102424.310776058] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102424.310968923] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757102424.412194598] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102424.214203 but the latest data is at time 1757102422.521303, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102424.412318991] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102424.412512880] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [INFO] [1757102424.412541092] [controller_server]: Passing new path to controller.
+[controller_server-2] [ERROR] [1757102424.515767123] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102424.364221 but the latest data is at time 1757102422.521303, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102424.515868394] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102424.516132309] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757102424.619483244] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102424.464267 but the latest data is at time 1757102422.521303, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102424.619605706] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102424.619804837] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757102424.721065509] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102424.564235 but the latest data is at time 1757102422.521303, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102424.721194997] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102424.721386345] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757102424.824739599] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102424.665033 but the latest data is at time 1757102422.521303, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102424.824925667] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102424.825118897] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757102424.926193329] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102424.764331 but the latest data is at time 1757102422.521303, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102424.926305005] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102424.926488480] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757102425.029849171] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102424.864237 but the latest data is at time 1757102422.521303, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102425.030000281] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102425.030198354] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757102425.131494409] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102424.964402 but the latest data is at time 1757102422.521303, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102425.131561817] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [ERROR] [1757102425.131585740] [controller_server]: Controller patience exceeded
+[controller_server-2] [WARN] [1757102425.131619306] [controller_server]: [follow_path] [ActionServer] Aborting handle.
+[controller_server-2] [INFO] [1757102425.147658781] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[planner_server-4] [INFO] [1757102425.149138064] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[controller_server-2] [INFO] [1757102425.558125060] [controller_server]: Received a goal, begin computing control effort.
+[controller_server-2] [ERROR] [1757102426.059867136] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102425.914305 but the latest data is at time 1757102425.776012, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102426.060057301] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102426.060401051] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757102426.161529319] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102425.914305 but the latest data is at time 1757102425.776012, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102426.161640830] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102426.161802630] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757102426.264954336] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102425.914305 but the latest data is at time 1757102425.776012, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102426.265072791] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102426.265280085] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[explore-10] [ERROR] [1757102426.348288444] [explore_node]: Extrapolation Error looking up robot pose: Lookup would require extrapolation into the future.  Requested time 1757102426.045341 but the latest data is at time 1757102425.776012, when looking up transform from frame [base_link] to frame [map]
+[explore-10] 
+[controller_server-2] [ERROR] [1757102426.366388027] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102426.164276 but the latest data is at time 1757102425.776012, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102426.366503594] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102426.366703248] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757102426.470098137] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102426.314280 but the latest data is at time 1757102425.776012, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102426.470219823] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102426.470405382] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757102426.571568495] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102426.364232 but the latest data is at time 1757102425.776012, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102426.571677767] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102426.571855183] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757102426.675453259] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102426.364232 but the latest data is at time 1757102425.776012, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102426.675575074] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102426.675777698] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [INFO] [1757102426.675805793] [controller_server]: Passing new path to controller.
+[controller_server-2] [ERROR] [1757102426.777054523] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102426.427113 but the latest data is at time 1757102425.776012, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102426.777172262] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102426.777360769] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757102426.880900105] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102426.682825 but the latest data is at time 1757102425.776012, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102426.881004127] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102426.881158517] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757102426.982257552] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102426.814259 but the latest data is at time 1757102425.776012, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102426.982377916] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102426.982559996] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757102427.085982739] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102426.814259 but the latest data is at time 1757102425.776012, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102427.086118459] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102427.086327516] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757102427.187465931] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102426.814259 but the latest data is at time 1757102425.776012, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102427.187597059] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102427.187788521] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757102427.291567477] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102427.089508 but the latest data is at time 1757102425.776012, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102427.291739910] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102427.291909456] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757102427.392992146] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102427.089508 but the latest data is at time 1757102425.776012, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102427.393116854] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102427.393301882] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757102427.496562485] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102427.089508 but the latest data is at time 1757102425.776012, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102427.496685487] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102427.496895490] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757102427.598010660] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102427.089508 but the latest data is at time 1757102425.776012, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102427.598153818] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102427.598369442] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757102427.701968531] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102427.089508 but the latest data is at time 1757102425.776012, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102427.702115721] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102427.702390283] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [INFO] [1757102427.702430570] [controller_server]: Passing new path to controller.
+[controller_server-2] [ERROR] [1757102427.803838664] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102427.089508 but the latest data is at time 1757102425.776012, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102427.803939072] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102427.804094755] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757102427.907946683] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102427.089508 but the latest data is at time 1757102425.776012, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102427.908072968] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102427.908258243] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757102428.009376691] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102427.089508 but the latest data is at time 1757102425.776012, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102428.009498470] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [ERROR] [1757102428.009543766] [controller_server]: Controller patience exceeded
+[controller_server-2] [WARN] [1757102428.009616757] [controller_server]: [follow_path] [ActionServer] Aborting handle.
+[controller_server-2] [INFO] [1757102428.027702114] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[controller_server-2] [INFO] [1757102428.029222150] [controller_server]: Received a goal, begin computing control effort.
+[controller_server-2] [ERROR] [1757102428.220482215] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102427.089508 but the latest data is at time 1757102425.776012, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102428.220619263] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102428.220821977] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757102428.322093429] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102427.089508 but the latest data is at time 1757102425.776012, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102428.322225185] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102428.322443760] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757102428.426290074] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102427.089508 but the latest data is at time 1757102425.776012, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102428.426431942] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102428.426715893] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757102428.527954257] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102427.089508 but the latest data is at time 1757102425.776012, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102428.528074944] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102428.528255867] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757102428.631511784] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102427.089508 but the latest data is at time 1757102425.776012, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102428.631658605] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102428.631960822] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757102428.733165694] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102427.089508 but the latest data is at time 1757102425.776012, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102428.733228166] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [INFO] [1757102428.832050256] [controller_server]: Passing new path to controller.
+[controller_server-2] [ERROR] [1757102428.933826776] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102428.793941 but the latest data is at time 1757102425.776012, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102428.934058897] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102428.934317394] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757102429.037505975] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102428.814251 but the latest data is at time 1757102425.776012, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102429.037631637] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102429.037842083] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757102429.139164346] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102428.814251 but the latest data is at time 1757102425.776012, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102429.139387926] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102429.139692477] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757102429.243164166] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102429.066949 but the latest data is at time 1757102425.776012, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102429.243296271] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102429.243581413] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757102429.344983296] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102429.166890 but the latest data is at time 1757102425.776012, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102429.345138667] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102429.345432787] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757102429.448659143] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102429.264505 but the latest data is at time 1757102425.776012, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102429.448780569] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102429.448976837] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757102429.550167961] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102429.264505 but the latest data is at time 1757102425.776012, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102429.550323032] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102429.550622762] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757102429.654082738] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102429.364254 but the latest data is at time 1757102425.776012, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102429.654209412] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102429.654396342] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757102429.755741856] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102429.614234 but the latest data is at time 1757102425.776012, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102429.755864033] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102429.756054388] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [INFO] [1757102429.756082520] [controller_server]: Passing new path to controller.
+[controller_server-2] [ERROR] [1757102429.859627433] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102429.714243 but the latest data is at time 1757102425.776012, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102429.859791222] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102429.860250829] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757102429.961376010] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102429.714243 but the latest data is at time 1757102425.776012, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102429.961500635] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102429.961745486] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757102430.064975926] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102429.714243 but the latest data is at time 1757102425.776012, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102430.065104872] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [ERROR] [1757102430.065151370] [controller_server]: Controller patience exceeded
+[controller_server-2] [WARN] [1757102430.065230639] [controller_server]: [follow_path] [ActionServer] Aborting handle.
+[behavior_server-5] [INFO] [1757102430.078170457] [behavior_server]: Running spin
+[behavior_server-5] [INFO] [1757102430.078363279] [behavior_server]: Turning 1.57 for spin behavior.
+[explore-10] [INFO] [1757102432.892518652] [explore_node]: [NAV] Remembered last goal (1.62, -0.17, yaw from quat).
+[bt_navigator-6] [INFO] [1757102432.897456550] [bt_navigator]: Received goal preemption request
+[bt_navigator-6] [INFO] [1757102432.897750890] [bt_navigator]: Begin navigating from current location (1.37, 0.45) to (1.62, -0.17)
+[behavior_server-5] [INFO] [1757102432.978674909] [behavior_server]: spin completed successfully
+[controller_server-2] [INFO] [1757102433.028036267] [controller_server]: Received a goal, begin computing control effort.
+[controller_server-2] [ERROR] [1757102433.229444989] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102433.064498 but the latest data is at time 1757102432.980565, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102433.229586921] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102433.229775611] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757102433.331239114] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102433.165095 but the latest data is at time 1757102432.980565, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102433.331396965] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102433.331686301] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757102433.434977737] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102433.265253 but the latest data is at time 1757102432.980565, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102433.435098709] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102433.435341247] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757102433.536662630] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102433.364330 but the latest data is at time 1757102432.980565, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102433.536812130] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102433.537093318] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757102433.640521390] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102433.464446 but the latest data is at time 1757102432.980565, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102433.640589734] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102433.640691163] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757102433.741686520] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102433.566031 but the latest data is at time 1757102432.980565, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102433.741799735] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102433.741992264] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757102433.845866774] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102433.664453 but the latest data is at time 1757102432.980565, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102433.846106380] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102433.846395093] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757102433.947753540] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102433.764468 but the latest data is at time 1757102432.980565, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102433.947889182] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102433.948110258] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757102434.051603970] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102433.864319 but the latest data is at time 1757102432.980565, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102434.051731500] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102434.051948068] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757102434.153138551] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102433.864319 but the latest data is at time 1757102432.980565, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102434.153256927] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102434.153455163] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [INFO] [1757102434.153483217] [controller_server]: Passing new path to controller.
+[controller_server-2] [ERROR] [1757102434.257351555] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102433.864319 but the latest data is at time 1757102432.980565, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102434.257508561] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102434.257851384] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757102434.359070986] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102433.864319 but the latest data is at time 1757102432.980565, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102434.359187337] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102434.359364610] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757102434.463666881] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102433.864319 but the latest data is at time 1757102432.980565, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102434.463804815] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102434.464024913] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757102434.565528415] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102433.864319 but the latest data is at time 1757102432.980565, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102434.565678944] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102434.565923644] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757102434.669651243] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102433.864319 but the latest data is at time 1757102432.980565, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102434.669786688] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102434.670009638] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757102434.771353138] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102434.267308 but the latest data is at time 1757102432.980565, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102434.771528897] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102434.771730238] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757102434.875244704] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102434.714214 but the latest data is at time 1757102432.980565, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102434.875386755] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102434.875603852] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757102434.976743949] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102434.814216 but the latest data is at time 1757102432.980565, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102434.976867709] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102434.977049287] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757102435.080626102] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102434.914981 but the latest data is at time 1757102432.980565, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102435.080752761] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [ERROR] [1757102435.080796514] [controller_server]: Controller patience exceeded
+[controller_server-2] [WARN] [1757102435.080876849] [controller_server]: [follow_path] [ActionServer] Aborting handle.
+[controller_server-2] [INFO] [1757102435.088013188] [controller_server]: Received a goal, begin computing control effort.
+[controller_server-2] [ERROR] [1757102435.189203321] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102434.964290 but the latest data is at time 1757102432.980565, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102435.189352837] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102435.189545819] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757102435.293885769] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102435.114219 but the latest data is at time 1757102432.980565, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102435.294081767] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102435.294331223] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757102435.395452932] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102435.214936 but the latest data is at time 1757102432.980565, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102435.395576585] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102435.395759396] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757102435.499002118] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102435.314415 but the latest data is at time 1757102432.980565, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102435.499137005] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102435.499359833] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757102435.600719271] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102435.414933 but the latest data is at time 1757102432.980565, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102435.600896991] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102435.601095571] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757102435.704843720] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102435.514295 but the latest data is at time 1757102432.980565, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102435.704994989] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102435.705261748] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757102435.806766609] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102435.514295 but the latest data is at time 1757102432.980565, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102435.806896457] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102435.807087233] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757102435.910464191] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102435.514295 but the latest data is at time 1757102432.980565, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102435.910606383] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102435.910871179] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757102436.012295814] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102435.514295 but the latest data is at time 1757102432.980565, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102436.012452587] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102436.012737186] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757102436.116078169] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102435.514295 but the latest data is at time 1757102432.980565, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102436.116111739] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102436.116155954] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757102436.217196719] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102435.514295 but the latest data is at time 1757102432.980565, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102436.217271413] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102436.217383669] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [INFO] [1757102436.217398321] [controller_server]: Passing new path to controller.
+[controller_server-2] [ERROR] [1757102436.318402262] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102435.514295 but the latest data is at time 1757102432.980565, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102436.318456533] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102436.318539318] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757102436.420136571] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102436.263053 but the latest data is at time 1757102432.980565, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102436.420290948] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102436.420670604] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757102436.522067191] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102436.314459 but the latest data is at time 1757102432.980565, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102436.522223154] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102436.522509851] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757102436.625673743] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102436.414246 but the latest data is at time 1757102432.980565, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102436.625788774] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102436.625973558] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757102436.727403197] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102436.414246 but the latest data is at time 1757102432.980565, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102436.727525730] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102436.727711188] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757102436.831196433] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102436.414246 but the latest data is at time 1757102432.980565, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757102436.831314073] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757102436.831502660] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757102436.932867817] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757102436.414246 but the latest data is at time 1757102432.980565, when looking up transform from frame [odom] to frame [map]
+[co
