@@ -1,0 +1,447 @@
+[INFO] [launch]: All log files can be found below /home/robot/.ros/log/2025-09-05-17-35-37-879214-robot-pc04-15682
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [async_slam_toolbox_node-1]: process started with pid [15697]
+[INFO] [controller_server-2]: process started with pid [15699]
+[INFO] [smoother_server-3]: process started with pid [15701]
+[INFO] [planner_server-4]: process started with pid [15703]
+[INFO] [behavior_server-5]: process started with pid [15705]
+[INFO] [bt_navigator-6]: process started with pid [15707]
+[INFO] [waypoint_follower-7]: process started with pid [15709]
+[INFO] [velocity_smoother-8]: process started with pid [15711]
+[INFO] [lifecycle_manager-9]: process started with pid [15713]
+[INFO] [explore-10]: process started with pid [15715]
+[INFO] [rviz2-11]: process started with pid [15717]
+[async_slam_toolbox_node-1] [INFO] [1757086537.981898439] [slam]: Node using stack size 40000000
+[waypoint_follower-7] [INFO] [1757086537.986954915] [waypoint_follower]: 
+[waypoint_follower-7] 	waypoint_follower lifecycle node launched. 
+[waypoint_follower-7] 	Waiting on external lifecycle transitions to activate
+[waypoint_follower-7] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[waypoint_follower-7] [INFO] [1757086537.987238789] [waypoint_follower]: Creating
+[velocity_smoother-8] [INFO] [1757086537.989834939] [velocity_smoother]: 
+[velocity_smoother-8] 	velocity_smoother lifecycle node launched. 
+[velocity_smoother-8] 	Waiting on external lifecycle transitions to activate
+[velocity_smoother-8] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[lifecycle_manager-9] [INFO] [1757086537.990444057] [lifecycle_manager_navigation]: Creating
+[planner_server-4] [INFO] [1757086537.990718274] [planner_server]: 
+[planner_server-4] 	planner_server lifecycle node launched. 
+[planner_server-4] 	Waiting on external lifecycle transitions to activate
+[planner_server-4] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[bt_navigator-6] [INFO] [1757086537.990726570] [bt_navigator]: 
+[bt_navigator-6] 	bt_navigator lifecycle node launched. 
+[bt_navigator-6] 	Waiting on external lifecycle transitions to activate
+[bt_navigator-6] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[bt_navigator-6] [INFO] [1757086537.990820113] [bt_navigator]: Creating
+[smoother_server-3] [INFO] [1757086537.991080507] [smoother_server]: 
+[smoother_server-3] 	smoother_server lifecycle node launched. 
+[smoother_server-3] 	Waiting on external lifecycle transitions to activate
+[smoother_server-3] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[planner_server-4] [INFO] [1757086537.991672048] [planner_server]: Creating
+[smoother_server-3] [INFO] [1757086537.991676792] [smoother_server]: Creating smoother server
+[controller_server-2] [INFO] [1757086537.992201715] [controller_server]: 
+[controller_server-2] 	controller_server lifecycle node launched. 
+[controller_server-2] 	Waiting on external lifecycle transitions to activate
+[controller_server-2] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[lifecycle_manager-9] [INFO] [1757086537.992323919] [lifecycle_manager_navigation]: [34m[1mCreating and initializing lifecycle service clients[0m[0m
+[behavior_server-5] [INFO] [1757086537.993767570] [behavior_server]: 
+[behavior_server-5] 	behavior_server lifecycle node launched. 
+[behavior_server-5] 	Waiting on external lifecycle transitions to activate
+[behavior_server-5] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[controller_server-2] [INFO] [1757086537.994310551] [controller_server]: Creating controller server
+[planner_server-4] [INFO] [1757086537.996122811] [global_costmap.global_costmap]: 
+[planner_server-4] 	global_costmap lifecycle node launched. 
+[planner_server-4] 	Waiting on external lifecycle transitions to activate
+[planner_server-4] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[planner_server-4] [INFO] [1757086537.996352782] [global_costmap.global_costmap]: Creating Costmap
+[explore-10] [INFO] [1757086537.996499011] [explore_node]: Waiting for costmap to become available, topic: map
+[lifecycle_manager-9] [INFO] [1757086537.997441030] [lifecycle_manager_navigation]: [34m[1mStarting managed nodes bringup...[0m[0m
+[lifecycle_manager-9] [INFO] [1757086537.997464386] [lifecycle_manager_navigation]: [34m[1mConfiguring controller_server[0m[0m
+[controller_server-2] [INFO] [1757086537.998248878] [local_costmap.local_costmap]: 
+[controller_server-2] 	local_costmap lifecycle node launched. 
+[controller_server-2] 	Waiting on external lifecycle transitions to activate
+[controller_server-2] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[controller_server-2] [INFO] [1757086537.998448873] [local_costmap.local_costmap]: Creating Costmap
+[controller_server-2] [INFO] [1757086537.998897741] [controller_server]: Configuring controller interface
+[controller_server-2] [INFO] [1757086537.998938713] [controller_server]: getting goal checker plugins..
+[controller_server-2] [INFO] [1757086537.998978510] [controller_server]: Controller frequency set to 10.0000Hz
+[controller_server-2] [INFO] [1757086537.998990925] [local_costmap.local_costmap]: Configuring
+[controller_server-2] [INFO] [1757086538.000506462] [local_costmap.local_costmap]: Using plugin "static_layer"
+[async_slam_toolbox_node-1] [INFO] [1757086538.001071152] [slam]: Using solver plugin solver_plugins::CeresSolver
+[async_slam_toolbox_node-1] [INFO] [1757086538.001285255] [slam]: CeresSolver: Using SCHUR_JACOBI preconditioner.
+[controller_server-2] [INFO] [1757086538.001936741] [local_costmap.local_costmap]: Subscribing to the map topic (/map) with transient local durability
+[controller_server-2] [INFO] [1757086538.002379138] [local_costmap.local_costmap]: Initialized plugin "static_layer"
+[controller_server-2] [INFO] [1757086538.002388894] [local_costmap.local_costmap]: Using plugin "obstacle_layer"
+[controller_server-2] [INFO] [1757086538.002544866] [local_costmap.local_costmap]: Subscribed to Topics: scan
+[controller_server-2] [INFO] [1757086538.003544479] [local_costmap.local_costmap]: Initialized plugin "obstacle_layer"
+[controller_server-2] [INFO] [1757086538.003556433] [local_costmap.local_costmap]: Using plugin "inflation_layer"
+[controller_server-2] [INFO] [1757086538.003997357] [local_costmap.local_costmap]: Initialized plugin "inflation_layer"
+[controller_server-2] [INFO] [1757086538.006540580] [controller_server]: Created progress_checker : progress_checker of type nav2_controller::SimpleProgressChecker
+[controller_server-2] [INFO] [1757086538.006761533] [controller_server]: Created goal checker : goal_checker of type nav2_controller::SimpleGoalChecker
+[controller_server-2] [INFO] [1757086538.006850498] [controller_server]: Controller Server has goal_checker  goal checkers available.
+[controller_server-2] [INFO] [1757086538.007068945] [controller_server]: Created controller : FollowPath of type nav2_regulated_pure_pursuit_controller::RegulatedPurePursuitController
+[controller_server-2] [INFO] [1757086538.008093945] [controller_server]: Controller Server has FollowPath  controllers available.
+[lifecycle_manager-9] [INFO] [1757086538.010043508] [lifecycle_manager_navigation]: [34m[1mConfiguring smoother_server[0m[0m
+[smoother_server-3] [INFO] [1757086538.010140293] [smoother_server]: Configuring smoother server
+[smoother_server-3] [INFO] [1757086538.012939682] [smoother_server]: Created smoother : simple_smoother of type nav2_smoother::SimpleSmoother
+[smoother_server-3] [INFO] [1757086538.013065542] [smoother_server]: Smoother Server has simple_smoother  smoothers available.
+[lifecycle_manager-9] [INFO] [1757086538.014546088] [lifecycle_manager_navigation]: [34m[1mConfiguring planner_server[0m[0m
+[planner_server-4] [INFO] [1757086538.014658428] [planner_server]: Configuring
+[planner_server-4] [INFO] [1757086538.014692542] [global_costmap.global_costmap]: Configuring
+[planner_server-4] [INFO] [1757086538.017377205] [global_costmap.global_costmap]: Using plugin "static_layer"
+[planner_server-4] [INFO] [1757086538.019668410] [global_costmap.global_costmap]: Subscribing to the map topic (/map) with transient local durability
+[planner_server-4] [INFO] [1757086538.020452232] [global_costmap.global_costmap]: Initialized plugin "static_layer"
+[planner_server-4] [INFO] [1757086538.020471043] [global_costmap.global_costmap]: Using plugin "obstacle_layer"
+[planner_server-4] [INFO] [1757086538.020726577] [global_costmap.global_costmap]: Subscribed to Topics: scan
+[planner_server-4] [INFO] [1757086538.022296745] [global_costmap.global_costmap]: Initialized plugin "obstacle_layer"
+[planner_server-4] [INFO] [1757086538.022309278] [global_costmap.global_costmap]: Using plugin "inflation_layer"
+[planner_server-4] [INFO] [1757086538.022585415] [global_costmap.global_costmap]: Initialized plugin "inflation_layer"
+[planner_server-4] [INFO] [1757086538.025348274] [planner_server]: Created global planner plugin GridBased of type nav2_navfn_planner/NavfnPlanner
+[planner_server-4] [INFO] [1757086538.025365917] [planner_server]: Configuring plugin GridBased of type NavfnPlanner
+[planner_server-4] [INFO] [1757086538.025514505] [planner_server]: Planner Server has GridBased  planners available.
+[lifecycle_manager-9] [INFO] [1757086538.027764277] [lifecycle_manager_navigation]: [34m[1mConfiguring behavior_server[0m[0m
+[behavior_server-5] [INFO] [1757086538.027904703] [behavior_server]: Configuring
+[behavior_server-5] [INFO] [1757086538.031390314] [behavior_server]: Creating behavior plugin spin of type nav2_behaviors/Spin
+[behavior_server-5] [INFO] [1757086538.031743066] [behavior_server]: Configuring spin
+[behavior_server-5] [INFO] [1757086538.033186366] [behavior_server]: Creating behavior plugin backup of type nav2_behaviors/BackUp
+[behavior_server-5] [INFO] [1757086538.033508561] [behavior_server]: Configuring backup
+[behavior_server-5] [INFO] [1757086538.034533557] [behavior_server]: Creating behavior plugin drive_on_heading of type nav2_behaviors/DriveOnHeading
+[behavior_server-5] [INFO] [1757086538.034843646] [behavior_server]: Configuring drive_on_heading
+[behavior_server-5] [INFO] [1757086538.035784279] [behavior_server]: Creating behavior plugin wait of type nav2_behaviors/Wait
+[behavior_server-5] [INFO] [1757086538.036130411] [behavior_server]: Configuring wait
+[behavior_server-5] [INFO] [1757086538.037154271] [behavior_server]: Creating behavior plugin assisted_teleop of type nav2_behaviors/AssistedTeleop
+[behavior_server-5] [INFO] [1757086538.037940360] [behavior_server]: Configuring assisted_teleop
+[lifecycle_manager-9] [INFO] [1757086538.040130523] [lifecycle_manager_navigation]: [34m[1mConfiguring bt_navigator[0m[0m
+[bt_navigator-6] [INFO] [1757086538.040278405] [bt_navigator]: Configuring
+[lifecycle_manager-9] [INFO] [1757086538.056978707] [lifecycle_manager_navigation]: [34m[1mConfiguring waypoint_follower[0m[0m
+[waypoint_follower-7] [INFO] [1757086538.057077191] [waypoint_follower]: Configuring
+[waypoint_follower-7] [INFO] [1757086538.062221261] [waypoint_follower]: Created waypoint_task_executor : wait_at_waypoint of type nav2_waypoint_follower::WaitAtWaypoint
+[lifecycle_manager-9] [INFO] [1757086538.062553373] [lifecycle_manager_navigation]: [34m[1mConfiguring velocity_smoother[0m[0m
+[velocity_smoother-8] [INFO] [1757086538.062725823] [velocity_smoother]: Configuring velocity smoother
+[lifecycle_manager-9] [INFO] [1757086538.064538151] [lifecycle_manager_navigation]: [34m[1mActivating controller_server[0m[0m
+[controller_server-2] [INFO] [1757086538.064616258] [controller_server]: Activating
+[controller_server-2] [INFO] [1757086538.064650351] [local_costmap.local_costmap]: Activating
+[controller_server-2] [INFO] [1757086538.064663355] [local_costmap.local_costmap]: Checking transform
+[controller_server-2] [INFO] [1757086538.064683362] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[rviz2-11] [INFO] [1757086538.284740713] [rviz2]: Stereo is NOT SUPPORTED
+[rviz2-11] [INFO] [1757086538.284810416] [rviz2]: OpenGl version: 4.6 (GLSL 4.6)
+[rviz2-11] [INFO] [1757086538.434635655] [rviz2]: Stereo is NOT SUPPORTED
+[controller_server-2] [INFO] [1757086538.564742618] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[controller_server-2] [INFO] [1757086539.064771146] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[controller_server-2] [INFO] [1757086539.564768532] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[controller_server-2] [INFO] [1757086540.064739989] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[controller_server-2] [INFO] [1757086540.564766317] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[controller_server-2] [INFO] [1757086541.064768199] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[controller_server-2] [INFO] [1757086541.564764893] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[controller_server-2] [INFO] [1757086542.064767759] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[controller_server-2] [INFO] [1757086542.564766581] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[controller_server-2] [INFO] [1757086543.064996076] [local_costmap.local_costmap]: start
+[controller_server-2] [INFO] [1757086543.266909374] [controller_server]: Activating controller: FollowPath of type regulated_pure_pursuit_controller::RegulatedPurePursuitController
+[controller_server-2] [INFO] [1757086543.267005993] [controller_server]: Creating bond (controller_server) to lifecycle manager.
+[lifecycle_manager-9] [INFO] [1757086543.374449820] [lifecycle_manager_navigation]: Server controller_server connected with bond.
+[lifecycle_manager-9] [INFO] [1757086543.374547151] [lifecycle_manager_navigation]: [34m[1mActivating smoother_server[0m[0m
+[smoother_server-3] [INFO] [1757086543.375233286] [smoother_server]: Activating
+[smoother_server-3] [INFO] [1757086543.375334736] [smoother_server]: Creating bond (smoother_server) to lifecycle manager.
+[lifecycle_manager-9] [INFO] [1757086543.482984539] [lifecycle_manager_navigation]: Server smoother_server connected with bond.
+[lifecycle_manager-9] [INFO] [1757086543.483077600] [lifecycle_manager_navigation]: [34m[1mActivating planner_server[0m[0m
+[planner_server-4] [INFO] [1757086543.483714616] [planner_server]: Activating
+[planner_server-4] [INFO] [1757086543.483806283] [global_costmap.global_costmap]: Activating
+[planner_server-4] [INFO] [1757086543.483829514] [global_costmap.global_costmap]: Checking transform
+[planner_server-4] [INFO] [1757086543.483873097] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[planner_server-4] [INFO] [1757086543.983938779] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[planner_server-4] [INFO] [1757086544.483937455] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[planner_server-4] [INFO] [1757086544.983934128] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[controller_server-2] [WARN] [1757086545.065336514] [local_costmap.local_costmap]: Can't update static costmap layer, no map received
+[planner_server-4] [INFO] [1757086545.483930801] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[planner_server-4] [INFO] [1757086545.983939447] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[planner_server-4] [INFO] [1757086546.483937039] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[planner_server-4] [INFO] [1757086546.983933166] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[controller_server-2] [WARN] [1757086547.065337349] [local_costmap.local_costmap]: Can't update static costmap layer, no map received
+[planner_server-4] [INFO] [1757086547.483932135] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[planner_server-4] [INFO] [1757086547.984001206] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[planner_server-4] [INFO] [1757086548.483940295] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[planner_server-4] [INFO] [1757086548.983999377] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[controller_server-2] [WARN] [1757086549.065329253] [local_costmap.local_costmap]: Can't update static costmap layer, no map received
+[planner_server-4] [INFO] [1757086549.483937942] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[planner_server-4] [INFO] [1757086549.983932711] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[planner_server-4] [INFO] [1757086550.483930260] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[planner_server-4] [INFO] [1757086550.983938776] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[controller_server-2] [WARN] [1757086551.065334649] [local_costmap.local_costmap]: Can't update static costmap layer, no map received
+[planner_server-4] [INFO] [1757086551.483937135] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[planner_server-4] [INFO] [1757086551.983939064] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[planner_server-4] [INFO] [1757086552.484006068] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[planner_server-4] [INFO] [1757086552.983936588] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[controller_server-2] [WARN] [1757086553.065338863] [local_costmap.local_costmap]: Can't update static costmap layer, no map received
+[planner_server-4] [INFO] [1757086553.483960321] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[planner_server-4] [INFO] [1757086553.984001697] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[planner_server-4] [INFO] [1757086554.483950130] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[planner_server-4] [INFO] [1757086554.984004506] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[controller_server-2] [WARN] [1757086555.065363762] [local_costmap.local_costmap]: Can't update static costmap layer, no map received
+[planner_server-4] [INFO] [1757086555.484004456] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[planner_server-4] [INFO] [1757086555.984006652] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[planner_server-4] [INFO] [1757086556.484002397] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[planner_server-4] [INFO] [1757086556.984011440] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[controller_server-2] [WARN] [1757086557.065342598] [local_costmap.local_costmap]: Can't update static costmap layer, no map received
+[planner_server-4] [INFO] [1757086557.484001977] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[planner_server-4] [INFO] [1757086557.984011939] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[planner_server-4] [INFO] [1757086558.484015324] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[planner_server-4] [INFO] [1757086558.983998946] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[controller_server-2] [WARN] [1757086559.065340481] [local_costmap.local_costmap]: Can't update static costmap layer, no map received
+[planner_server-4] [INFO] [1757086559.483947540] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[planner_server-4] [INFO] [1757086559.984000998] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[planner_server-4] [INFO] [1757086560.484015689] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[planner_server-4] [INFO] [1757086560.984000487] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[controller_server-2] [WARN] [1757086561.065338032] [local_costmap.local_costmap]: Can't update static costmap layer, no map received
+[planner_server-4] [INFO] [1757086561.484003878] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[planner_server-4] [INFO] [1757086561.984004188] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[planner_server-4] [INFO] [1757086562.484009169] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[planner_server-4] [INFO] [1757086562.984016204] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[controller_server-2] [WARN] [1757086563.065336857] [local_costmap.local_costmap]: Can't update static costmap layer, no map received
+[planner_server-4] [INFO] [1757086563.484014276] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[planner_server-4] [INFO] [1757086563.984011584] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[planner_server-4] [INFO] [1757086564.483958214] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[planner_server-4] [INFO] [1757086564.984019646] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[controller_server-2] [WARN] [1757086565.065334918] [local_costmap.local_costmap]: Can't update static costmap layer, no map received
+[planner_server-4] [INFO] [1757086565.484007589] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[planner_server-4] [INFO] [1757086565.984005284] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[planner_server-4] [INFO] [1757086566.483950174] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[planner_server-4] [INFO] [1757086566.983966817] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[controller_server-2] [WARN] [1757086567.065343567] [local_costmap.local_costmap]: Can't update static costmap layer, no map received
+[planner_server-4] [INFO] [1757086567.483964591] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[planner_server-4] [INFO] [1757086567.983956685] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[planner_server-4] [INFO] [1757086568.483947314] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[planner_server-4] [INFO] [1757086568.983949439] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[controller_server-2] [WARN] [1757086569.065344984] [local_costmap.local_costmap]: Can't update static costmap layer, no map received
+[planner_server-4] [INFO] [1757086569.483947011] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[planner_server-4] [INFO] [1757086569.983950039] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[planner_server-4] [INFO] [1757086570.483947646] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[planner_server-4] [INFO] [1757086570.983959219] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[controller_server-2] [WARN] [1757086571.065292411] [local_costmap.local_costmap]: Can't update static costmap layer, no map received
+[planner_server-4] [INFO] [1757086571.483934661] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[planner_server-4] [INFO] [1757086571.984025340] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[planner_server-4] [INFO] [1757086572.483961648] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[planner_server-4] [INFO] [1757086572.984011176] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[controller_server-2] [WARN] [1757086573.065332516] [local_costmap.local_costmap]: Can't update static costmap layer, no map received
+[planner_server-4] [INFO] [1757086573.484026034] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[planner_server-4] [INFO] [1757086573.983930404] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[planner_server-4] [INFO] [1757086574.483928422] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[planner_server-4] [INFO] [1757086574.983933186] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[controller_server-2] [WARN] [1757086575.065344266] [local_costmap.local_costmap]: Can't update static costmap layer, no map received
+[planner_server-4] [INFO] [1757086575.484008617] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[planner_server-4] [INFO] [1757086575.983943444] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[planner_server-4] [INFO] [1757086576.483863820] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[planner_server-4] [INFO] [1757086576.983919223] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[controller_server-2] [WARN] [1757086577.065277737] [local_costmap.local_costmap]: Can't update static costmap layer, no map received
+[planner_server-4] [INFO] [1757086577.483932216] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[planner_server-4] [INFO] [1757086577.983945918] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[async_slam_toolbox_node-1] [WARN] [1757086578.396314758] [slam]: minimum laser range setting (0.0 m) exceeds the capabilities of the used Lidar (0.1 m)
+[planner_server-4] [INFO] [1757086578.483945755] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Lookup would require extrapolation into the past.  Requested time 1757086578.412904 but the earliest data is at time 1757086578.481869, when looking up transform from frame [base_link] to frame [map]
+[rviz2-11] [INFO] [1757086578.888295845] [rviz2]: Trying to create a map of size 100 x 100 using 1 swatches
+[planner_server-4] [INFO] [1757086578.984025435] [global_costmap.global_costmap]: start
+[controller_server-2] [WARN] [1757086579.066039256] [local_costmap.local_costmap]: Can't update static costmap layer, no map received
+[rviz2-11] [INFO] [1757086580.000501354] [rviz2]: Trying to create a map of size 100 x 100 using 1 swatches
+[planner_server-4] [INFO] [1757086580.006943556] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 65 X 56 at 0.040000 m/pix
+[controller_server-2] [INFO] [1757086580.007030411] [local_costmap.local_costmap]: StaticLayer: Resizing static layer to 65 X 56 at 0.040000 m/pix
+[rviz2-11] [INFO] [1757086580.032542495] [rviz2]: Trying to create a map of size 65 x 56 using 1 swatches
+[planner_server-4] [INFO] [1757086580.035440327] [planner_server]: Activating plugin GridBased of type NavfnPlanner
+[planner_server-4] [INFO] [1757086580.037861634] [planner_server]: Creating bond (planner_server) to lifecycle manager.
+[lifecycle_manager-9] [INFO] [1757086580.145304487] [lifecycle_manager_navigation]: Server planner_server connected with bond.
+[lifecycle_manager-9] [INFO] [1757086580.145408124] [lifecycle_manager_navigation]: [34m[1mActivating behavior_server[0m[0m
+[behavior_server-5] [INFO] [1757086580.146010051] [behavior_server]: Activating
+[behavior_server-5] [INFO] [1757086580.146078491] [behavior_server]: Activating spin
+[behavior_server-5] [INFO] [1757086580.146104721] [behavior_server]: Activating backup
+[behavior_server-5] [INFO] [1757086580.146125138] [behavior_server]: Activating drive_on_heading
+[behavior_server-5] [INFO] [1757086580.146143798] [behavior_server]: Activating wait
+[behavior_server-5] [INFO] [1757086580.146161183] [behavior_server]: Activating assisted_teleop
+[behavior_server-5] [INFO] [1757086580.146185431] [behavior_server]: Creating bond (behavior_server) to lifecycle manager.
+[lifecycle_manager-9] [INFO] [1757086580.253993768] [lifecycle_manager_navigation]: Server behavior_server connected with bond.
+[lifecycle_manager-9] [INFO] [1757086580.254092981] [lifecycle_manager_navigation]: [34m[1mActivating bt_navigator[0m[0m
+[bt_navigator-6] [INFO] [1757086580.254707072] [bt_navigator]: Activating
+[bt_navigator-6] [INFO] [1757086580.288336514] [bt_navigator]: Creating bond (bt_navigator) to lifecycle manager.
+[lifecycle_manager-9] [INFO] [1757086580.390044411] [lifecycle_manager_navigation]: Server bt_navigator connected with bond.
+[lifecycle_manager-9] [INFO] [1757086580.390153892] [lifecycle_manager_navigation]: [34m[1mActivating waypoint_follower[0m[0m
+[waypoint_follower-7] [INFO] [1757086580.390853611] [waypoint_follower]: Activating
+[waypoint_follower-7] [INFO] [1757086580.390959110] [waypoint_follower]: Creating bond (waypoint_follower) to lifecycle manager.
+[lifecycle_manager-9] [INFO] [1757086580.498965966] [lifecycle_manager_navigation]: Server waypoint_follower connected with bond.
+[lifecycle_manager-9] [INFO] [1757086580.499070940] [lifecycle_manager_navigation]: [34m[1mActivating velocity_smoother[0m[0m
+[velocity_smoother-8] [INFO] [1757086580.499824788] [velocity_smoother]: Activating
+[velocity_smoother-8] [INFO] [1757086580.499964539] [velocity_smoother]: Creating bond (velocity_smoother) to lifecycle manager.
+[lifecycle_manager-9] [INFO] [1757086580.608628700] [lifecycle_manager_navigation]: Server velocity_smoother connected with bond.
+[lifecycle_manager-9] [INFO] [1757086580.608723535] [lifecycle_manager_navigation]: [34m[1mManaged nodes are active[0m[0m
+[lifecycle_manager-9] [INFO] [1757086580.608747673] [lifecycle_manager_navigation]: [34m[1mCreating bond timer...[0m[0m
+[rviz2-11] [INFO] [1757086580.992400185] [rviz2]: Trying to create a map of size 65 x 56 using 1 swatches
+[explore-10] [INFO] [1757086581.031966712] [explore_node]: Waiting to connect to move_base nav2 server
+[explore-10] [INFO] [1757086581.032255082] [explore_node]: Connected to move_base nav2 server
+[explore-10] [INFO] [1757086581.032264458] [explore_node]: Getting initial pose of the robot
+[explore-10] [INFO] [1757086581.107346474] [explore_node]: [NAV] Remembered last goal (1.24, 1.23, yaw from quat).
+[bt_navigator-6] [INFO] [1757086581.109015951] [bt_navigator]: Begin navigating from current location (0.00, 0.00) to (1.24, 1.23)
+[controller_server-2] [INFO] [1757086581.129895132] [controller_server]: Received a goal, begin computing control effort.
+[controller_server-2] [WARN] [1757086581.129970630] [controller_server]: No goal checker was specified in parameter 'current_goal_checker'. Server will use only plugin loaded goal_checker . This warning will appear once.
+[controller_server-2] [INFO] [1757086582.230167228] [controller_server]: Passing new path to controller.
+[controller_server-2] [INFO] [1757086583.230090812] [controller_server]: Passing new path to controller.
+[rviz2-11] [INFO] [1757086584.033926068] [rviz2]: Trying to create a map of size 68 x 62 using 1 swatches
+[controller_server-2] [INFO] [1757086584.065331214] [local_costmap.local_costmap]: StaticLayer: Resizing static layer to 68 X 62 at 0.040000 m/pix
+[controller_server-2] [INFO] [1757086584.230085264] [controller_server]: Passing new path to controller.
+[planner_server-4] [INFO] [1757086584.984286946] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 68 X 62 at 0.040000 m/pix
+[rviz2-11] [INFO] [1757086584.993333124] [rviz2]: Trying to create a map of size 68 x 62 using 1 swatches
+[controller_server-2] [INFO] [1757086585.330087072] [controller_server]: Passing new path to controller.
+[rviz2-11] [INFO] [1757086586.018626701] [rviz2]: Trying to create a map of size 98 x 114 using 1 swatches
+[controller_server-2] [INFO] [1757086586.065250368] [local_costmap.local_costmap]: StaticLayer: Resizing static layer to 98 X 114 at 0.040000 m/pix
+[controller_server-2] [INFO] [1757086586.330082843] [controller_server]: Passing new path to controller.
+[controller_server-2] [WARN] [1757086586.930394327] [controller_server]: RegulatedPurePursuitController detected collision ahead!
+[planner_server-4] [INFO] [1757086586.984278267] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 98 X 114 at 0.040000 m/pix
+[rviz2-11] [INFO] [1757086587.009537602] [rviz2]: Trying to create a map of size 98 x 114 using 1 swatches
+[controller_server-2] [WARN] [1757086587.030349882] [controller_server]: RegulatedPurePursuitController detected collision ahead!
+[controller_server-2] [WARN] [1757086587.130367767] [controller_server]: RegulatedPurePursuitController detected collision ahead!
+[controller_server-2] [WARN] [1757086587.230348299] [controller_server]: RegulatedPurePursuitController detected collision ahead!
+[controller_server-2] [INFO] [1757086587.330098265] [controller_server]: Passing new path to controller.
+[explore-10] [INFO] [1757086587.741083665] [explore_node]: [NAV] Remembered last goal (-1.11, 3.00, yaw from quat).
+[bt_navigator-6] [INFO] [1757086587.749353559] [bt_navigator]: Received goal preemption request
+[bt_navigator-6] [INFO] [1757086587.749794938] [bt_navigator]: Begin navigating from current location (1.16, 1.17) to (-1.11, 3.00)
+[controller_server-2] [INFO] [1757086588.430100446] [controller_server]: Passing new path to controller.
+[controller_server-2] [INFO] [1757086589.430085260] [controller_server]: Passing new path to controller.
+[controller_server-2] [INFO] [1757086590.430168291] [controller_server]: Passing new path to controller.
+[controller_server-2] [INFO] [1757086591.430083741] [controller_server]: Passing new path to controller.
+[controller_server-2] [INFO] [1757086592.530082431] [controller_server]: Passing new path to controller.
+[controller_server-2] [INFO] [1757086593.530104986] [controller_server]: Passing new path to controller.
+[rviz2-11] [INFO] [1757086594.017330272] [rviz2]: Trying to create a map of size 99 x 118 using 1 swatches
+[controller_server-2] [INFO] [1757086594.065261780] [local_costmap.local_costmap]: StaticLayer: Resizing static layer to 99 X 118 at 0.040000 m/pix
+[explore-10] [INFO] [1757086594.443571685] [explore_node]: [NAV] Remembered last goal (-1.07, 2.96, yaw from quat).
+[bt_navigator-6] [INFO] [1757086594.449242628] [bt_navigator]: Received goal preemption request
+[bt_navigator-6] [INFO] [1757086594.449525779] [bt_navigator]: Begin navigating from current location (0.67, 1.43) to (-1.07, 2.96)
+[controller_server-2] [INFO] [1757086594.530085427] [controller_server]: Passing new path to controller.
+[planner_server-4] [INFO] [1757086594.984281841] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 99 X 118 at 0.040000 m/pix
+[rviz2-11] [INFO] [1757086595.011797098] [rviz2]: Trying to create a map of size 99 x 118 using 1 swatches
+[controller_server-2] [INFO] [1757086595.630101836] [controller_server]: Passing new path to controller.
+[rviz2-11] [INFO] [1757086596.035138811] [rviz2]: Trying to create a map of size 102 x 118 using 1 swatches
+[controller_server-2] [INFO] [1757086596.065365406] [local_costmap.local_costmap]: StaticLayer: Resizing static layer to 102 X 118 at 0.040000 m/pix
+[controller_server-2] [INFO] [1757086596.630067467] [controller_server]: Passing new path to controller.
+[planner_server-4] [INFO] [1757086596.984266261] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 102 X 118 at 0.040000 m/pix
+[rviz2-11] [INFO] [1757086596.994142583] [rviz2]: Trying to create a map of size 102 x 118 using 1 swatches
+[controller_server-2] [INFO] [1757086597.630085135] [controller_server]: Passing new path to controller.
+[rviz2-11] [INFO] [1757086598.051978784] [rviz2]: Trying to create a map of size 111 x 124 using 1 swatches
+[controller_server-2] [INFO] [1757086598.065259559] [local_costmap.local_costmap]: StaticLayer: Resizing static layer to 111 X 124 at 0.040000 m/pix
+[controller_server-2] [INFO] [1757086598.730077994] [controller_server]: Passing new path to controller.
+[planner_server-4] [INFO] [1757086598.984281711] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 111 X 124 at 0.040000 m/pix
+[rviz2-11] [INFO] [1757086599.011397869] [rviz2]: Trying to create a map of size 111 x 124 using 1 swatches
+[controller_server-2] [INFO] [1757086599.730066069] [controller_server]: Passing new path to controller.
+[controller_server-2] [INFO] [1757086600.065251642] [local_costmap.local_costmap]: StaticLayer: Resizing static layer to 111 X 124 at 0.040000 m/pix
+[controller_server-2] [INFO] [1757086600.730088432] [controller_server]: Passing new path to controller.
+[planner_server-4] [INFO] [1757086600.984352370] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 111 X 124 at 0.040000 m/pix
+[explore-10] [INFO] [1757086601.116994008] [explore_node]: [NAV] Remembered last goal (0.29, 3.60, yaw from quat).
+[bt_navigator-6] [INFO] [1757086601.119399167] [bt_navigator]: Received goal preemption request
+[bt_navigator-6] [INFO] [1757086601.119816528] [bt_navigator]: Begin navigating from current location (-1.01, 2.33) to (0.29, 3.60)
+[controller_server-2] [INFO] [1757086601.730087941] [controller_server]: Passing new path to controller.
+[rviz2-11] [INFO] [1757086602.053628091] [rviz2]: Trying to create a map of size 113 x 124 using 1 swatches
+[controller_server-2] [INFO] [1757086602.065269031] [local_costmap.local_costmap]: StaticLayer: Resizing static layer to 113 X 124 at 0.040000 m/pix
+[controller_server-2] [INFO] [1757086602.830085398] [controller_server]: Passing new path to controller.
+[planner_server-4] [INFO] [1757086602.984273156] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 113 X 124 at 0.040000 m/pix
+[rviz2-11] [INFO] [1757086603.014216359] [rviz2]: Trying to create a map of size 113 x 124 using 1 swatches
+[controller_server-2] [INFO] [1757086603.830089402] [controller_server]: Passing new path to controller.
+[controller_server-2] [INFO] [1757086604.830104546] [controller_server]: Passing new path to controller.
+[controller_server-2] [INFO] [1757086605.930087676] [controller_server]: Passing new path to controller.
+[controller_server-2] [INFO] [1757086606.930079623] [controller_server]: Passing new path to controller.
+[controller_server-2] [INFO] [1757086607.930096665] [controller_server]: Passing new path to controller.
+[controller_server-2] [INFO] [1757086609.030086657] [controller_server]: Passing new path to controller.
+[controller_server-2] [INFO] [1757086610.030075387] [controller_server]: Passing new path to controller.
+[controller_server-2] [INFO] [1757086611.030086979] [controller_server]: Passing new path to controller.
+[controller_server-2] [INFO] [1757086612.030077954] [controller_server]: Passing new path to controller.
+[rviz2-11] [INFO] [1757086612.035947071] [rviz2]: Trying to create a map of size 115 x 124 using 1 swatches
+[controller_server-2] [INFO] [1757086612.065323848] [local_costmap.local_costmap]: StaticLayer: Resizing static layer to 115 X 124 at 0.040000 m/pix
+[planner_server-4] [INFO] [1757086612.984339776] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 115 X 124 at 0.040000 m/pix
+[rviz2-11] [INFO] [1757086612.996056205] [rviz2]: Trying to create a map of size 115 x 124 using 1 swatches
+[controller_server-2] [INFO] [1757086613.130103450] [controller_server]: Passing new path to controller.
+[controller_server-2] [INFO] [1757086614.130088112] [controller_server]: Passing new path to controller.
+[explore-10] [INFO] [1757086614.447817708] [explore_node]: [NAV] Remembered last goal (0.26, 3.60, yaw from quat).
+[bt_navigator-6] [INFO] [1757086614.449301959] [bt_navigator]: Received goal preemption request
+[bt_navigator-6] [INFO] [1757086614.449513924] [bt_navigator]: Begin navigating from current location (0.47, 2.84) to (0.26, 3.60)
+[controller_server-2] [INFO] [1757086615.130091237] [controller_server]: Passing new path to controller.
+[controller_server-2] [ERROR] [1757086615.431635554] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757086615.262866 but the latest data is at time 1757086615.151687, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757086615.431761685] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757086615.431935478] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [WARN] [1757086615.530523614] [controller_server]: RegulatedPurePursuitController detected collision ahead!
+[controller_server-2] [WARN] [1757086615.630464871] [controller_server]: RegulatedPurePursuitController detected collision ahead!
+[controller_server-2] [WARN] [1757086615.730573988] [controller_server]: RegulatedPurePursuitController detected collision ahead!
+[controller_server-2] [WARN] [1757086615.830577439] [controller_server]: RegulatedPurePursuitController detected collision ahead!
+[controller_server-2] [WARN] [1757086615.930577578] [controller_server]: RegulatedPurePursuitController detected collision ahead!
+[controller_server-2] [WARN] [1757086616.030580352] [controller_server]: RegulatedPurePursuitController detected collision ahead!
+[rviz2-11] [INFO] [1757086616.034951332] [rviz2]: Trying to create a map of size 115 x 134 using 1 swatches
+[controller_server-2] [INFO] [1757086616.065255360] [local_costmap.local_costmap]: StaticLayer: Resizing static layer to 115 X 134 at 0.040000 m/pix
+[controller_server-2] [INFO] [1757086616.230097809] [controller_server]: Passing new path to controller.
+[planner_server-4] [INFO] [1757086616.984349580] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 115 X 134 at 0.040000 m/pix
+[rviz2-11] [INFO] [1757086616.993608456] [rviz2]: Trying to create a map of size 115 x 134 using 1 swatches
+[controller_server-2] [INFO] [1757086617.230087010] [controller_server]: Passing new path to controller.
+[controller_server-2] [INFO] [1757086618.230086046] [controller_server]: Passing new path to controller.
+[controller_server-2] [WARN] [1757086618.730228056] [controller_server]: RegulatedPurePursuitController detected collision ahead!
+[controller_server-2] [INFO] [1757086619.330087795] [controller_server]: Passing new path to controller.
+[controller_server-2] [WARN] [1757086619.330549794] [controller_server]: RegulatedPurePursuitController detected collision ahead!
+[controller_server-2] [WARN] [1757086619.430302675] [controller_server]: RegulatedPurePursuitController detected collision ahead!
+[controller_server-2] [INFO] [1757086620.330087796] [controller_server]: Passing new path to controller.
+[explore-10] [WARN] [1757086621.125749462] [explore_node]: No frontiers found, stopping.
+[controller_server-2] [INFO] [1757086621.330087463] [controller_server]: Passing new path to controller.
+[explore-10] [INFO] [1757086621.585252501] [map_saver]: 
+[explore-10] 	map_saver lifecycle node launched. 
+[explore-10] 	Waiting on external lifecycle transitions to activate
+[explore-10] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[explore-10] [INFO] [1757086621.585330065] [map_saver]: Creating
+[explore-10] [INFO] [1757086621.585386017] [map_saver]: Configuring
+[explore-10] [INFO] [1757086621.586192538] [map_saver]: Saving map from 'map' topic to '/home/robot/Documents/map' file
+[explore-10] [WARN] [1757086621.586208810] [map_saver]: Free threshold unspecified. Setting it to default value: 0.250000
+[explore-10] [WARN] [1757086621.586213481] [map_saver]: Occupied threshold unspecified. Setting it to default value: 0.650000
+[explore-10] [WARN] [1757086621.599889510] [map_io]: Image format unspecified. Setting it to: pgm
+[explore-10] [INFO] [1757086621.600131698] [map_io]: Received a 115 X 134 map @ 0.04 m/pix
+[explore-10] [INFO] [1757086621.643458294] [map_io]: Writing map occupancy data to /home/robot/Documents/map.pgm
+[explore-10] [INFO] [1757086621.644614986] [map_io]: Writing map metadata to /home/robot/Documents/map.yaml
+[explore-10] [INFO] [1757086621.644854266] [map_io]: Map saved
+[explore-10] [INFO] [1757086621.644864753] [map_saver]: Map saved successfully
+[explore-10] [INFO] [1757086621.646820473] [map_saver]: Destroying
+[explore-10] [INFO] [1757086621.783132460] [explore_node]: Map saved successfully.
+[explore-10] [INFO] [1757086621.783167523] [explore_node]: Exploration stopped.
+[explore-10] [INFO] [1757086621.783220336] [explore_node]: Returning to initial pose.
+[bt_navigator-6] [ERROR] [1757086621.809832880] [bt_navigator_navigate_to_pose_rclcpp_node]: Failed to get result for follow_path in node halt!
+[bt_navigator-6] [INFO] [1757086621.810037264] [bt_navigator]: [navigate_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+[bt_navigator-6] [INFO] [1757086621.810338945] [bt_navigator]: [navigate_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+[bt_navigator-6] [INFO] [1757086621.810490401] [bt_navigator]: Goal canceled
+[controller_server-2] [INFO] [1757086621.830088091] [controller_server]: Goal was canceled. Stopping the robot.
+[controller_server-2] [INFO] [1757086621.830175852] [controller_server]: [follow_path] [ActionServer] Client requested to cancel the goal. Cancelling.
+[explore-10] [ERROR] [1757086622.115493639] [explore_node]: Extrapolation Error looking up robot pose: Lookup would require extrapolation into the future.  Requested time 1757086621.810620 but the latest data is at time 1757086621.713572, when looking up transform from frame [base_link] to frame [map]
+[explore-10] 
+[explore-10] [WARN] [1757086622.125414280] [explore_node]: No frontiers found, stopping.
+[explore-10] [INFO] [1757086622.237786181] [map_saver]: 
+[explore-10] 	map_saver lifecycle node launched. 
+[explore-10] 	Waiting on external lifecycle transitions to activate
+[explore-10] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[explore-10] [INFO] [1757086622.237861298] [map_saver]: Creating
+[explore-10] [INFO] [1757086622.237959997] [map_saver]: Configuring
+[explore-10] [INFO] [1757086622.238513103] [map_saver]: Saving map from 'map' topic to '/home/robot/Documents/map' file
+[explore-10] [WARN] [1757086622.238526770] [map_saver]: Free threshold unspecified. Setting it to default value: 0.250000
+[explore-10] [WARN] [1757086622.238533647] [map_saver]: Occupied threshold unspecified. Setting it to default value: 0.650000
+[explore-10] [WARN] [1757086622.329528591] [map_io]: Image format unspecified. Setting it to: pgm
+[explore-10] [INFO] [1757086622.329648016] [map_io]: Received a 115 X 134 map @ 0.04 m/pix
+[explore-10] [INFO] [1757086622.366838242] [map_io]: Writing map occupancy data to /home/robot/Documents/map.pgm
+[explore-10] [INFO] [1757086622.368290374] [map_io]: Writing map metadata to /home/robot/Documents/map.yaml
+[explore-10] [INFO] [1757086622.368559493] [map_io]: Map saved
+[explore-10] [INFO] [1757086622.368590630] [map_saver]: Map saved successfully
+[explore-10] [INFO] [1757086622.373370946] [map_saver]: Destroying
+[explore-10] [INFO] [1757086622.531987206] [explore_node]: Map saved successfully.
+[explore-10] [INFO] [1757086622.532013193] [explore_node]: Exploration stopped.
+[explore-10] [INFO] [1757086622.532047721] [explore_node]: Returning to initial pose.
+[bt_navigator-6] [INFO] [1757086622.532290061] [bt_navigator]: Begin navigating from current location (0.30, 3.54) to (0.00, 0.00)
+[controller_server-2] [INFO] [1757086622.553288826] [controller_server]: Received a goal, begin computing control effort.
+[controller_server-2] [INFO] [1757086623.653514153] [controller_server]: Passing new path to controller.
+[controller_server-2] [INFO] [1757086624.653501638] [controller_server]: Passing new path to controller.
+[controller_server-2] [INFO] [1757086625.653508020] [controller_server]: Passing new path to controller.
+[controller_server-2] [INFO] [1757086626.753512063] [controller_server]: Passing new path to controller.
+[controller_server-2] [INFO] [1757086627.753495016] [controller_server]: Passing new path to controller.
+[rviz2-11] [INFO] [1757086628.037293538] [rviz2]: Trying to create a map of size 115 x 137 using 1 swatches
+[controller_server-2] [INFO] [1757086628.065242304] [local_costmap.local_costmap]: StaticLayer: Resizing static layer to 115 X 137 at 0.040000 m/pix
+[controller_server-2] [INFO] [1757086628.753491486] [controller_server]: Passing new path to controller.
+[planner_server-4] [INFO] [1757086628.984348424] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 115 X 137 at 0.040000 m/pix
+[rviz2-11] [INFO] [1757086629.030725190] [rviz2]: Trying to create a map of size 115 x 137 using 1 swatches
+[controller_server-2] [INFO] [1757086629.753506314] [controller_server]: Passing new path to controller.
+[controller_server-2] [ERROR] [1757086630.154676679] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757086630.012874 but the latest data is at time 1757086629.634106, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757086630.154827186] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757086630.155016465] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757086630.259404640] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757086630.012874 but the latest data is at time 1757086629.634106, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757086630.259526021] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757086630.259714030] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757086630.361597334] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757086630.012874 but the latest data is at time 1757086629.634106, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757086630.362153784] [controller_server]: Unable to transfor

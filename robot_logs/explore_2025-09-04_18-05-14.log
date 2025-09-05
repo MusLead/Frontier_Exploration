@@ -1,0 +1,60 @@
+[INFO] [launch]: All log files can be found below /home/robot/.ros/log/2025-09-04-18-05-14-874953-robot-pc04-23436
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [async_slam_toolbox_node-1]: process started with pid [23449]
+[INFO] [controller_server-2]: process started with pid [23451]
+[INFO] [smoother_server-3]: process started with pid [23453]
+[INFO] [planner_server-4]: process started with pid [23455]
+[INFO] [behavior_server-5]: process started with pid [23457]
+[INFO] [bt_navigator-6]: process started with pid [23459]
+[INFO] [waypoint_follower-7]: process started with pid [23461]
+[INFO] [velocity_smoother-8]: process started with pid [23463]
+[INFO] [lifecycle_manager-9]: process started with pid [23465]
+[INFO] [explore-10]: process started with pid [23467]
+[INFO] [rviz2-11]: process started with pid [23469]
+[controller_server-2] [ERROR] [1757001914.971632074] [rcl]: Failed to parse global arguments
+[planner_server-4] [ERROR] [1757001914.971634251] [rcl]: Failed to parse global arguments
+[controller_server-2] terminate called after throwing an instance of 'rclcpp::exceptions::RCLInvalidROSArgsError'
+[controller_server-2]   what():  failed to initialize rcl: Couldn't parse params file: '--params-file /tmp/launch_params_fq_iayo1'. Error: Cannot have a value before ros__parameters at line 245, at ./src/parse.c:793, at ./src/rcl/arguments.c:406
+[planner_server-4] terminate called after throwing an instance of 'rclcpp::exceptions::RCLInvalidROSArgsError'
+[planner_server-4]   what():  failed to initialize rcl: Couldn't parse params file: '--params-file /tmp/launch_params_fq_iayo1'. Error: Cannot have a value before ros__parameters at line 245, at ./src/parse.c:793, at ./src/rcl/arguments.c:406
+[smoother_server-3] [ERROR] [1757001914.971644798] [rcl]: Failed to parse global arguments
+[smoother_server-3] terminate called after throwing an instance of 'rclcpp::exceptions::RCLInvalidROSArgsError'
+[smoother_server-3]   what():  failed to initialize rcl: Couldn't parse params file: '--params-file /tmp/launch_params_fq_iayo1'. Error: Cannot have a value before ros__parameters at line 245, at ./src/parse.c:793, at ./src/rcl/arguments.c:406
+[velocity_smoother-8] [ERROR] [1757001914.972019808] [rcl]: Failed to parse global arguments
+[velocity_smoother-8] terminate called after throwing an instance of 'rclcpp::exceptions::RCLInvalidROSArgsError'
+[velocity_smoother-8]   what():  failed to initialize rcl: Couldn't parse params file: '--params-file /tmp/launch_params_fq_iayo1'. Error: Cannot have a value before ros__parameters at line 245, at ./src/parse.c:793, at ./src/rcl/arguments.c:406
+[waypoint_follower-7] [ERROR] [1757001914.973040151] [rcl]: Failed to parse global arguments
+[waypoint_follower-7] terminate called after throwing an instance of 'rclcpp::exceptions::RCLInvalidROSArgsError'
+[waypoint_follower-7]   what():  failed to initialize rcl: Couldn't parse params file: '--params-file /tmp/launch_params_fq_iayo1'. Error: Cannot have a value before ros__parameters at line 245, at ./src/parse.c:793, at ./src/rcl/arguments.c:406
+[behavior_server-5] [ERROR] [1757001914.973290917] [rcl]: Failed to parse global arguments
+[behavior_server-5] terminate called after throwing an instance of 'rclcpp::exceptions::RCLInvalidROSArgsError'
+[behavior_server-5]   what():  failed to initialize rcl: Couldn't parse params file: '--params-file /tmp/launch_params_fq_iayo1'. Error: Cannot have a value before ros__parameters at line 245, at ./src/parse.c:793, at ./src/rcl/arguments.c:406
+[bt_navigator-6] [ERROR] [1757001914.973295709] [rcl]: Failed to parse global arguments
+[bt_navigator-6] terminate called after throwing an instance of 'rclcpp::exceptions::RCLInvalidROSArgsError'
+[bt_navigator-6]   what():  failed to initialize rcl: Couldn't parse params file: '--params-file /tmp/launch_params_fq_iayo1'. Error: Cannot have a value before ros__parameters at line 245, at ./src/parse.c:793, at ./src/rcl/arguments.c:406
+[async_slam_toolbox_node-1] [INFO] [1757001914.977356790] [slam]: Node using stack size 40000000
+[explore-10] [INFO] [1757001914.985246281] [explore_node]: Waiting for costmap to become available, topic: map
+[lifecycle_manager-9] [INFO] [1757001914.986121436] [lifecycle_manager_navigation]: Creating
+[lifecycle_manager-9] [INFO] [1757001914.987381033] [lifecycle_manager_navigation]: [34m[1mCreating and initializing lifecycle service clients[0m[0m
+[async_slam_toolbox_node-1] [INFO] [1757001914.991023471] [slam]: Using solver plugin solver_plugins::CeresSolver
+[async_slam_toolbox_node-1] [INFO] [1757001914.991239286] [slam]: CeresSolver: Using SCHUR_JACOBI preconditioner.
+[ERROR] [velocity_smoother-8]: process has died [pid 23463, exit code -6, cmd '/opt/ros/humble/lib/nav2_velocity_smoother/velocity_smoother --ros-args --log-level info --ros-args -r __node:=velocity_smoother --params-file /tmp/launch_params_fq_iayo1 -r /tf:=tf -r /tf_static:=tf_static -r cmd_vel:=cmd_vel_nav -r cmd_vel_smoothed:=cmd_vel'].
+[ERROR] [controller_server-2]: process has died [pid 23451, exit code -6, cmd '/opt/ros/humble/lib/nav2_controller/controller_server --ros-args --log-level info --ros-args --params-file /tmp/launch_params_fq_iayo1 -r /tf:=tf -r /tf_static:=tf_static -r cmd_vel:=cmd_vel_nav'].
+[ERROR] [behavior_server-5]: process has died [pid 23457, exit code -6, cmd '/opt/ros/humble/lib/nav2_behaviors/behavior_server --ros-args --log-level info --ros-args -r __node:=behavior_server --params-file /tmp/launch_params_fq_iayo1 -r /tf:=tf -r /tf_static:=tf_static'].
+[ERROR] [planner_server-4]: process has died [pid 23455, exit code -6, cmd '/opt/ros/humble/lib/nav2_planner/planner_server --ros-args --log-level info --ros-args -r __node:=planner_server --params-file /tmp/launch_params_fq_iayo1 -r /tf:=tf -r /tf_static:=tf_static'].
+[ERROR] [smoother_server-3]: process has died [pid 23453, exit code -6, cmd '/opt/ros/humble/lib/nav2_smoother/smoother_server --ros-args --log-level info --ros-args -r __node:=smoother_server --params-file /tmp/launch_params_fq_iayo1 -r /tf:=tf -r /tf_static:=tf_static'].
+[ERROR] [bt_navigator-6]: process has died [pid 23459, exit code -6, cmd '/opt/ros/humble/lib/nav2_bt_navigator/bt_navigator --ros-args --log-level info --ros-args -r __node:=bt_navigator --params-file /tmp/launch_params_fq_iayo1 -r /tf:=tf -r /tf_static:=tf_static'].
+[ERROR] [waypoint_follower-7]: process has died [pid 23461, exit code -6, cmd '/opt/ros/humble/lib/nav2_waypoint_follower/waypoint_follower --ros-args --log-level info --ros-args -r __node:=waypoint_follower --params-file /tmp/launch_params_fq_iayo1 -r /tf:=tf -r /tf_static:=tf_static'].
+[rviz2-11] [INFO] [1757001915.637183092] [rviz2]: Stereo is NOT SUPPORTED
+[rviz2-11] [INFO] [1757001915.637228503] [rviz2]: OpenGl version: 4.6 (GLSL 4.6)
+[rviz2-11] [INFO] [1757001915.791339257] [rviz2]: Stereo is NOT SUPPORTED
+[async_slam_toolbox_node-1] [WARN] [1757001916.024659772] [slam]: minimum laser range setting (0.0 m) exceeds the capabilities of the used Lidar (0.1 m)
+[lifecycle_manager-9] [INFO] [1757001916.988191098] [lifecycle_manager_navigation]: Waiting for service controller_server/get_state...
+[rviz2-11] [INFO] [1757001917.018472869] [rviz2]: Trying to create a map of size 50 x 97 using 1 swatches
+[lifecycle_manager-9] [INFO] [1757001918.988499579] [lifecycle_manager_navigation]: Waiting for service controller_server/get_state...
+[explore-10] [INFO] [1757001918.998434373] [explore_node]: Waiting to connect to move_base nav2 server
+[lifecycle_manager-9] [INFO] [1757001920.988803779] [lifecycle_manager_navigation]: Waiting for service controller_server/get_state...
+[rviz2-11] [ERROR] [1757001922.587458471] [rviz2]: Lookup would require extrapolation into the future.  Requested time 1757001922.561551 but the latest data is at time 1757001922.553431, when looking up transform from frame [laser] to frame [map]
+[lifecycle_manager-9] [INFO] [1757001922.989060738] [lifecycle_manager_navigation]: Waiting for service controller_server/get_state...
+[lifecycle_manager-9] [INFO] [1757001924.989359985] [lifecycle_manager_navigation]: Waiting for service controller_server/get_state...
+[lifecycle_manager-9] [INF

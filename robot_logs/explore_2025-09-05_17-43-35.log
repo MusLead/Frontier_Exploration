@@ -1,0 +1,545 @@
+[INFO] [launch]: All log files can be found below /home/robot/.ros/log/2025-09-05-17-43-35-610922-robot-pc04-17919
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [async_slam_toolbox_node-1]: process started with pid [17932]
+[INFO] [controller_server-2]: process started with pid [17934]
+[INFO] [smoother_server-3]: process started with pid [17936]
+[INFO] [planner_server-4]: process started with pid [17938]
+[INFO] [behavior_server-5]: process started with pid [17940]
+[INFO] [bt_navigator-6]: process started with pid [17942]
+[INFO] [waypoint_follower-7]: process started with pid [17944]
+[INFO] [velocity_smoother-8]: process started with pid [17946]
+[INFO] [lifecycle_manager-9]: process started with pid [17948]
+[INFO] [explore-10]: process started with pid [17955]
+[INFO] [rviz2-11]: process started with pid [17963]
+[async_slam_toolbox_node-1] [INFO] [1757087015.721455745] [slam]: Node using stack size 40000000
+[controller_server-2] [INFO] [1757087015.722434339] [controller_server]: 
+[controller_server-2] 	controller_server lifecycle node launched. 
+[controller_server-2] 	Waiting on external lifecycle transitions to activate
+[controller_server-2] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[bt_navigator-6] [INFO] [1757087015.724116141] [bt_navigator]: 
+[bt_navigator-6] 	bt_navigator lifecycle node launched. 
+[bt_navigator-6] 	Waiting on external lifecycle transitions to activate
+[bt_navigator-6] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[bt_navigator-6] [INFO] [1757087015.724193465] [bt_navigator]: Creating
+[behavior_server-5] [INFO] [1757087015.724287427] [behavior_server]: 
+[behavior_server-5] 	behavior_server lifecycle node launched. 
+[behavior_server-5] 	Waiting on external lifecycle transitions to activate
+[behavior_server-5] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[controller_server-2] [INFO] [1757087015.724417710] [controller_server]: Creating controller server
+[waypoint_follower-7] [INFO] [1757087015.725147697] [waypoint_follower]: 
+[waypoint_follower-7] 	waypoint_follower lifecycle node launched. 
+[waypoint_follower-7] 	Waiting on external lifecycle transitions to activate
+[waypoint_follower-7] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[waypoint_follower-7] [INFO] [1757087015.725655229] [waypoint_follower]: Creating
+[planner_server-4] [INFO] [1757087015.726090151] [planner_server]: 
+[planner_server-4] 	planner_server lifecycle node launched. 
+[planner_server-4] 	Waiting on external lifecycle transitions to activate
+[planner_server-4] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[planner_server-4] [INFO] [1757087015.726788351] [planner_server]: Creating
+[smoother_server-3] [INFO] [1757087015.727089422] [smoother_server]: 
+[smoother_server-3] 	smoother_server lifecycle node launched. 
+[smoother_server-3] 	Waiting on external lifecycle transitions to activate
+[smoother_server-3] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[velocity_smoother-8] [INFO] [1757087015.727895414] [velocity_smoother]: 
+[velocity_smoother-8] 	velocity_smoother lifecycle node launched. 
+[velocity_smoother-8] 	Waiting on external lifecycle transitions to activate
+[velocity_smoother-8] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[smoother_server-3] [INFO] [1757087015.728261634] [smoother_server]: Creating smoother server
+[lifecycle_manager-9] [INFO] [1757087015.728577662] [lifecycle_manager_navigation]: Creating
+[lifecycle_manager-9] [INFO] [1757087015.730281409] [lifecycle_manager_navigation]: [34m[1mCreating and initializing lifecycle service clients[0m[0m
+[controller_server-2] [INFO] [1757087015.730533403] [local_costmap.local_costmap]: 
+[controller_server-2] 	local_costmap lifecycle node launched. 
+[controller_server-2] 	Waiting on external lifecycle transitions to activate
+[controller_server-2] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[controller_server-2] [INFO] [1757087015.730903780] [local_costmap.local_costmap]: Creating Costmap
+[explore-10] [INFO] [1757087015.730913169] [explore_node]: Waiting for costmap to become available, topic: map
+[planner_server-4] [INFO] [1757087015.735397920] [global_costmap.global_costmap]: 
+[planner_server-4] 	global_costmap lifecycle node launched. 
+[planner_server-4] 	Waiting on external lifecycle transitions to activate
+[planner_server-4] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[planner_server-4] [INFO] [1757087015.735700080] [global_costmap.global_costmap]: Creating Costmap
+[async_slam_toolbox_node-1] [INFO] [1757087015.741384655] [slam]: Using solver plugin solver_plugins::CeresSolver
+[async_slam_toolbox_node-1] [INFO] [1757087015.741538783] [slam]: CeresSolver: Using SCHUR_JACOBI preconditioner.
+[lifecycle_manager-9] [INFO] [1757087015.783842332] [lifecycle_manager_navigation]: [34m[1mStarting managed nodes bringup...[0m[0m
+[lifecycle_manager-9] [INFO] [1757087015.783882737] [lifecycle_manager_navigation]: [34m[1mConfiguring controller_server[0m[0m
+[controller_server-2] [INFO] [1757087015.784107611] [controller_server]: Configuring controller interface
+[controller_server-2] [INFO] [1757087015.784256674] [controller_server]: getting goal checker plugins..
+[controller_server-2] [INFO] [1757087015.784312462] [controller_server]: Controller frequency set to 10.0000Hz
+[controller_server-2] [INFO] [1757087015.784335461] [local_costmap.local_costmap]: Configuring
+[controller_server-2] [INFO] [1757087015.788419948] [local_costmap.local_costmap]: Using plugin "static_layer"
+[controller_server-2] [INFO] [1757087015.790079439] [local_costmap.local_costmap]: Subscribing to the map topic (/map) with transient local durability
+[controller_server-2] [INFO] [1757087015.790548764] [local_costmap.local_costmap]: Initialized plugin "static_layer"
+[controller_server-2] [INFO] [1757087015.790558731] [local_costmap.local_costmap]: Using plugin "obstacle_layer"
+[controller_server-2] [INFO] [1757087015.790693474] [local_costmap.local_costmap]: Subscribed to Topics: scan
+[controller_server-2] [INFO] [1757087015.791590595] [local_costmap.local_costmap]: Initialized plugin "obstacle_layer"
+[controller_server-2] [INFO] [1757087015.791599837] [local_costmap.local_costmap]: Using plugin "inflation_layer"
+[controller_server-2] [INFO] [1757087015.792000977] [local_costmap.local_costmap]: Initialized plugin "inflation_layer"
+[controller_server-2] [INFO] [1757087015.794604601] [controller_server]: Created progress_checker : progress_checker of type nav2_controller::SimpleProgressChecker
+[controller_server-2] [INFO] [1757087015.794804773] [controller_server]: Created goal checker : goal_checker of type nav2_controller::SimpleGoalChecker
+[controller_server-2] [INFO] [1757087015.794884342] [controller_server]: Controller Server has goal_checker  goal checkers available.
+[controller_server-2] [INFO] [1757087015.795097674] [controller_server]: Created controller : FollowPath of type nav2_regulated_pure_pursuit_controller::RegulatedPurePursuitController
+[controller_server-2] [INFO] [1757087015.796112137] [controller_server]: Controller Server has FollowPath  controllers available.
+[lifecycle_manager-9] [INFO] [1757087015.798090006] [lifecycle_manager_navigation]: [34m[1mConfiguring smoother_server[0m[0m
+[smoother_server-3] [INFO] [1757087015.798177559] [smoother_server]: Configuring smoother server
+[smoother_server-3] [INFO] [1757087015.801442860] [smoother_server]: Created smoother : simple_smoother of type nav2_smoother::SimpleSmoother
+[smoother_server-3] [INFO] [1757087015.801558571] [smoother_server]: Smoother Server has simple_smoother  smoothers available.
+[lifecycle_manager-9] [INFO] [1757087015.803353272] [lifecycle_manager_navigation]: [34m[1mConfiguring planner_server[0m[0m
+[planner_server-4] [INFO] [1757087015.803491673] [planner_server]: Configuring
+[planner_server-4] [INFO] [1757087015.803524835] [global_costmap.global_costmap]: Configuring
+[planner_server-4] [INFO] [1757087015.806437737] [global_costmap.global_costmap]: Using plugin "static_layer"
+[planner_server-4] [INFO] [1757087015.808754127] [global_costmap.global_costmap]: Subscribing to the map topic (/map) with transient local durability
+[planner_server-4] [INFO] [1757087015.809521819] [global_costmap.global_costmap]: Initialized plugin "static_layer"
+[planner_server-4] [INFO] [1757087015.809539583] [global_costmap.global_costmap]: Using plugin "obstacle_layer"
+[planner_server-4] [INFO] [1757087015.809810226] [global_costmap.global_costmap]: Subscribed to Topics: scan
+[planner_server-4] [INFO] [1757087015.811523321] [global_costmap.global_costmap]: Initialized plugin "obstacle_layer"
+[planner_server-4] [INFO] [1757087015.811542566] [global_costmap.global_costmap]: Using plugin "inflation_layer"
+[planner_server-4] [INFO] [1757087015.811961662] [global_costmap.global_costmap]: Initialized plugin "inflation_layer"
+[planner_server-4] [INFO] [1757087015.815697372] [planner_server]: Created global planner plugin GridBased of type nav2_navfn_planner/NavfnPlanner
+[planner_server-4] [INFO] [1757087015.815716815] [planner_server]: Configuring plugin GridBased of type NavfnPlanner
+[planner_server-4] [INFO] [1757087015.815896588] [planner_server]: Planner Server has GridBased  planners available.
+[lifecycle_manager-9] [INFO] [1757087015.818884006] [lifecycle_manager_navigation]: [34m[1mConfiguring behavior_server[0m[0m
+[behavior_server-5] [INFO] [1757087015.819004379] [behavior_server]: Configuring
+[behavior_server-5] [INFO] [1757087015.823409334] [behavior_server]: Creating behavior plugin spin of type nav2_behaviors/Spin
+[behavior_server-5] [INFO] [1757087015.823965635] [behavior_server]: Configuring spin
+[behavior_server-5] [INFO] [1757087015.826522438] [behavior_server]: Creating behavior plugin backup of type nav2_behaviors/BackUp
+[behavior_server-5] [INFO] [1757087015.827041632] [behavior_server]: Configuring backup
+[behavior_server-5] [INFO] [1757087015.829056912] [behavior_server]: Creating behavior plugin drive_on_heading of type nav2_behaviors/DriveOnHeading
+[behavior_server-5] [INFO] [1757087015.829566870] [behavior_server]: Configuring drive_on_heading
+[behavior_server-5] [INFO] [1757087015.831526368] [behavior_server]: Creating behavior plugin wait of type nav2_behaviors/Wait
+[behavior_server-5] [INFO] [1757087015.831975086] [behavior_server]: Configuring wait
+[behavior_server-5] [INFO] [1757087015.833967179] [behavior_server]: Creating behavior plugin assisted_teleop of type nav2_behaviors/AssistedTeleop
+[behavior_server-5] [INFO] [1757087015.835226267] [behavior_server]: Configuring assisted_teleop
+[lifecycle_manager-9] [INFO] [1757087015.838206235] [lifecycle_manager_navigation]: [34m[1mConfiguring bt_navigator[0m[0m
+[bt_navigator-6] [INFO] [1757087015.838339413] [bt_navigator]: Configuring
+[lifecycle_manager-9] [INFO] [1757087015.864772064] [lifecycle_manager_navigation]: [34m[1mConfiguring waypoint_follower[0m[0m
+[waypoint_follower-7] [INFO] [1757087015.864871602] [waypoint_follower]: Configuring
+[waypoint_follower-7] [INFO] [1757087015.868140663] [waypoint_follower]: Created waypoint_task_executor : wait_at_waypoint of type nav2_waypoint_follower::WaitAtWaypoint
+[lifecycle_manager-9] [INFO] [1757087015.868357586] [lifecycle_manager_navigation]: [34m[1mConfiguring velocity_smoother[0m[0m
+[velocity_smoother-8] [INFO] [1757087015.868453495] [velocity_smoother]: Configuring velocity smoother
+[lifecycle_manager-9] [INFO] [1757087015.869453637] [lifecycle_manager_navigation]: [34m[1mActivating controller_server[0m[0m
+[controller_server-2] [INFO] [1757087015.869513559] [controller_server]: Activating
+[controller_server-2] [INFO] [1757087015.869533913] [local_costmap.local_costmap]: Activating
+[controller_server-2] [INFO] [1757087015.869540835] [local_costmap.local_costmap]: Checking transform
+[controller_server-2] [INFO] [1757087015.869554038] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[rviz2-11] [INFO] [1757087016.342623969] [rviz2]: Stereo is NOT SUPPORTED
+[rviz2-11] [INFO] [1757087016.342690931] [rviz2]: OpenGl version: 4.6 (GLSL 4.6)
+[controller_server-2] [INFO] [1757087016.369606885] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[rviz2-11] [INFO] [1757087016.449507416] [rviz2]: Stereo is NOT SUPPORTED
+[controller_server-2] [INFO] [1757087016.869639217] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[controller_server-2] [INFO] [1757087017.369657539] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[controller_server-2] [INFO] [1757087017.869637241] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[controller_server-2] [INFO] [1757087018.369626058] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[controller_server-2] [INFO] [1757087018.869625194] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[controller_server-2] [INFO] [1757087019.369605291] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[controller_server-2] [INFO] [1757087019.869637347] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[controller_server-2] [INFO] [1757087020.369643137] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Invalid frame ID "odom" passed to canTransform argument target_frame - frame does not exist
+[controller_server-2] [INFO] [1757087020.869819744] [local_costmap.local_costmap]: start
+[controller_server-2] [INFO] [1757087021.071802656] [controller_server]: Activating controller: FollowPath of type regulated_pure_pursuit_controller::RegulatedPurePursuitController
+[controller_server-2] [INFO] [1757087021.071948991] [controller_server]: Creating bond (controller_server) to lifecycle manager.
+[lifecycle_manager-9] [INFO] [1757087021.180712579] [lifecycle_manager_navigation]: Server controller_server connected with bond.
+[lifecycle_manager-9] [INFO] [1757087021.180829045] [lifecycle_manager_navigation]: [34m[1mActivating smoother_server[0m[0m
+[smoother_server-3] [INFO] [1757087021.181550084] [smoother_server]: Activating
+[smoother_server-3] [INFO] [1757087021.181632664] [smoother_server]: Creating bond (smoother_server) to lifecycle manager.
+[lifecycle_manager-9] [INFO] [1757087021.289151374] [lifecycle_manager_navigation]: Server smoother_server connected with bond.
+[lifecycle_manager-9] [INFO] [1757087021.289248856] [lifecycle_manager_navigation]: [34m[1mActivating planner_server[0m[0m
+[planner_server-4] [INFO] [1757087021.289871991] [planner_server]: Activating
+[planner_server-4] [INFO] [1757087021.290001535] [global_costmap.global_costmap]: Activating
+[planner_server-4] [INFO] [1757087021.290040119] [global_costmap.global_costmap]: Checking transform
+[planner_server-4] [INFO] [1757087021.290103099] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[async_slam_toolbox_node-1] [WARN] [1757087021.351837001] [slam]: minimum laser range setting (0.0 m) exceeds the capabilities of the used Lidar (0.1 m)
+[rviz2-11] [INFO] [1757087021.699785520] [rviz2]: Trying to create a map of size 100 x 100 using 1 swatches
+[planner_server-4] [INFO] [1757087021.746160363] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 64 X 61 at 0.040000 m/pix
+[controller_server-2] [INFO] [1757087021.746256270] [local_costmap.local_costmap]: StaticLayer: Resizing static layer to 64 X 61 at 0.040000 m/pix
+[rviz2-11] [INFO] [1757087021.764597698] [rviz2]: Trying to create a map of size 64 x 61 using 1 swatches
+[planner_server-4] [INFO] [1757087021.790294636] [global_costmap.global_costmap]: start
+[rviz2-11] [INFO] [1757087022.821128798] [rviz2]: Trying to create a map of size 64 x 61 using 1 swatches
+[planner_server-4] [INFO] [1757087022.842122954] [planner_server]: Activating plugin GridBased of type NavfnPlanner
+[planner_server-4] [INFO] [1757087022.844308899] [planner_server]: Creating bond (planner_server) to lifecycle manager.
+[lifecycle_manager-9] [INFO] [1757087022.952138048] [lifecycle_manager_navigation]: Server planner_server connected with bond.
+[lifecycle_manager-9] [INFO] [1757087022.952270101] [lifecycle_manager_navigation]: [34m[1mActivating behavior_server[0m[0m
+[behavior_server-5] [INFO] [1757087022.953156972] [behavior_server]: Activating
+[behavior_server-5] [INFO] [1757087022.953248645] [behavior_server]: Activating spin
+[behavior_server-5] [INFO] [1757087022.953289479] [behavior_server]: Activating backup
+[behavior_server-5] [INFO] [1757087022.953319141] [behavior_server]: Activating drive_on_heading
+[behavior_server-5] [INFO] [1757087022.953346783] [behavior_server]: Activating wait
+[behavior_server-5] [INFO] [1757087022.953372983] [behavior_server]: Activating assisted_teleop
+[behavior_server-5] [INFO] [1757087022.953409053] [behavior_server]: Creating bond (behavior_server) to lifecycle manager.
+[lifecycle_manager-9] [INFO] [1757087023.061357285] [lifecycle_manager_navigation]: Server behavior_server connected with bond.
+[lifecycle_manager-9] [INFO] [1757087023.061463583] [lifecycle_manager_navigation]: [34m[1mActivating bt_navigator[0m[0m
+[bt_navigator-6] [INFO] [1757087023.062162406] [bt_navigator]: Activating
+[bt_navigator-6] [INFO] [1757087023.083641154] [bt_navigator]: Creating bond (bt_navigator) to lifecycle manager.
+[lifecycle_manager-9] [INFO] [1757087023.185383968] [lifecycle_manager_navigation]: Server bt_navigator connected with bond.
+[lifecycle_manager-9] [INFO] [1757087023.185484227] [lifecycle_manager_navigation]: [34m[1mActivating waypoint_follower[0m[0m
+[waypoint_follower-7] [INFO] [1757087023.186121233] [waypoint_follower]: Activating
+[waypoint_follower-7] [INFO] [1757087023.186210605] [waypoint_follower]: Creating bond (waypoint_follower) to lifecycle manager.
+[lifecycle_manager-9] [INFO] [1757087023.293787104] [lifecycle_manager_navigation]: Server waypoint_follower connected with bond.
+[lifecycle_manager-9] [INFO] [1757087023.293892142] [lifecycle_manager_navigation]: [34m[1mActivating velocity_smoother[0m[0m
+[velocity_smoother-8] [INFO] [1757087023.294683000] [velocity_smoother]: Activating
+[velocity_smoother-8] [INFO] [1757087023.294809732] [velocity_smoother]: Creating bond (velocity_smoother) to lifecycle manager.
+[lifecycle_manager-9] [INFO] [1757087023.403550681] [lifecycle_manager_navigation]: Server velocity_smoother connected with bond.
+[lifecycle_manager-9] [INFO] [1757087023.403650756] [lifecycle_manager_navigation]: [34m[1mManaged nodes are active[0m[0m
+[lifecycle_manager-9] [INFO] [1757087023.403674659] [lifecycle_manager_navigation]: [34m[1mCreating bond timer...[0m[0m
+[explore-10] [INFO] [1757087023.761389049] [explore_node]: Waiting to connect to move_base nav2 server
+[explore-10] [INFO] [1757087023.761709951] [explore_node]: Connected to move_base nav2 server
+[explore-10] [INFO] [1757087023.761723579] [explore_node]: Getting initial pose of the robot
+[explore-10] [ERROR] [1757087024.066784731] [explore_node]: Extrapolation Error looking up robot pose: Lookup would require extrapolation into the future.  Requested time 1757087023.761789 but the latest data is at time 1757087023.313730, when looking up transform from frame [base_link] to frame [map]
+[explore-10] 
+[explore-10] [INFO] [1757087024.071350670] [explore_node]: [NAV] Remembered last goal (1.40, 1.18, yaw from quat).
+[bt_navigator-6] [INFO] [1757087024.073055282] [bt_navigator]: Begin navigating from current location (0.36, 0.06) to (1.40, 1.18)
+[controller_server-2] [INFO] [1757087024.093759705] [controller_server]: Received a goal, begin computing control effort.
+[controller_server-2] [WARN] [1757087024.093815972] [controller_server]: No goal checker was specified in parameter 'current_goal_checker'. Server will use only plugin loaded goal_checker . This warning will appear once.
+[controller_server-2] [ERROR] [1757087024.395248736] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757087023.762883 but the latest data is at time 1757087023.625481, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757087024.395395979] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757087024.395571114] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757087024.497284360] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757087023.963037 but the latest data is at time 1757087023.625481, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757087024.497411663] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757087024.497599613] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757087024.601354370] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757087023.963037 but the latest data is at time 1757087023.625481, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757087024.601471689] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757087024.601654660] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757087024.703606518] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757087023.963037 but the latest data is at time 1757087023.625481, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757087024.703776584] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757087024.704092576] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757087024.807076318] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757087023.963037 but the latest data is at time 1757087023.625481, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757087024.807191991] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757087024.807395760] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757087024.908552470] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757087023.963037 but the latest data is at time 1757087023.705107, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757087024.908702592] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757087024.908884569] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [INFO] [1757087025.193937660] [controller_server]: Passing new path to controller.
+[controller_server-2] [INFO] [1757087026.193920525] [controller_server]: Passing new path to controller.
+[controller_server-2] [INFO] [1757087027.193925506] [controller_server]: Passing new path to controller.
+[rviz2-11] [INFO] [1757087027.781124225] [rviz2]: Trying to create a map of size 94 x 109 using 1 swatches
+[planner_server-4] [INFO] [1757087027.790553332] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 94 X 109 at 0.040000 m/pix
+[rviz2-11] [INFO] [1757087027.814288793] [rviz2]: Trying to create a map of size 94 x 109 using 1 swatches
+[controller_server-2] [INFO] [1757087027.870037476] [local_costmap.local_costmap]: StaticLayer: Resizing static layer to 94 X 109 at 0.040000 m/pix
+[controller_server-2] [INFO] [1757087028.293925733] [controller_server]: Passing new path to controller.
+[controller_server-2] [INFO] [1757087029.293938133] [controller_server]: Passing new path to controller.
+[rviz2-11] [INFO] [1757087029.765593645] [rviz2]: Trying to create a map of size 100 x 117 using 1 swatches
+[planner_server-4] [INFO] [1757087029.790503675] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 100 X 117 at 0.040000 m/pix
+[rviz2-11] [INFO] [1757087029.830305763] [rviz2]: Trying to create a map of size 100 x 117 using 1 swatches
+[controller_server-2] [INFO] [1757087029.870099596] [local_costmap.local_costmap]: StaticLayer: Resizing static layer to 100 X 117 at 0.040000 m/pix
+[controller_server-2] [INFO] [1757087030.293934649] [controller_server]: Passing new path to controller.
+[explore-10] [INFO] [1757087030.510845578] [explore_node]: [NAV] Remembered last goal (-1.06, 2.88, yaw from quat).
+[bt_navigator-6] [INFO] [1757087030.513286020] [bt_navigator]: Received goal preemption request
+[bt_navigator-6] [INFO] [1757087030.513653403] [bt_navigator]: Begin navigating from current location (1.35, 1.13) to (-1.06, 2.88)
+[controller_server-2] [INFO] [1757087031.393933952] [controller_server]: Passing new path to controller.
+[controller_server-2] [INFO] [1757087032.393888318] [controller_server]: Passing new path to controller.
+[controller_server-2] [INFO] [1757087033.393893447] [controller_server]: Passing new path to controller.
+[controller_server-2] [INFO] [1757087034.393998934] [controller_server]: Passing new path to controller.
+[controller_server-2] [INFO] [1757087035.493924624] [controller_server]: Passing new path to controller.
+[controller_server-2] [INFO] [1757087036.493900175] [controller_server]: Passing new path to controller.
+[controller_server-2] [INFO] [1757087037.494002815] [controller_server]: Passing new path to controller.
+[planner_server-4] [INFO] [1757087037.790476939] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 100 X 117 at 0.040000 m/pix
+[controller_server-2] [INFO] [1757087037.870001641] [local_costmap.local_costmap]: StaticLayer: Resizing static layer to 100 X 117 at 0.040000 m/pix
+[controller_server-2] [INFO] [1757087038.594004164] [controller_server]: Passing new path to controller.
+[controller_server-2] [INFO] [1757087039.593926368] [controller_server]: Passing new path to controller.
+[rviz2-11] [INFO] [1757087039.783999668] [rviz2]: Trying to create a map of size 105 x 117 using 1 swatches
+[planner_server-4] [INFO] [1757087039.790477417] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 105 X 117 at 0.040000 m/pix
+[rviz2-11] [INFO] [1757087039.816030927] [rviz2]: Trying to create a map of size 105 x 117 using 1 swatches
+[controller_server-2] [INFO] [1757087039.870102195] [local_costmap.local_costmap]: StaticLayer: Resizing static layer to 105 X 117 at 0.040000 m/pix
+[controller_server-2] [INFO] [1757087040.593912683] [controller_server]: Passing new path to controller.
+[controller_server-2] [INFO] [1757087041.693925252] [controller_server]: Passing new path to controller.
+[rviz2-11] [INFO] [1757087041.783028332] [rviz2]: Trying to create a map of size 116 x 122 using 1 swatches
+[planner_server-4] [INFO] [1757087041.790425082] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 116 X 122 at 0.040000 m/pix
+[controller_server-2] [INFO] [1757087041.869996651] [local_costmap.local_costmap]: StaticLayer: Resizing static layer to 116 X 122 at 0.040000 m/pix
+[controller_server-2] [INFO] [1757087042.693924571] [controller_server]: Passing new path to controller.
+[rviz2-11] [INFO] [1757087042.821627777] [rviz2]: Trying to create a map of size 116 x 122 using 1 swatches
+[controller_server-2] [INFO] [1757087043.693910623] [controller_server]: Passing new path to controller.
+[rviz2-11] [INFO] [1757087043.779994653] [rviz2]: Trying to create a map of size 117 x 122 using 1 swatches
+[planner_server-4] [INFO] [1757087043.790465738] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 117 X 122 at 0.040000 m/pix
+[explore-10] [INFO] [1757087043.808701539] [explore_node]: [NAV] Remembered last goal (1.77, 1.70, yaw from quat).
+[bt_navigator-6] [INFO] [1757087043.813273068] [bt_navigator]: Received goal preemption request
+[bt_navigator-6] [INFO] [1757087043.813429955] [bt_navigator]: Begin navigating from current location (-0.85, 2.14) to (1.77, 1.70)
+[controller_server-2] [INFO] [1757087043.870094910] [local_costmap.local_costmap]: StaticLayer: Resizing static layer to 117 X 122 at 0.040000 m/pix
+[controller_server-2] [INFO] [1757087044.793998149] [controller_server]: Passing new path to controller.
+[rviz2-11] [INFO] [1757087044.809150683] [rviz2]: Trying to create a map of size 117 x 122 using 1 swatches
+[controller_server-2] [INFO] [1757087045.793928164] [controller_server]: Passing new path to controller.
+[controller_server-2] [INFO] [1757087046.793979812] [controller_server]: Passing new path to controller.
+[controller_server-2] [INFO] [1757087047.793939544] [controller_server]: Passing new path to controller.
+[controller_server-2] [INFO] [1757087048.893943503] [controller_server]: Passing new path to controller.
+[controller_server-2] [INFO] [1757087049.893965217] [controller_server]: Passing new path to controller.
+[explore-10] [INFO] [1757087050.511687903] [explore_node]: [NAV] Remembered last goal (0.34, 3.57, yaw from quat).
+[bt_navigator-6] [INFO] [1757087050.513282360] [bt_navigator]: Received goal preemption request
+[bt_navigator-6] [INFO] [1757087050.513466482] [bt_navigator]: Begin navigating from current location (-0.92, 2.47) to (0.34, 3.57)
+[controller_server-2] [INFO] [1757087050.893925091] [controller_server]: Passing new path to controller.
+[controller_server-2] [INFO] [1757087051.994007079] [controller_server]: Passing new path to controller.
+[controller_server-2] [INFO] [1757087052.993944502] [controller_server]: Passing new path to controller.
+[controller_server-2] [INFO] [1757087053.993925985] [controller_server]: Passing new path to controller.
+[controller_server-2] [INFO] [1757087054.993978596] [controller_server]: Passing new path to controller.
+[rviz2-11] [INFO] [1757087055.783627053] [rviz2]: Trying to create a map of size 118 x 122 using 1 swatches
+[planner_server-4] [INFO] [1757087055.790481246] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 118 X 122 at 0.040000 m/pix
+[rviz2-11] [INFO] [1757087055.816204991] [rviz2]: Trying to create a map of size 118 x 122 using 1 swatches
+[controller_server-2] [INFO] [1757087055.870093833] [local_costmap.local_costmap]: StaticLayer: Resizing static layer to 118 X 122 at 0.040000 m/pix
+[controller_server-2] [INFO] [1757087056.093949314] [controller_server]: Passing new path to controller.
+[controller_server-2] [INFO] [1757087057.094000310] [controller_server]: Passing new path to controller.
+[explore-10] [INFO] [1757087057.144568329] [explore_node]: [NAV] Remembered last goal (-0.89, 0.96, yaw from quat).
+[bt_navigator-6] [INFO] [1757087057.153380052] [bt_navigator]: Received goal preemption request
+[bt_navigator-6] [INFO] [1757087057.153721635] [bt_navigator]: Begin navigating from current location (0.41, 2.79) to (-0.89, 0.96)
+[rviz2-11] [INFO] [1757087057.765440016] [rviz2]: Trying to create a map of size 118 x 133 using 1 swatches
+[planner_server-4] [INFO] [1757087057.790485713] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 118 X 133 at 0.040000 m/pix
+[rviz2-11] [INFO] [1757087057.830061930] [rviz2]: Trying to create a map of size 118 x 133 using 1 swatches
+[controller_server-2] [INFO] [1757087057.869941497] [local_costmap.local_costmap]: StaticLayer: Resizing static layer to 118 X 133 at 0.040000 m/pix
+[controller_server-2] [INFO] [1757087058.093978439] [controller_server]: Passing new path to controller.
+[controller_server-2] [INFO] [1757087059.193937832] [controller_server]: Passing new path to controller.
+[controller_server-2] [INFO] [1757087060.193936383] [controller_server]: Passing new path to controller.
+[controller_server-2] [INFO] [1757087061.193927857] [controller_server]: Passing new path to controller.
+[controller_server-2] [INFO] [1757087062.294005361] [controller_server]: Passing new path to controller.
+[controller_server-2] [INFO] [1757087063.293941787] [controller_server]: Passing new path to controller.
+[explore-10] [INFO] [1757087063.806998985] [explore_node]: [NAV] Remembered last goal (-0.04, 3.72, yaw from quat).
+[bt_navigator-6] [INFO] [1757087063.813276635] [bt_navigator]: Received goal preemption request
+[bt_navigator-6] [INFO] [1757087063.813524533] [bt_navigator]: Begin navigating from current location (0.37, 2.90) to (-0.04, 3.72)
+[controller_server-2] [INFO] [1757087064.293956445] [controller_server]: Passing new path to controller.
+[controller_server-2] [INFO] [1757087065.293926153] [controller_server]: Passing new path to controller.
+[controller_server-2] [INFO] [1757087066.393933227] [controller_server]: Passing new path to controller.
+[controller_server-2] [INFO] [1757087067.393933738] [controller_server]: Passing new path to controller.
+[controller_server-2] [INFO] [1757087068.393895534] [controller_server]: Passing new path to controller.
+[controller_server-2] [INFO] [1757087069.393978927] [controller_server]: Passing new path to controller.
+[controller_server-2] [INFO] [1757087070.493945722] [controller_server]: Passing new path to controller.
+[controller_server-2] [INFO] [1757087071.493935164] [controller_server]: Passing new path to controller.
+[controller_server-2] [INFO] [1757087072.493922749] [controller_server]: Passing new path to controller.
+[controller_server-2] [INFO] [1757087073.593940192] [controller_server]: Passing new path to controller.
+[controller_server-2] [INFO] [1757087074.593926089] [controller_server]: Passing new path to controller.
+[controller_server-2] [INFO] [1757087075.593978623] [controller_server]: Passing new path to controller.
+[controller_server-2] [INFO] [1757087076.593938499] [controller_server]: Passing new path to controller.
+[explore-10] [ERROR] [1757087077.394690011] [explore_node]: Extrapolation Error looking up robot pose: Lookup would require extrapolation into the future.  Requested time 1757087077.090806 but the latest data is at time 1757087076.962872, when looking up transform from frame [base_link] to frame [map]
+[explore-10] 
+[explore-10] [INFO] [1757087077.409689750] [explore_node]: [NAV] Remembered last goal (-0.91, 0.98, yaw from quat).
+[bt_navigator-6] [INFO] [1757087077.413256085] [bt_navigator]: Received goal preemption request
+[bt_navigator-6] [INFO] [1757087077.413434330] [bt_navigator]: Begin navigating from current location (0.03, 3.67) to (-0.91, 0.98)
+[controller_server-2] [INFO] [1757087077.693931476] [controller_server]: Passing new path to controller.
+[controller_server-2] [INFO] [1757087078.693986134] [controller_server]: Passing new path to controller.
+[controller_server-2] [INFO] [1757087079.693918230] [controller_server]: Passing new path to controller.
+[controller_server-2] [INFO] [1757087080.793926790] [controller_server]: Passing new path to controller.
+[rviz2-11] [INFO] [1757087081.767050106] [rviz2]: Trying to create a map of size 118 x 135 using 1 swatches
+[planner_server-4] [INFO] [1757087081.790490546] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 118 X 135 at 0.040000 m/pix
+[controller_server-2] [INFO] [1757087081.793942375] [controller_server]: Passing new path to controller.
+[rviz2-11] [INFO] [1757087081.865396922] [rviz2]: Trying to create a map of size 118 x 135 using 1 swatches
+[controller_server-2] [INFO] [1757087081.869980653] [local_costmap.local_costmap]: StaticLayer: Resizing static layer to 118 X 135 at 0.040000 m/pix
+[controller_server-2] [INFO] [1757087082.793941218] [controller_server]: Passing new path to controller.
+[controller_server-2] [ERROR] [1757087083.794136770] [controller_server]: Failed to make progress
+[controller_server-2] [WARN] [1757087083.794295532] [controller_server]: [follow_path] [ActionServer] Aborting handle.
+[controller_server-2] [INFO] [1757087083.804253853] [controller_server]: Received a goal, begin computing control effort.
+[controller_server-2] [INFO] [1757087084.904434949] [controller_server]: Passing new path to controller.
+[controller_server-2] [INFO] [1757087085.904476213] [controller_server]: Passing new path to controller.
+[controller_server-2] [INFO] [1757087086.904434348] [controller_server]: Passing new path to controller.
+[controller_server-2] [INFO] [1757087088.004507344] [controller_server]: Passing new path to controller.
+[rviz2-11] [ERROR] [1757087088.807588440] [rviz2]: Lookup would require extrapolation into the future.  Requested time 1757087088.773101 but the latest data is at time 1757087088.766140, when looking up transform from frame [laser] to frame [map]
+[controller_server-2] [INFO] [1757087089.004444523] [controller_server]: Passing new path to controller.
+[planner_server-4] [INFO] [1757087089.790480836] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 119 X 135 at 0.040000 m/pix
+[rviz2-11] [INFO] [1757087089.799190838] [rviz2]: Trying to create a map of size 119 x 135 using 1 swatches
+[rviz2-11] [INFO] [1757087089.832491075] [rviz2]: Trying to create a map of size 119 x 135 using 1 swatches
+[controller_server-2] [INFO] [1757087089.869981955] [local_costmap.local_costmap]: StaticLayer: Resizing static layer to 119 X 135 at 0.040000 m/pix
+[controller_server-2] [INFO] [1757087090.004431166] [controller_server]: Passing new path to controller.
+[controller_server-2] [WARN] [1757087090.405266089] [controller_server]: RegulatedPurePursuitController detected collision ahead!
+[explore-10] [INFO] [1757087090.516359582] [explore_node]: [NAV] Remembered last goal (-0.92, 0.98, yaw from quat).
+[bt_navigator-6] [INFO] [1757087090.523381987] [bt_navigator]: Received goal preemption request
+[bt_navigator-6] [INFO] [1757087090.523715959] [bt_navigator]: Begin navigating from current location (-0.41, 1.50) to (-0.92, 0.98)
+[controller_server-2] [INFO] [1757087091.004432608] [controller_server]: Passing new path to controller.
+[controller_server-2] [INFO] [1757087092.104432252] [controller_server]: Passing new path to controller.
+[planner_server-4] [WARN] [1757087093.014505267] [planner_server]: GridBased: failed to create plan with tolerance 0.20.
+[planner_server-4] [WARN] [1757087093.014622352] [planner_server]: Planning algorithm GridBased failed to generate a valid path to (-0.92, 0.98)
+[planner_server-4] [WARN] [1757087093.014654301] [planner_server]: [compute_path_to_pose] [ActionServer] Aborting handle.
+[planner_server-4] [INFO] [1757087093.033678997] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[controller_server-2] [INFO] [1757087093.104436620] [controller_server]: Passing new path to controller.
+[controller_server-2] [ERROR] [1757087093.104751451] [controller_server]: Invalid path, Path is empty.
+[controller_server-2] [WARN] [1757087093.104827019] [controller_server]: [follow_path] [ActionServer] Aborting handle.
+[controller_server-2] [INFO] [1757087093.133606900] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[controller_server-2] [INFO] [1757087093.136247999] [controller_server]: Received a goal, begin computing control effort.
+[controller_server-2] [ERROR] [1757087093.136422290] [controller_server]: Invalid path, Path is empty.
+[controller_server-2] [WARN] [1757087093.136506392] [controller_server]: [follow_path] [ActionServer] Aborting handle.
+[bt_navigator-6] [ERROR] [1757087093.174274897] [bt_navigator_navigate_to_pose_rclcpp_node]: Failed to get result for compute_path_to_pose in node halt!
+[controller_server-2] [INFO] [1757087093.174670337] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[planner_server-4] [INFO] [1757087093.176807010] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[bt_navigator-6] [WARN] [1757087093.179014334] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[controller_server-2] [INFO] [1757087093.819934133] [controller_server]: Received a goal, begin computing control effort.
+[controller_server-2] [INFO] [1757087094.920144376] [controller_server]: Passing new path to controller.
+[controller_server-2] [INFO] [1757087095.920147053] [controller_server]: Passing new path to controller.
+[controller_server-2] [ERROR] [1757087096.622460077] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757087096.462920 but the latest data is at time 1757087096.355281, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757087096.622628589] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757087096.622923084] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [INFO] [1757087096.920250869] [controller_server]: Passing new path to controller.
+[controller_server-2] [ERROR] [1757087097.321531360] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757087097.162905 but the latest data is at time 1757087097.060701, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757087097.321679548] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757087097.322002608] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[explore-10] [WARN] [1757087097.348729656] [explore_node]: No frontiers found, stopping.
+[explore-10] [INFO] [1757087097.455428028] [map_saver]: 
+[explore-10] 	map_saver lifecycle node launched. 
+[explore-10] 	Waiting on external lifecycle transitions to activate
+[explore-10] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[explore-10] [INFO] [1757087097.455484109] [map_saver]: Creating
+[explore-10] [INFO] [1757087097.455517530] [map_saver]: Configuring
+[explore-10] [INFO] [1757087097.456094527] [map_saver]: Saving map from 'map' topic to '/home/robot/Documents/map' file
+[explore-10] [WARN] [1757087097.456107332] [map_saver]: Free threshold unspecified. Setting it to default value: 0.250000
+[explore-10] [WARN] [1757087097.456115768] [map_saver]: Occupied threshold unspecified. Setting it to default value: 0.650000
+[explore-10] [WARN] [1757087097.689412778] [map_io]: Image format unspecified. Setting it to: pgm
+[explore-10] [INFO] [1757087097.689529178] [map_io]: Received a 119 X 135 map @ 0.04 m/pix
+[explore-10] [INFO] [1757087097.771305438] [map_io]: Writing map occupancy data to /home/robot/Documents/map.pgm
+[explore-10] [INFO] [1757087097.771966711] [map_io]: Writing map metadata to /home/robot/Documents/map.yaml
+[explore-10] [INFO] [1757087097.772040924] [map_io]: Map saved
+[explore-10] [INFO] [1757087097.772046995] [map_saver]: Map saved successfully
+[explore-10] [INFO] [1757087097.773994674] [map_saver]: Destroying
+[explore-10] [INFO] [1757087097.897774406] [explore_node]: Map saved successfully.
+[explore-10] [INFO] [1757087097.897810727] [explore_node]: Exploration stopped.
+[explore-10] [INFO] [1757087097.897867441] [explore_node]: Returning to initial pose.
+[bt_navigator-6] [INFO] [1757087097.899114920] [bt_navigator]: Received goal preemption request
+[bt_navigator-6] [INFO] [1757087097.899238301] [bt_navigator]: Begin navigating from current location (-0.86, 1.01) to (0.36, 0.06)
+[explore-10] [WARN] [1757087097.943165204] [explore_node]: No frontiers found, stopping.
+[controller_server-2] [INFO] [1757087098.020166370] [controller_server]: Passing new path to controller.
+[explore-10] [INFO] [1757087098.051846116] [map_saver]: 
+[explore-10] 	map_saver lifecycle node launched. 
+[explore-10] 	Waiting on external lifecycle transitions to activate
+[explore-10] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[explore-10] [INFO] [1757087098.051949986] [map_saver]: Creating
+[explore-10] [INFO] [1757087098.052079135] [map_saver]: Configuring
+[explore-10] [INFO] [1757087098.052929035] [map_saver]: Saving map from 'map' topic to '/home/robot/Documents/map' file
+[explore-10] [WARN] [1757087098.052949201] [map_saver]: Free threshold unspecified. Setting it to default value: 0.250000
+[explore-10] [WARN] [1757087098.052959333] [map_saver]: Occupied threshold unspecified. Setting it to default value: 0.650000
+[explore-10] [WARN] [1757087098.283157397] [map_io]: Image format unspecified. Setting it to: pgm
+[explore-10] [INFO] [1757087098.283286115] [map_io]: Received a 119 X 135 map @ 0.04 m/pix
+[explore-10] [INFO] [1757087098.377993270] [map_io]: Writing map occupancy data to /home/robot/Documents/map.pgm
+[explore-10] [INFO] [1757087098.378888155] [map_io]: Writing map metadata to /home/robot/Documents/map.yaml
+[explore-10] [INFO] [1757087098.379228635] [map_io]: Map saved
+[explore-10] [INFO] [1757087098.379391907] [map_saver]: Map saved successfully
+[explore-10] [INFO] [1757087098.380884702] [map_saver]: Destroying
+[explore-10] [INFO] [1757087098.518323315] [explore_node]: Map saved successfully.
+[explore-10] [INFO] [1757087098.518398409] [explore_node]: Exploration stopped.
+[explore-10] [INFO] [1757087098.518479016] [explore_node]: Returning to initial pose.
+[controller_server-2] [INFO] [1757087098.520149294] [controller_server]: Goal was canceled. Stopping the robot.
+[controller_server-2] [INFO] [1757087098.520239555] [controller_server]: [follow_path] [ActionServer] Client requested to cancel the goal. Cancelling.
+[bt_navigator-6] [INFO] [1757087098.520451577] [bt_navigator]: [navigate_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+[bt_navigator-6] [INFO] [1757087098.520577726] [bt_navigator]: [navigate_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+[bt_navigator-6] [INFO] [1757087098.520623536] [bt_navigator]: Goal canceled
+[rviz2-11] Start navigation
+[rviz2-11] [INFO] [1757087154.430698270] [rviz_navigation_dialog_action_client]: NavigateToPose will be called using the BT Navigator's default behavior tree.
+[bt_navigator-6] [INFO] [1757087154.431763290] [bt_navigator]: Begin navigating from current location (-0.86, 1.01) to (0.24, 0.05)
+[controller_server-2] [INFO] [1757087154.452270539] [controller_server]: Received a goal, begin computing control effort.
+[controller_server-2] [INFO] [1757087155.552512204] [controller_server]: Passing new path to controller.
+[controller_server-2] [INFO] [1757087156.552470014] [controller_server]: Passing new path to controller.
+[controller_server-2] [INFO] [1757087157.552382481] [controller_server]: Passing new path to controller.
+[controller_server-2] [INFO] [1757087158.652545019] [controller_server]: Passing new path to controller.
+[controller_server-2] [INFO] [1757087159.652403478] [controller_server]: Passing new path to controller.
+[controller_server-2] [INFO] [1757087160.652410181] [controller_server]: Passing new path to controller.
+[controller_server-2] [INFO] [1757087161.652416255] [controller_server]: Passing new path to controller.
+[controller_server-2] [INFO] [1757087162.752416425] [controller_server]: Passing new path to controller.
+[controller_server-2] [INFO] [1757087163.752409049] [controller_server]: Passing new path to controller.
+[controller_server-2] [INFO] [1757087164.752479546] [controller_server]: Passing new path to controller.
+[controller_server-2] [INFO] [1757087165.852405368] [controller_server]: Passing new path to controller.
+[controller_server-2] [WARN] [1757087166.555648584] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [INFO] [1757087166.852475619] [controller_server]: Passing new path to controller.
+[controller_server-2] [INFO] [1757087167.852389211] [controller_server]: Passing new path to controller.
+[controller_server-2] [INFO] [1757087168.952470579] [controller_server]: Passing new path to controller.
+[controller_server-2] [INFO] [1757087169.952408077] [controller_server]: Passing new path to controller.
+[controller_server-2] [INFO] [1757087170.952468854] [controller_server]: Passing new path to controller.
+[controller_server-2] [INFO] [1757087171.952486454] [controller_server]: Passing new path to controller.
+[controller_server-2] [INFO] [1757087173.052525121] [controller_server]: Passing new path to controller.
+[controller_server-2] [INFO] [1757087174.052479038] [controller_server]: Passing new path to controller.
+[controller_server-2] [INFO] [1757087175.052397473] [controller_server]: Passing new path to controller.
+[controller_server-2] [INFO] [1757087176.052485019] [controller_server]: Passing new path to controller.
+[controller_server-2] [ERROR] [1757087176.753997300] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757087173.712874 but the latest data is at time 1757087173.585606, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757087176.754149088] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757087176.754360858] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757087176.857483291] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757087173.712874 but the latest data is at time 1757087173.585606, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757087176.857596250] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757087176.857772177] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757087176.959512826] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757087173.712874 but the latest data is at time 1757087173.585606, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757087176.959631663] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757087176.959847824] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757087177.064269698] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757087173.712874 but the latest data is at time 1757087173.585606, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757087177.064519674] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757087177.064798945] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757087177.166739541] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757087173.712874 but the latest data is at time 1757087173.585606, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757087177.166863316] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757087177.167079497] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [INFO] [1757087177.167109170] [controller_server]: Passing new path to controller.
+[controller_server-2] [ERROR] [1757087177.270916948] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757087173.712874 but the latest data is at time 1757087173.585606, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757087177.270960763] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757087177.271005537] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757087177.372519909] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757087173.712874 but the latest data is at time 1757087173.585606, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757087177.372635967] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757087177.372843129] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757087177.474668843] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757087173.712874 but the latest data is at time 1757087173.585606, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757087177.474782632] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757087177.474964318] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757087177.578144967] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757087173.712874 but the latest data is at time 1757087173.585606, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757087177.578259363] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757087177.578438687] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757087177.680518443] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757087173.712874 but the latest data is at time 1757087173.585606, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757087177.680639261] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757087177.680821961] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757087177.784379423] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757087173.712874 but the latest data is at time 1757087173.585606, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757087177.784517991] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757087177.784806513] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757087177.886861190] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757087173.712874 but the latest data is at time 1757087173.585606, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757087177.886995073] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757087177.887200592] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757087177.991004635] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757087173.712874 but the latest data is at time 1757087173.585606, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757087177.991127067] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757087177.991319805] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757087178.092419087] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757087173.712874 but the latest data is at time 1757087173.585606, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757087178.092452534] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757087178.092503398] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757087178.194081314] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757087173.712874 but the latest data is at time 1757087173.585606, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757087178.194189032] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757087178.194310565] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [INFO] [1757087178.194327463] [controller_server]: Passing new path to controller.
+[controller_server-2] [ERROR] [1757087178.295307715] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757087173.712874 but the latest data is at time 1757087173.585606, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757087178.295480577] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757087178.295662725] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757087178.398903631] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757087173.712874 but the latest data is at time 1757087173.585606, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757087178.399027078] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757087178.399203761] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757087178.500415236] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757087173.712874 but the latest data is at time 1757087173.585606, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757087178.500560754] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757087178.500796817] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757087178.604557535] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757087173.712874 but the latest data is at time 1757087173.585606, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757087178.604681817] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [ERROR] [1757087178.604727205] [controller_server]: Controller patience exceeded
+[controller_server-2] [WARN] [1757087178.604807106] [controller_server]: [follow_path] [ActionServer] Aborting handle.
+[controller_server-2] [INFO] [1757087178.622566828] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[controller_server-2] [INFO] [1757087178.624284826] [controller_server]: Received a goal, begin computing control effort.
+[controller_server-2] [ERROR] [1757087178.775579695] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757087173.712874 but the latest data is at time 1757087173.585606, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757087178.775719137] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757087178.775900931] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757087178.876940438] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757087173.712874 but the latest data is at time 1757087173.585606, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757087178.877049872] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757087178.877226538] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757087178.980861295] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757087173.712874 but the latest data is at time 1757087173.585606, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757087178.980991067] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757087178.981221193] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757087179.083176862] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757087173.712874 but the latest data is at time 1757087173.585606, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757087179.083307378] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757087179.083496245] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757087179.187457390] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757087173.712874 but the latest data is at time 1757087173.585606, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757087179.187628127] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757087179.187851321] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [INFO] [1757087179.187880749] [controller_server]: Passing new path to controller.
+[controller_server-2] [ERROR] [1757087179.289000728] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757087173.712874 but the latest data is at time 1757087173.585606, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757087179.289119750] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757087179.289306332] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757087179.392494751] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757087173.712874 but the latest data is at time 1757087173.585606, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757087179.392611904] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757087179.392798228] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757087179.494854681] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757087173.712874 but the latest data is at time 1757087173.585606, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757087179.494980313] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757087179.495173939] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757087179.598524773] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757087173.712874 but the latest data is at time 1757087173.585606, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757087179.598673190] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757087179.598946665] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757087179.701276642] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757087173.712874 but the latest data is at time 1757087173.585606, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757087179.701428306] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757087179.701712025] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757087179.805978405] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757087173.712874 but the latest data is at time 1757087173.585606, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757087179.806301777] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757087179.806538567] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757087179.908576377] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757087173.712874 but the latest data is at time 1757087173.585606, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757087179.908721818] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757087179.909001849] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757087180.013545441] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757087173.712874 but the latest data is at time 1757087173.585606, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757087180.013726321] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757087180.013951542] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757087180.116038966] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757087173.712874 but the latest data is at time 1757087173.585606, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757087180.116179870] [controller_server]: Unable to transform robot pose into global plan's frame
+[controller_server-2] [WARN] [1757087180.116442630] [controller_server]: Control loop missed its desired rate of 10.0000Hz
+[controller_server-2] [ERROR] [1757087180.221026539] [controller_server]: Exception in transformPose: Lookup would require extrapolation into the future.  Requested time 1757087173.712874 but the latest data is at time 1757087173.585606, when looking up transform from frame [odom] to frame [map]
+[controller_server-2] [WARN] [1757087180.2
