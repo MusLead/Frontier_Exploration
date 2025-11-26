@@ -10,4 +10,15 @@ ros2 launch tutorial_pkg explore.launch.py 2>&1 | grep -v "Message Filter droppi
 ## running all the necessary pacakge
 ```sh
 ./explore
-``
+```
+
+## Submodules
+Clone with submodules:
+```
+git clone --recurse-submodules https://github.com/MusLead/Frontier_Exploration
+```
+
+Or initialize after cloning:
+```
+git submodule update --init --recursive
+```
